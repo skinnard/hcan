@@ -1,0 +1,18 @@
+- title: Calcium
+  text: 'Bone density is greatly influenced by the amount of calcium (link to calcium page) one had while growing during childhood and adolescence. The main goal of good calcium nutrition is to maintain an adequate supply so that our body does not have to dip into the reserve of calcium in our bones.'
+  icon: modal-icons/vitamin-c-icon.svg
+  alt: Calcium Icon
+  slide: 1
+  bg: calcium-adolescence-slide.jpg
+- title: Vitamin D
+  text: '<a href="/en/living-with-osteoporosis/nutrition/">Vitamin D</a> helps the body absorb and store calcium from the foods we eat. It is produced when we are exposed to sunlight, such as when playing outdoors during childhood. During the winter months, however, many children do not get enough sun exposure to produce adequate amounts of vitamin D, nor do they get enough vitamin D through dietary intake. Vitamin D intake can be enhanced through dietary sources and supplements.'
+  icon: modal-icons/vitamin-d-icon.svg
+  alt: Vitamin D Icon
+  slide: 2
+  bg: vitamin-d-adolescent-slide.jpg
+- title: Physical Activity
+  text: '<a href="/en/living-with-osteoporosis/exercise/">Weight-bearing exercises</a> or activities (such as dancing, running, skating) help to build bone density and mass in childhood and adolescence, lowering vulnerability to osteoporosis later in life. Research has shown that physical activity during childhood and adolescence has a positive relation to bone density. In girls, the bone tissue accumulated during the ages of 11 to 13 approximately equals the amount lost during the 30 years following menopause.'
+  icon: modal-icons/physical-activity-icon.svg
+  alt: Physical Activity Icon
+  slide: 3
+  bg: physical-activity-slide.jpg

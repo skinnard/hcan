@@ -1,0 +1,12 @@
+- title: 'M&eacute;dicaments sur ordonnance'
+  bg: prescription-medication-slide.jpg
+  text: '<p>Il existe de nombreux m&eacute;dicaments contre l&rsquo;ost&eacute;oporose. Il est important de <a href="/fr/consultez-votre-medecin/">consulter votre m&eacute;decin</a> pour parler du traitement contre l&rsquo;ost&eacute;oporose qui vous convient le mieux. <a href="/fr/traitement-de-l-osteoporose/">Informez-vous</a>.</p>'
+  slide: 1
+- title: Nutrition
+  bg: nutrition-slide.jpg
+  text: '<p>L&rsquo;alimentation et la sant&eacute; osseuse sont &eacute;troitement li&eacute;es. Le calcium et la Vitamine&nbsp;D sont essentiels &agrave; la formation et au maintien de la sant&eacute; osseuse. Si vous n&rsquo;absorbez pas les bons nutriments, vous &ecirc;tes peut-&ecirc;tre plus susceptible de subir une perte osseuse. <a href="/fr/vivre-avec-l-osteoporose/nutrition/">Informez-vous</a>.</p>'
+  slide: 2
+- title: 'Activit&eacute; physique'
+  bg: exercise-slide.jpg
+  text: '<p>&Agrave; n&rsquo;importe quel &acirc;ge de la vie, l&rsquo;activit&eacute; physique remplit l&rsquo;importante fonction de renforcer et de pr&eacute;server les os. L&rsquo;activit&eacute; physique est recommand&eacute;e pour toutes les personnes qui ont re&ccedil;u un diagnostic d&rsquo;ost&eacute;oporose, y compris celles qui ont subi une fracture. <a href="/fr/vivre-avec-l-osteoporose/activite-physique/">Informez-vous</a>.</p>'
+  slide: 3

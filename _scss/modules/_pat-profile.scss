@@ -1,0 +1,146 @@
+.prolia-pat-profile {
+    margin: 200px auto 0;
+
+    @include mq(custom, max, 1000) {
+        margin: 120px auto 0;
+    }
+
+    .next-prev {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        left: 5%;
+        top: 222px;
+        width: 90%;
+        margin: 0 auto;
+
+        @include mq(custom, max, 1300) {
+            position: relative;
+            top: 0;
+            width: 100%;
+            left: 0;
+            margin: 2rem 0;
+        }
+
+        .left {
+
+            a {
+                color: #004864;
+                cursor: pointer;
+                text-decoration: none;
+                @include font-size(16);
+                text-transform: uppercase;
+                line-height: 0.7;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+                img {
+                    display: block;
+                    width: 35px;
+                    transform: scaleX(-1);
+                }
+            }
+        }
+
+        .right {
+
+            a {
+                color: #004864;
+                text-decoration: none;
+                @include font-size(16);
+                text-transform: uppercase;
+                line-height: 0.7;
+                text-align: right;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+                img {
+                    display: block;
+                    width: 35px;
+                    position: absolute;
+                    right: 0;
+                }
+            }
+        }
+    }
+
+    .pat-profile__content {
+        margin-bottom: 100px;
+
+        &__info {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+
+            @include mq(small, max) {
+                flex-wrap: wrap;
+            }
+
+            .left {
+                max-width: 290px;
+                margin-right: 3rem;
+
+                @include mq(small, max) {
+                    margin: 0 auto 2rem;
+                }
+
+                .img-wrapper {
+                    width: 290px;
+
+                    @include mq(small, max) {
+                        width: 100%;
+                    }
+
+                    img {
+                        box-shadow: rgba(0, 0, 0, 0.2) 0 5px 20px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        &__questions {
+            margin-top: 3rem;
+
+            .question {
+                border: 2px solid #ec008c;
+                border-radius: 5px;
+                padding: 30px;
+                margin-bottom: 2rem;
+            }
+
+            .question-1,
+            .question-2 {
+                display: flex;
+                align-items: center;
+                flex-wrap: nowrap;
+
+                @include mq(custom, max, 600) {
+                    flex-wrap: wrap;
+                }
+
+                .left {
+                    width: 55%;
+
+                    @include mq(custom, max, 600) {
+                        width: 100%;
+                    }
+                }
+
+                .right {
+                    width: 45%;
+                    text-align: center;
+
+                    @include mq(custom, max, 600) {
+                        margin-top: 1rem;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

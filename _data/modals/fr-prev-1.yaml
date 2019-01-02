@@ -1,0 +1,18 @@
+- title: Calcium
+  text: 'La densit&eacute; osseuse est fortement influenc&eacute;e par la quantit&eacute; de calcium (link to calcium page) qu&rsquo;une personne a consomm&eacute;e pendant l&rsquo;enfance et l&rsquo;adolescence. L&rsquo;objectif principal d&rsquo;une alimentation riche en calcium est de maintenir un apport ad&eacute;quat afin que notre organisme n&rsquo;ait pas &agrave; puiser dans la r&eacute;serve de calcium des os.'
+  icon: modal-icons/vitamin-c-icon.svg
+  alt: Ic&ocirc;ne de calcium
+  slide: 1
+  bg: calcium-adolescence-slide.jpg
+- title: Vitamine&nbsp;D
+  text: '<a href="/fr/vivre-avec-l-osteoporose/nutrition/">La Vitamine&nbsp;D</a> aide l&rsquo;organisme &agrave; absorber et &agrave; mettre en r&eacute;serve le calcium d&rsquo;origine alimentaire. Elle est produite lorsque nous sommes expos&eacute;s &agrave; la lumi&egrave;re du soleil, par exemple lorsque nous jouons &agrave; l&rsquo;ext&eacute;rieur pendant l&rsquo;enfance. Toutefois, pendant les mois d&rsquo;hiver, beaucoup d&rsquo;enfants ne sont pas suffisamment expos&eacute;s au soleil pour produire des quantit&eacute;s ad&eacute;quates de Vitamine&nbsp;D, et n&rsquo;en re&ccedil;oivent pas suffisamment par l&rsquo;alimentation. L&rsquo;apport en Vitamine&nbsp;D peut &ecirc;tre augment&eacute; par voie alimentaire et par la prise de suppl&eacute;ments.'
+  icon: modal-icons/vitamin-d-icon.svg
+  alt: Ic&ocirc;ne de la Vitamine&nbsp;D
+  slide: 2
+  bg: vitamin-d-adolescent-slide.jpg
+- title: Activit&eacute; physique
+  text: '<a href="/fr/vivre-avec-l-osteoporose/activite-physique/">Les exercices de port de poids</a> ou certaines activit&eacute;s (comme la danse, la course, le patinage) contribuent &agrave; augmenter la densit&eacute; et la masse osseuses pendant l&rsquo;enfance et l&rsquo;adolescence, ce qui r&eacute;duit le risque d&rsquo;ost&eacute;oporose plus tard dans la vie. Des recherches ont montr&eacute; que l&rsquo;activit&eacute; physique pendant l&rsquo;enfance et l&rsquo;adolescence avaient un effet positif sur la densit&eacute; osseuse. Chez les filles, le tissu osseux accumul&eacute; entre l&rsquo;&acirc;ge de 11 et 13 ans &eacute;quivaut &agrave; environ la quantit&eacute; perdue pendant les 30 ann&eacute;es suivant la m&eacute;nopause.'
+  icon: modal-icons/physical-activity-icon.svg
+  alt: Ic&ocirc;ne d&apos;activit&eacute; physique
+  slide: 3
+  bg: physical-activity-slide.jpg

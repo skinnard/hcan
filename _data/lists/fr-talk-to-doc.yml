@@ -1,0 +1,12 @@
+- title: 'Vous arrive-t-il d&rsquo;omettre une dose ou d&rsquo;oublier de prendre vos m&eacute;dicaments contre l&rsquo;ost&eacute;oporose?'
+  name: question-1
+- title: 'Pr&eacute;sentez-vous des effets secondaires avec votre m&eacute;dicament actuel?'
+  name: question-2
+- title: '&Ecirc;tes-vous insatisfait de votre m&eacute;dicament actuel?'
+  name: question-3
+- title: 'Prenez-vous un autre m&eacute;dicament pouvant affecter votre traitement?'
+  name: question-4
+- title: 'Votre taille a-t-elle diminu&eacute; de plus de 2 cm (&frac34; pouce) depuis que vous avez commenc&eacute; votre traitement actuel?'
+  name: question-5
+- title: 'Vous &ecirc;tes-vous cass&eacute; un os depuis le d&eacute;but de votre traitement actuel?'
+  name: question-6

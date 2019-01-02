@@ -1,0 +1,13 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "at-rule-empty-line-before": null,
+	"color-hex-case": null,
+	"color-hex-length": null,
+	"indentation": 4,
+	"at-rule-no-unknown": null,
+    "declaration-empty-line-before": null,
+    "no-missing-end-of-source-newline": null,
+    "no-descending-specificity": null
+  }
+}

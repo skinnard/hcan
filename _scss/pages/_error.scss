@@ -1,0 +1,15 @@
+#error-wrapper {
+    padding: 200px 0 150px;
+    text-align: center;
+
+    h1 {
+        color: #ec008c;
+        @include font-size(170);
+        font-family: $headline-font;
+        margin: 0;
+
+        @include mq(small, max) {
+            @include font-size(100);
+        }
+    }
+}

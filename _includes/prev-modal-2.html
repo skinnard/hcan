@@ -1,0 +1,27 @@
+<div class="hb-carousel container grid-mdlg carousel-2">
+
+    <!-- .close-btn -->
+    <div class="close-btn">
+        {% svg /assets/img/close_icon.svg %}
+    </div>
+    <!-- /.close-button -->
+
+    <div class="carousel-content-wrapper">
+
+        {% for slide in site.data.modals.prev-2 %}
+        <!-- .carousel-content -->
+        <div class="carousel-content" data-slide="{{ slide.slide }}" data-name="{{ slide.title }}" style="background: url('{{ site.url }}/assets/img/{{ slide.bg }}') center no-repeat; background-size: cover;"> 
+
+            <div class="left">
+                <div class="img-wrapper">
+                    <img src="{{ site.url }}/assets/img/{{ slide.icon }}" alt="{{ slide.alt }}">
+                </div>
+            </div>
+            <div class="right">
+                <h5 class="modal-title">{{ slide.title }}<i class="fas fa-circle hb-pink hb-period"></i></h5>
+                <p class="modal-text">{{ slide.text }}</p>
+            </div>  
+        </div> <!-- /.carousel-content -->
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,67 @@
+faq:
+- title: RANK Ligand Inhibitor
+  content: 
+    - td1: Prolia* (denosumab)
+      td2: Inhibits RANK Ligand, a protein which activates the cells that break down bone (osteoclasts). This action strengthens bones by increasing bone mass and lowers the chance of breaking bones of the hip, spine, and nonspinal
+      td3: Indicated for the treatment of osteoporosis in postmenopausal women, men and women at high risk for fractures or cannot tolerate other osteoporosis medicines, or have failed on previous treatment
+      td4: Subcutaneous injection every 6 months
+      side-effects: '<strong>RANK Ligand Inhibitor - Side effects may include:</strong> Pain in your muscles,  arms, legs or back (these side effects were also very common in patients taking placebo); skin condition with itching, redness and/or dryness (eczema). May also cause skin infection with a swollen, red area of skin that feels hot and tender and may be accompanied by fever (cellulitis); lower blood calcium (hypocalcemia).'
+
+- title: Bisphosphonates
+  content: 
+    - td1: Aclasta* (zoledronic acid)
+      td2: Slows down bone resorption (caused by osteoclasts), which allows the bone forming cells (osteoblasts) time to rebuild normal bone
+      td3: Treatment of osteoporosis in postmenopausal women to reduce the incidence of hip, vertebral and nonvertebral fracture
+      td4: An infusion (IV) that is administered once a year
+      td5: Actonel* (risedronate)
+      td6: Helps to increase bone density. Rebuilds some bone that has been lost and thus helps reduce the risk of spine and nonspine fractures
+      td7: Treatment of osteoporosis in postmenopausal women, men and in patients receiving corticosteroids that have glucocorticoid-induced osteoporosis
+      td8: 'An oral tablet that is taken either: once daily or once a week'
+      td9: Actonel* plus calcium (risedronate plus calcium carbonate)
+      td10: Helps to increase bone density. Rebuilds bone that has been lost and thus helps reduce the risk of spine and nonspine fractures. Calcium carbonate helps to provide the calcium that your body may need to harden new bone
+      td11: Treatment of osteoporosis in postmenopausal women
+      td12: An oral tablet that is taken once a week, plus 1 calcium tablet daily on the other 6 days of the week
+      td13: Didrocal* (etidronate plus calcium carbonate)
+      td14: Increases bone mass in the spine
+      td15: Treatment of osteoporosis in postmenopausal women
+      td16: Oral tablets taken once daily for 14 days, followed by 1 calcium tablet daily for 76 days
+      td17: Fosamax* (alendronate)
+      td18: Increases bone mass and prevents fractures, including those of the hip and spine
+      td19: Treatment of osteoporosis in postmenopausal women, men and in patients that have glucocorticoid-induced osteoporosis
+      td20: 'Oral tablet taken either: once daily or once a week (Oral solution taken once weekly)'
+      td21: Fosavance* (alendronate + cholecalciferol)
+      td22: Alendronate increases bone mass and can prevent fractures, including those of the hip and spine. Cholecalciferol (vitamin D3) plays a role in absorption and regulation of calcium
+      td23: Treatment of osteoporosis in postmenopausal women and men
+      td24: An oral tablet taken once weekly
+      side-effects: '<strong>Bisphosphonates - Side effects may include:</strong> Nausea, abdominal pain and loose bowel movements. Bone, joint and/or muscle pain has been reported in patients taking bisphosphonates; such reports have been infrequent. There is a risk of ulcers in the esophagus with both alendronate and risedronate, especially if taken incorrectly. The most common side effects of zoledronic acid, which usually only last a day or two, are fever, pain in the muscles, bones or joints, and headache.'
+
+- title: Hormone Replacement Therapy
+  content: 
+    - td1: Climara* (estradiol hemihydrate)
+      td2: Treatment may retard further bone loss
+      td3: Treatment of osteoporosis in postmenopausal women already diagnosed as having osteoporosis and vertebral fractures
+      td4: Transdermal patch changed every seven days
+      td5: Estradot* (estradiol-17B)
+      td6: Treatment may retard further bone loss
+      td7: Treatment of osteoporosis in postmenopausal women already diagnosed as having osteoporosis and vertebral fractures
+      td8: Transdermal patch applied twice weekly, worn continuously for 3-4 days
+      side-effects: '<strong>Hormone Replacement Therapy - Side effects may include:</strong> Depression, headaches, breast tenderness, premenstrual syndrome, skin irritation and weight gain. Menstrual bleeding may also occur. There is an increased risk for breast cancer, stroke and cardiovascular disease in women who take estrogen/progesterone for more than five years. There is also an increased risk of venous thromboembolism (blood clots), similar to that for women using raloxifene. The risk of endometrial cancer is increased if estrogen is used without progesterone; however, this risk is minimized by the addition of progesterone for women with an intact uterus. The substantial risks for cardiovascular disease, stroke and invasive breast cancer may lead to an unfavorable risk/benefit ratio with prolonged use of HT when taken only for the treatment of postmenopausal osteoporosis. Other options for treatment should be explored first.'
+
+- title: Selective Estrogen Receptor Modulators (SERMs)
+  content: 
+    - td1: Evista* (raloxifene)
+      td2: 'Acts like estrogen in the bones: promotes the building of new bone'
+      td3: Treatment of osteoporosis in postmenopausal women
+      td4: Oral tablet taken once daily
+      side-effects: '<strong>SERMs - Side effects may include:</strong> Hot flashes and leg cramps. There is also an increased risk of venous thromboembolism (blood clots), similar to that for women using Hormone Replacement Therapy.'
+
+- title: Parathyroid Hormone (PTH) 
+  content: 
+    - td1: Forteo* (teriparatide)
+      td2: Builds new bone formation by stimulating bone building cells, thereby increasing bone density
+      td3: 
+      - Treatment of postmenopausal women with severe osteoporosis who are at high risk of fracture or who have failed or are intolerant to previous osteoporosis therapy
+      - To increase bone mass in men with primary or hypogonadal severe osteoporosis who have failed or are intolerant to previous osteoporosis therapy. The effects on risk for fracture in men have not been demonstrated
+      - For the treatment of osteoporosis associated with sustained systemic glucocorticoid therapy in men and women who are at increased risk for fracture
+      td4: Subcutaneous (under the skin) injection into thigh or abdominal wall, once daily
+      side-effects: '<strong>PTHs - Side effects may include:</strong> Dizziness, nausea, pain in joints, and leg cramps.'

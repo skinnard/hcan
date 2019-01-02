@@ -1,0 +1,30 @@
+<!-- full-width-cta-white__wrapper-2 -->
+
+<div id="link-target" class="home-page-sec-3__wrapper {{ page.page-class }}">
+
+    <div class="home-page-sec-3 container grid-md">
+        <div class="home-page-sec-3__content">
+
+            {% if page.home-page-sec-3-img %}
+            <img src="{{ site.url }}/assets/img/{{ page.home-page-sec-3-img }}" alt="ProVital Logo">
+            {% endif %}
+
+            <h4 class="bm-2">{{ page.home-page-sec-3-headline }}</h4>
+
+            {% if page.home-page-sec-3-subhead %}
+            <h6 class="hide-small">{{ page.home-page-sec-3-subhead }}</h6>
+            {% endif %}
+
+            {{ page.home-page-sec-3-text }}
+
+            {% if page.home-page-sec-3-btn-text %}
+            
+            <div class="btn-wrapper-left">
+                <a href="{{ page.home-page-sec-3-btn-link }}" class="btn btn-blue">{{ page.home-page-sec-3-btn-text }}</a>
+            </div>
+
+            {% endif %}
+        </div>
+    </div>
+</div>
+<!-- .full-width-cta-white__wrapper-2 -->

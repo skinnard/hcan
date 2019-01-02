@@ -1,0 +1,35 @@
+icon-section:
+  - title: Pr&eacute;vention de l&rsquo;ost&eacute;oporose chez&nbsp;<span class="no-wrap">l&rsquo;enfant<i class="fas fa-circle hb-pink hb-period"></i></span>
+    subtitle: 'Le squelette est en croissance constante d&egrave;s la naissance jusqu&apos;&agrave; la mise vingtaine lorsque la masse osseuse atteint son maximum. Pendant cet intervalle, certaines habitudes saines li&eacute;es &agrave; la sant&eacute; peuvent diminuer les risques d&rsquo;ost&eacute;oporose.'
+    section-number: 'section-1'
+    icons: 
+    - icon: calcium-icon.svg
+      id: prev-calcium
+      caption: Calcium
+      alt: Ic&ocirc;ne de calcium
+    - icon: vitamin-d-icon.svg
+      id: prev-d
+      caption: Vitamine&nbsp;D
+      alt: Ic&ocirc;ne de la Vitamine&nbsp;D
+    - icon: physical-activity-icon.svg
+      id: rf-activity
+      caption: Activit&eacute; physique
+      alt: Ic&ocirc;ne d&apos;activit&eacute; physique
+
+  - title: Pr&eacute;vention &agrave; l&rsquo;&acirc;ge <span class="no-wrap">adulte<i class="fas fa-circle hb-pink hb-period"></i></span>
+    subtitle: 'La pr&eacute;vention de l&rsquo;ost&eacute;oporose est importante quel que soit l&rsquo;&acirc;ge. Une bonne nutrition et de l&rsquo;activit&eacute; physique peuvent jouer un r&ocirc;le important dans l&rsquo;att&eacute;nuation de la perte osseuse &agrave; l&rsquo;&acirc;ge adulte.'
+    section-number: 'section-2'
+    icons: 
+    - icon: calcium-icon.svg
+      id: prev-calcium
+      caption: Calcium
+      alt: Ic&ocirc;ne de calcium
+    - icon: vitamin-d-icon.svg
+      id: prev-d
+      caption: Vitamine&nbsp;D
+      alt: Ic&ocirc;ne de la Vitamine&nbsp;D
+    - icon: weight-bearing-icon.svg
+      id: prev-weight
+      caption: Exercices de port de poids
+      alt: Ic&ocirc;ne activit&eacute;s portantes
+    

@@ -1,0 +1,38 @@
+<!-- .page-hero -->
+<section class="page-hero {{ page.page-class }}" style="background:url({{ site.url }}/assets/img/{{ page.page-hero-bg }}); background-size: cover; background-repeat: no-repeat; background-position:center;">
+
+    <div class="container grid-mdlg text-center page-hero__content">
+
+        {% if page.page-hero-img %}
+            <div class="img-wrapper tm-3">
+                <img src="{{ site.url }}/assets/img/{{ page.page-hero-img }}" alt="{{ page.page-hero-img-alt }}">
+            </div>
+        {% endif %}
+
+        <div class="content-wrapper">
+            <h1 class="title bm-1">{{ page.page-hero-title }}</h1>
+            <div class="img-wrapper">
+                <img src="{{ site.url }}/assets/img/amazon.png" alt="Amazon Logo">
+            </div>
+        </div>
+
+        {% if page.page-hero-subtitle %}
+            <h5 class="page-hero__content__subtitle">{{ page.page-hero-subtitle }}</h5>
+        {% endif %}
+        
+        {% if page.page-hero-text %}
+            {{ page.page-hero-text }}
+        {% endif %}
+
+        {% if page.page-hero-cta %}
+            <div class="btn-wrapper">
+                <a href="{{ page.page-hero-cta-link }}" class="btn btn-pink">{{ page.page-hero-cta }}</a>
+            </div>
+        {% endif %}
+
+        <div class="icon-down-wrapper">
+            <a href="#link-target"><img src="{{ site.url }}/assets/img/chevron_down.svg" alt="Chevron Down Icon"></a>
+        </div>
+    </div>
+</section>
+<!-- /.page-hero -->

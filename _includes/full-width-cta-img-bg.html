@@ -1,0 +1,23 @@
+
+<section class="full-width-cta-img-bg__wrapper {{ page.page-class }}" style="background: url({{ site.url }}/assets/img/{{ page.full-width-cta-img-bg-img }}) no-repeat top center; background-size: cover; z-index: 100;;">
+
+	<div class="full-width-cta-img-bg container grid-mdlg">
+
+		<div class="full-width-cta-img-bg__content">
+			<h2 class="content__headline cta-h2">{{ page.full-width-cta-img-bg-headline }}</h2>
+			{% if page.full-width-cta-img-bg-subhead %}
+				<p class="content__subhead">{{ page.full-width-cta-img-bg-subhead }}</p>
+			{% endif %}
+			{% if page.full-width-cta-img-bg-legal %}
+				<p class="content__legal">{{ page.full-width-cta-img-bg-legal }}</p>
+			{% endif %}
+            {% if page.full-width-cta-img-bg-cta %}
+            <a href="{{ page.full-width-cta-img-bg-cta-link }}" class="arrow-cta">
+                {{ page.full-width-cta-img-bg-cta }}
+                <img src="{{ site.url }}/assets/img/{{ page.full-width-cta-img-bg-cta-arrow-img }}" alt="Arrow Image">
+            </a>
+			{% endif %}
+		</div>
+	</div>
+</section>
+

@@ -1,0 +1,47 @@
+.pat-resources.books__wrapper {
+	@extend %section-padding;
+
+	.books-content__wrapper {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap: 20px;
+
+
+		@include mq(custom, max, 750) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	
+		@include mq(small, max) {
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		@include mq(xsmall, max) {
+			grid-template-columns: repeat(1, 1fr);
+		}
+
+		.books-content {
+			width: 100%;
+
+			&::after {
+				content: "";
+				flex: auto;
+			}
+
+            .img-wrapper {
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            h6 {
+                @include font-size(18);
+            }
+
+            p {
+                @include font-size(14);
+            }
+		}
+	}
+}

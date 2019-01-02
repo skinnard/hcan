@@ -1,0 +1,24 @@
+- title: Alcohol
+  text: 'People who consume more than 2 units of alcohol per day have an approximately 40% increased risk of osteoporotic fracture, compared to those who drink less or consume no alcohol whatsoever.'
+  icon: modal-icons/alcohol-icon.svg
+  alt: Alcohol Icon
+  slide: 1
+  bg: alcohol-slide.jpg
+- title: Smoking
+  text: 'People who smoke cigarettes are at a heightened risk of any fracture, compared to non-smokers.'
+  icon: modal-icons/smoking-icon.svg
+  alt: Smoking Icon
+  slide: 2
+  bg: smoking-slide.jpg
+- title: Vitamin D & Calcium Deficiency
+  text: 'Vitamin D by itself and in combination with calcium lowers the risk of falling in older men and women. Studies have shown that use of vitamin D supplements among healthy older women reduced bone loss over periods of 1-2 years.'
+  icon: modal-icons/vitamin-d-deficiency-icon.svg
+  alt: Vitamin D & Calcium Deficiency Icon
+  slide: 3
+  bg: vitamin-d-deficiency-slide.jpg
+- title: Frequent Falls
+  text: 'Ninety percent of hip fractures are caused by falls. The risk of falling is significantly increased by factors like visual impairments, alzheimer&rsquo;s disease, joint disease, poor postural control, and more.'
+  icon: modal-icons/frequent falls-icon.svg
+  alt: Frequent Falls Icon
+  slide: 4
+  bg: frequent-falls-slide.jpg

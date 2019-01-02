@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web:
+    image: 'healthandbone-ca:latest'
+    environment:
+      - JEKYLL_ENV=staging
+      - VIRTUAL_HOST=staging.healthandbone.ca,staging.santedesos.ca
+      - VIRTUAL_PORT=4000
+  
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro

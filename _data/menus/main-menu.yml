@@ -1,0 +1,11 @@
+menu-items:
+  - title: About
+    url: '#about'
+  - title: Services
+    url: '#offer'
+  - title: FAQ
+    url: '#faq'
+  - title: Who We Are
+    url: '#who'
+  - title: Contact 
+    url: '#contact'

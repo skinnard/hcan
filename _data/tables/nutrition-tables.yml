@@ -1,0 +1,44 @@
+item-1:
+  column-1:
+    - name: c1
+      c1-title: Non-Dairy Foods
+      c1-items:
+        - Almonds
+        - Baked beans - canned
+        - Black-eyed peas
+        - Blackstrap molasses
+        - Bok choy, cooked
+        - Broccoli, cooked
+  column-2:
+    - name: c2
+      c2-title: Serving Size
+      c2-items:
+        - 1/4 cup
+        - 1 cup
+        - 1 cup, boiled
+        - 1 Tbsp
+        - 1/2 cup
+        - 3 spears
+  column-3:
+    - name: c3
+      c3-title: Calcium
+      c3-items:
+        - 103 mg
+        - 154 mg
+        - 211 mg
+        - 172 mg
+        - 84 mg
+        - 51 mg
+item-2:
+  - title: Living With Osteoporosis
+    subitems:
+      - page: Fall Prevention
+        url: /en/fall-prevention/
+      - page: Nutrition
+        url: /en/nutrition/
+      - page: Exercise
+        url: /en/Exercise/
+      - page: Support Network
+        url: /en/support-network/
+      - page: Resources
+        url: /en/resources/

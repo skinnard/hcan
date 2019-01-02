@@ -1,0 +1,216 @@
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-wrapper-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-wrapper-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btn {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-family: $body-font;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    height: auto;
+    padding: 0.7rem 2.5rem;
+    text-align: left;
+    @include mq(custom, max, 360) {
+        padding: 0.3rem 1.5rem;
+    }
+}
+
+.nav-btn {
+    height: 40px;
+    border: none;
+    color: #0e1a45;
+    padding: 0.7rem 1.5rem;
+    @include font-size(15);
+    @include mq(xsmall, max) {
+        @include font-size(13);
+    }
+
+    &:hover {
+        background: #ec008c;
+        color: #ffffff;
+    }
+}
+
+#header.lang-fr {
+    .nav-btn {
+        height: 40px;
+        border: none;
+        color: #0e1a45;
+        padding: 0.7rem 1rem;
+        @include font-size(13);
+
+        &:hover {
+            background: #ec008c;
+            color: #ffffff;
+        }
+    }
+}
+
+.btn-pink {
+    background: $accent;
+    border: 3px solid $accent;
+    color: #ffffff !important;
+
+    &:hover {
+        background: transparent;
+        color: #fff !important;
+        border: 3px solid #fff;
+    }
+}
+
+.btn-pink-white {
+    background: $accent;
+    border: 3px solid $accent;
+    color: #ffffff !important;
+
+    &:hover {
+        background: transparent;
+        color: $accent !important;
+        border: 3px solid $accent;
+    }
+}
+
+.btn-blue {
+    background: #0e1a45;
+    border: 3px solid #0e1a45;
+    color: #ffffff !important;
+
+    &:hover {
+        background: transparent;
+        color: #0e1a45 !important;
+        border: 3px solid #0e1a45;
+    }
+}
+
+.btn-white {
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    color: #ec008c !important;
+
+    &:hover {
+        background: transparent;
+        color: #ffffff !important;
+        border: 3px solid #ffffff;
+    }
+}
+
+.dl-btn {
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    color: #ec008c !important;
+
+    &::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f019";
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+    &:hover {
+        background: transparent;
+        color: #ffffff !important;
+        border: 3px solid #ffffff;
+    }
+}
+
+.pink-dl-btn {
+    background: #ec008c;
+    border: 3px solid #ec008c;
+    color: #ffffff !important;
+
+    &::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f019";
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+    &:hover {
+        background: transparent;
+        color: #ec008c !important;
+        border: 3px solid #ec008c;
+    }
+}
+
+.carousel-next {
+    background: url("../assets/img/chevron_right.svg") center no-repeat;
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+
+.carousel-prev {
+    background: url("../assets/img/chevron_left.svg") center no-repeat;
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+
+.faq-social-share {
+    display: flex;
+    align-items: center;
+
+    p {
+        color: #9b9b9b;
+        @include font-size(16);
+        font-family: $body-font;
+        margin: 0;
+    }
+
+    .st-custom-button {
+        width: 45px;
+        height: 45px;
+        margin-left: 20px;
+        @include default-transition;
+        cursor: pointer;
+    }
+
+    .st-custom-button.email {
+        background: url("../assets/img/email-icon.svg") center no-repeat;
+
+        &:hover {
+            background: url("../assets/img/email-icon-hover.svg") center
+                no-repeat;
+        }
+    }
+
+    .st-custom-button.facebook {
+        background: url("../assets/img/facebook-icon.svg") center no-repeat;
+
+        &:hover {
+            background: url("../assets/img/facebook-icon-hover.svg") center
+                no-repeat;
+        }
+    }
+
+    .st-custom-button.twitter {
+        background: url("../assets/img/twitter-icon.svg") center no-repeat;
+
+        &:hover {
+            background: url("../assets/img/twitter-icon-hover.svg") center
+                no-repeat;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.resources__wrapper {
+    background: #FFFFFF;
+    @extend %section-padding-both-no-hero;
+    position: relative;
+
+    .container {
+        z-index: 102;
+        position: relative;
+    }
+
+    .resources__content {
+        text-align: left;
+
+        @include mq(small, max) {
+            text-align: left;
+        }
+
+        h6 {
+            margin-bottom: 2rem;
+        }
+
+        .sub-wrapper {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+
+            .img-wrapper {
+                width: 35px;
+                height: 35px;
+                margin-right: 20px;
+                min-width: 35px;
+
+                img {
+                    width: 100%;
+                    padding-top: 2px;
+                }
+            }
+
+            a {
+                @include font-size(24);
+                color: #4a4a4a;
+
+                @include mq(small, max) {
+                    @include font-size(18);
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

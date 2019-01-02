@@ -1,0 +1,204 @@
+.two-col-img-r,
+.two-col-img-r-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    @extend %section-padding;
+    position: relative;
+    z-index: 102;
+    
+    @include mq(mdlg, max) {
+        padding-top: 0;
+    }
+    
+    @include mq(small, max) {
+        padding-top: 0;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    &__left {
+        position: relative;
+        // padding: 60px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+        @include mq(mdlg, max) {
+            padding: 0;
+        }
+
+        @include mq(small, max) {
+            width: 100%;
+            padding-right: 0;
+            padding: 0;
+        }
+
+        .content {
+            position: relative;
+            margin-left: auto;
+            background: #0e1a45;
+            padding: 60px;
+            right: -60px;
+            z-index: 100;
+            max-width: 90%;
+
+            @include mq(mdlg, max) {
+                width: 100%;
+                max-width: 100%;
+                right: 0;
+                height: 100%;
+                right: 0;
+            }
+
+            @include mq(small, max) {
+                position: relative;
+                padding: 30px;
+            }
+
+            h2,
+            p,
+            ul,
+            li {
+                color: #FFFFFF;
+            }
+
+            ul {
+                li {
+                    list-style: none;
+                    @include font-size(18);
+
+                    &:before {
+                        content: "\2022";
+                        color: #ec008c;
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 1em;
+                        margin-left: -1em;
+                    }
+                }
+            }
+        }
+    }
+
+    &__right {
+        width: 50%;
+        height: 800px;
+        position: relative;
+        
+        @include mq(small, max) {
+            width: 100%;
+            justify-content: center;
+            margin-top: 0;
+            height: 350px;
+        }
+
+        @include mq(xsmall, max) {
+            height: 300px;
+        }
+
+        .img-wrapper {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            position: absolute;
+            top: 0;
+            left: -100px;
+
+            @include mq(custom, max, 1400) {
+                left: 0;
+            }
+
+            @include mq(small, max) {
+                position: relative;
+            }
+        }
+    }
+}
+
+.two-col-img-r-2.en-nutrition,
+.two-col-img-r-2.fr-nutrition {
+    align-items: center;
+    flex-wrap: wrap;
+    @extend %section-padding;
+
+    @include mq(med, max) {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .two-col-img-r-2__left {
+        width: 50%;
+        padding-right: 50px;
+
+        @include mq(med, max) {
+            width: 100%;
+            padding-right: 0;
+        }
+
+        .content {
+            @include mq(custom, min, 1440) {
+                max-width: 800px;
+                padding-right: 100px;
+            }
+
+            @include mq(med, max) {
+                max-width: 100%;
+                margin-left: 0;
+            }
+
+            .title {
+                i {
+                    @include font-size(10);
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+
+    .two-col-img-r-2__right {
+        width: 50%;
+        position: relative;
+
+        @include mq(med, max) {
+            width: 100%;
+        }
+
+        .img-wrapper {
+            top: 0;
+            z-index: -1;
+
+            @include mq(med, max) {
+                margin: 0 auto;
+                max-width: 500px;
+
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .faq-wrapper {
+        width: 100%;
+        margin: 3rem auto 0;
+
+        @include mq(small, max) {
+            padding: 0;
+        }
+    }
+}
+
+.two-col-img-r-2.en-nutrition.section-2,
+.two-col-img-r-2.fr-nutrition.section-2 {
+    margin-bottom: 150px;
+
+    @include mq(med, max) {
+        margin-bottom: 100px;
+    }
+
+    @include mq(small, max) {
+        margin-bottom: 60px;
+    }
+}

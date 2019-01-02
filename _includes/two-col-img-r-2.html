@@ -1,0 +1,515 @@
+
+{% if page.page-class == "en-nutrition" %}
+
+<section class="container section-1 two-col-img-r two-col-img-r-2 {{ page.page-class }} container grid-lg">
+	<div class="two-col-img-r-2__left">
+		<div class="content">
+			<h2 id="non-dairy" class="title">{{ page.two-col-img-r-2-title }}<i class="fas fa-circle hb-pink hb-period"></i></h2>
+            <p class="text">{{ page.two-col-img-r-2-text }}</p>
+		</div>
+	</div>
+	<div class="two-col-img-r-2__right">
+		<div class="img-wrapper">
+			<img src="{{ site.url }}/assets/img/{{ page.two-col-img-r-2-img }}" alt="{{ page.two-col-img-r-2-alt }}">
+		</div>
+    </div>
+    
+    <!-- START accordion -->
+    <div class="faq-wrapper {{ page.page-class }} container grid-md">
+
+        <div class="accordion-wrapper">
+
+            <div class="accordion-title">
+                <div class="img-wrapper">
+                    {% svg /assets/img/expand_button.svg %}
+                </div>
+                <p>How Much Calcium Do You Need?</p>
+            </div>
+        </div>   
+
+        <div class="accordion-content">
+            <p>Osteoporosis Canada recommends the following calcium intake (total intake through diet and supplementation) on a daily basis:</p>
+            <table class="hb-table">
+                <tr>
+                    <th>Age</th>
+                    <th align="right">Daily Calcium Requirement</th>
+                </tr>
+                <tr>
+                    <td>4-8</td>
+                    <td>1000mg</td>
+                </tr>
+                <tr>
+                    <td>9-18</td>
+                    <td>1300mg</td>
+                </tr>
+                <tr>
+                    <td>19-50</td>
+                    <td>1000mg</td>
+                </tr>
+                <tr>
+                    <td>50 +</td>
+                    <td>1200mg</td>
+                </tr>
+                <tr>
+                    <td>Pregnant Or Lactating Women</td>
+                    <td>1000mg</td>
+                </tr>
+            </table>
+        </div>
+  
+        <div class="accordion-wrapper">
+
+            <div class="accordion-title">
+                <div class="img-wrapper">
+                    {% svg /assets/img/expand_button.svg %}
+                </div>
+                <p>Foods Rich in Calcium</p>
+            </div>
+        </div>   
+
+        <div class="accordion-content">
+            <p>Try to incorporate more calcium into your daily diet by including some of the high calcium foods below:</p>
+            <table class="hb-table">
+                <tr>
+                    <th>Calcium Content Of Some Common Foods</th>
+                    <th>Serving Size</th> 
+                    <th align="right">Calcium</th>
+                </tr>
+                <tr>
+                    <th style="text-align:left;" colspan="3">MILK AND MILK PRODUCTS</th>
+                </tr>
+                <tr>
+                    <td>Milk—2%, 1%, skim, chocolate</td>
+                    <td>1 cup / 250 ml</td> 
+                    <td>300 mg</td>
+                </tr>
+                <tr>
+                    <td>Buttermilk</td>
+                    <td>1 cup/250 ml</td> 
+                    <td>285 mg</td>
+                </tr>
+                <tr>
+                    <td>Cheese—Mozzarella</td>
+                    <td>1 1/4" /3 cm cube</td> 
+                    <td>200 mg</td>
+                </tr>
+                <tr>
+                    <td>Cheese—Cheddar, Edam, Goudas</td>
+                    <td>1 1/4" /3 cm cube</td> 
+                    <td>245 mg</td>
+                </tr>
+                <tr>
+                    <td>Yogurt—plain</td>
+                    <td>3/4 cup/185 ml</td> 
+                    <td>295 mg</td>
+                </tr>
+                <tr>
+                    <td>Milk—powder, dry</td>
+                    <td>1/3 cup/75 ml</td> 
+                    <td>270 mg</td>
+                </tr>
+                <tr>
+                    <td>Ice cream</td>
+                    <td>1/2 cup/125 ml</td> 
+                    <td>80 mg</td>
+                </tr>
+                <tr>
+                    <td>Cottage cheese—2%, 1%</td>
+                    <td>1/2 cup/125 ml</td> 
+                    <td>75 mg</td>
+                </tr>
+                <tr>
+                    <th style="text-align:left;" colspan="3">FISH AND ALTERNATIVES</th>
+                </tr>
+                <tr>
+                    <td>Sardines, with bones</td>
+                    <td>1/2 can/55 g</td> 
+                    <td>200 mg</td>
+                </tr>
+                <tr>
+                    <td>Salmon, with bones—canned</td>
+                    <td>1/2 can/105 g</td> 
+                    <td>240mg</td>
+                </tr>
+                <tr>
+                    <td>Fortified rice or soy beverage</td>
+                    <td>1 cup/250 ml</td> 
+                    <td>300 mg</td>
+                </tr>
+                <tr>
+                    <td>Fortified orange juice</td>
+                    <td>1 cup/250 ml</td> 
+                    <td>300 mg</td>
+                </tr>
+                <tr>
+                    <td>Molasses, blackstrap</td>
+                    <td>1 tbsp./15 ml</td> 
+                    <td>180 mg</td>
+                </tr>
+                <tr>
+                    <td>Sesame seeds</td>
+                    <td>1/2 cup/125 ml</td> 
+                    <td>95 mg</td>
+                </tr>
+                <tr>
+                    <td>Beans, baked</td>
+                    <td>1/2 cup/125 ml</td> 
+                    <td>75 mg</td>
+                </tr>
+                <tr>
+                    <td>Beans (kidney, lima) — cooked</td>
+                    <td>1 cup/250 ml</td> 
+                    <td>50 mg</td>
+                </tr>
+                <tr>
+                    <td>Soybeans—cooked</td>
+                    <td>1 cup/250 ml</td> 
+                    <td>170 mg</td>
+                </tr>
+                <tr>
+                    <td>Taco</td>
+                    <td>1 small</td> 
+                    <td>221 mg</td>
+                </tr>
+                <tr>
+                    <td>Tofu—with calcium sulfate</td>
+                    <td>3 oz./84 g</td> 
+                    <td>130 mg</td>
+                </tr>
+                <tr>
+                    <th style="text-align:left;" colspan="3">BREADS AND CEREALS</th>
+                </tr>
+                <tr>
+                    <td>Muffin—bran (homemade with milk)</td>
+                    <td>1 medium</td> 
+                    <td>84 mg</td>
+                </tr>
+                <tr>
+                    <td>Bread—whole wheat</td>
+                    <td>2 slices</td> 
+                    <td>40 mg</td>
+                </tr>
+                <tr>
+                    <td>Instant oatmeal, calcium added</td>
+                    <td>1 pouch/32 g</td> 
+                    <td>150 mg</td>
+                </tr>
+                <tr>
+                    <th style="text-align:left;" colspan="3">FRUITS AND VEGETABLES</th>
+                </tr>
+                <tr>
+                    <td>Broccoli—cooked</td>
+                    <td>3/4 cup/185 ml</td> 
+                    <td>50 mg</td>
+                </tr>
+                <tr>
+                    <td>Orange</td>
+                    <td>1 medium</td> 
+                    <td>50 mg</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>1 medium</td> 
+                    <td>10 mg</td>
+                </tr>
+                <tr>
+                    <td>Bok Choy</td>
+                    <td>1/2 cup/125 ml</td> 
+                    <td>75 mg</td>
+                </tr>
+                <tr>
+                    <td>Figs - dried</td>
+                    <td>10</td> 
+                    <td>150 mg</td>
+                </tr>
+            </table>
+            <p class="legal">*Approximate values</p>
+            <p class="legal">&dagger;Calcium-enriched milk - add 100 mg per serving</p>
+        </div>
+
+        <div class="accordion-wrapper">
+
+            <div class="accordion-title">
+                <div class="img-wrapper">
+                    {% svg /assets/img/expand_button.svg %}
+                </div>
+                <p>Non-Dairy Foods Rich in Calcium</p>
+            </div>
+        </div>   
+
+        <div class="accordion-content">
+            
+            <p>For those who can&rsquo;t consume dairy products or would prefer not to, it is still important to make sure you get enough calcium from other sources. Found in the table below are several common non-dairy foods that are high in calcium.</p>
+
+            <table class="hb-table">
+                <tr>
+                    <th>Non-Dairy Foods</th>
+                    <th>Serving Size</th> 
+                    <th align="right">Calcium</th>
+                </tr>
+                <tr>
+                    <td>Almonds</td>
+                    <td>1/4 cup</td> 
+                    <td>103 mg</td>
+                </tr>
+                <tr>
+                    <td>Baked beans - canned</td>
+                    <td>1 cup</td> 
+                    <td>154 mg</td>
+                </tr>
+                <tr>
+                    <td>Black-eyed peas</td>
+                    <td>1 cup, boiled</td> 
+                    <td>211 mg</td>
+                </tr>
+                <tr>
+                    <td>Blackstrap molasses</td>
+                    <td>1 Tbsp</td> 
+                    <td>172 mg</td>
+                </tr>
+                <tr>
+                    <td>Bok choy, cooked</td>
+                    <td>1/2 cup</td> 
+                    <td>84 mg</td>
+                </tr>
+                <tr>
+                    <td>Broccoli, cooked</td>
+                    <td>3 spears</td> 
+                    <td>51 mg</td>
+                </tr>
+                <tr>
+                    <td>Calcium—fortified orange juice</td>
+                    <td>6 oz</td> 
+                    <td>200 mg</td>
+                </tr>
+                <tr>
+                    <td>Chinese cabbage, raw</td>
+                    <td>1 cup</td> 
+                    <td>74 mg</td>
+                </tr>
+                <tr>
+                    <td>Collard greens, boiled</td>
+                    <td>1 cup</td> 
+                    <td>357 mg</td>
+                </tr>
+                <tr>
+                    <td>Figs, dried</td>
+                    <td>5 medium</td> 
+                    <td>90 mg</td>
+                </tr>
+                <tr>
+                    <td>Firm Tofu - Made With Calcium Sulfate</td>
+                    <td>1/2 cup</td> 
+                    <td>204 mg</td>
+                </tr>
+                <tr>
+                    <td>Fortified soy beverage</td>
+                    <td>1/2 cup</td> 
+                    <td>300 mg</td>
+                </tr>
+                <tr>
+                    <td>Fortified soymilk</td>
+                    <td>1 cup</td> 
+                    <td>368 mg</td>
+                </tr>
+                <tr>
+                    <td>Kale</td>
+                    <td>1 cup, cooked</td> 
+                    <td>94 mg</td>
+                </tr>
+                <tr>
+                    <td>Oranges</td>
+                    <td>1 cup</td> 
+                    <td>72 mg</td>
+                </tr>
+                <tr>
+                    <td>Salmon - canned with bones</td>
+                    <td>1/2 cup</td> 
+                    <td>181 mg</td>
+                </tr>
+                <tr>
+                    <td>Orange juice with calcium</td>
+                    <td>1 cup</td> 
+                    <td>344 mg</td>
+                </tr>
+                <tr>
+                    <td>White beans - cooked</td>
+                    <td>1 cup</td> 
+                    <td>202 mg</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- END accordion -->
+
+</section>
+
+<section class="container section-2 two-col-img-r two-col-img-r-2 {{ page.page-class }} container grid-lg">
+	<div class="two-col-img-r-2__left">
+		<div class="content">
+			<h2 class="title">{{ page.two-col-img-r-2-s2-title }}<i class="fas fa-circle hb-pink hb-period"></i></h2>
+            <p class="text">{{ page.two-col-img-r-2-s2-text }}</p>
+		</div>
+	</div>
+	<div class="two-col-img-r-2__right">
+		<div class="img-wrapper">
+			<img src="{{ site.url }}/assets/img/{{ page.two-col-img-r-2-s2-img }}" alt="{{ page.two-col-img-r-2-s2-alt }}">
+		</div>
+    </div>
+    
+    <!-- START accordion -->
+    <div class="faq-wrapper {{ page.page-class }} container grid-md">
+
+        <div class="accordion-wrapper">
+            <div class="accordion-title">
+                <div class="img-wrapper">    
+                    {% svg /assets/img/expand_button.svg %}
+                </div>
+                <p>How Much Vitamin D Do You Need?</p>
+            </div>
+        </div>   
+
+        <div class="accordion-content">
+
+            <p>Osteoporosis Canada recommends the following intake of vitamin&nbsp;D (total intake through diet and supplementation) on a daily basis:</p>
+
+            <table class="hb-table">
+                <tr>
+                    <th>Age</th>
+                    <th align="right">Vitamin D Requirement</th>
+                </tr>
+                <tr>
+                    <td>19-50</td>
+                    <td>400-1000 IU*</td>
+                </tr>
+                <tr>
+                    <td>50 +</td>
+                    <td>800-2000 IU</td>
+                </tr>
+                <tr>
+                    <td>Pregnant or Lactating Women 18+</td>
+                    <td>400 IU</td>
+                </tr>
+            </table>
+            <p class="legal">*For those who don&rsquo;t have osteoporosis and don&rsquo;t have a condition that interferes with vitamin&nbsp;D absorption</p>
+            <p class="legal">IU = International Units</p>
+        </div>
+
+        <div class="accordion-wrapper">
+            <div class="accordion-title">
+                <div class="img-wrapper">    
+                    {% svg /assets/img/expand_button.svg %}
+                </div>
+                <p>Foods Rich In Vitamin&nbsp;D</p>
+            </div>
+        </div>   
+    
+        <div class="accordion-content">
+    
+            <p>Add more vitamin&nbsp;D into your diet by including some of these foods rich in vitamin&nbsp;D:</p>
+
+            <table class="hb-table">
+                <tr>
+                    <th class="3-col">Vitamin D Content in Common Foods</th>
+                    <th class="3-col">Serving Size</th>
+                    <th class="3-col" align="right">UIS Per Serving*</th>
+                </tr>
+                <tr>
+                    <td>Cod liver oil</td>
+                    <td>1 Tbsp.</td>
+                    <td>1,360</td>
+                </tr>
+                <tr>
+                    <td>Salmon (sockeye) - cooked</td>
+                    <td>3 oz.</td>
+                    <td>794</td>
+                </tr>
+                <tr>
+                    <td>Mushrooms that have been exposed to ultraviolet light to increase vitamin D, 3 ounces (not yet commonly available)</td>
+                    <td>3 oz.</td>
+                    <td>400</td>
+                </tr>
+                <tr>
+                    <td>Mackerel - cooked</td>
+                    <td>3 oz.</td>
+                    <td>388</td>
+                </tr>
+                <tr>
+                    <td>Tuna fish, canned in water, drained</td>
+                    <td>3 oz.</td>
+                    <td>154</td>
+                </tr>
+                <tr>
+                    <td>Milk, nonfat, reduced fat, and whole, vitamin D-fortified</td>
+                    <td>1 cup</td>
+                    <td>115-124</td>
+                </tr>
+                <tr>
+                    <td>Orange juice fortified with vitamin D, (check product labels, as amount of added vitamin D varies)</td>
+                    <td>1 cup</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Yogurt, fortified with 20% of the DV for vitamin D (more heavily fortified yogurts provide more of the DV)</td>
+                    <td>6 oz.</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Margarine, fortified</td>
+                    <td>1 Tbsp.</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>Sardines, canned in oil, drained</td>
+                    <td>2 sardines</td>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <td>Liver, beef - cooked</td>
+                    <td>3.5 oz.</td>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <td>Ready-to-eat cereal, fortified with 10% of the DV for vitamin D (more heavily fortified cereals might provide more of the DV)</td>
+                    <td>0.75 - 1 cup</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Egg (vitamin D is found in yolk)</td>
+                    <td>1 whole egg</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Cheese, Swiss</td>
+                    <td>1 oz.</td>
+                    <td>6</td>
+                </tr>
+            </table>
+            <p class="legal">IU = International Units</p>
+        </div>
+    </div>
+    <!-- END accordion -->
+</section>
+
+{% else %}
+
+<section class="container two-col-img-r two-col-img-r-2 {{ page.page-class }} container grid-mdlg">
+	<div class="two-col-img-r-2__left">
+		<div class="content">
+			<h2 class="title">{{ page.two-col-img-r-2-title }}<i class="fas fa-circle hb-pink hb-period"></i></h2>
+            <p class="text">{{ page.two-col-img-r-2-text }}</p>
+            
+            <a href="{{ page.two-col-img-r-2-cta-link }}" class="arrow-cta">
+                {{ page.two-col-img-r-2-cta }}
+                <img src="{{ site.url }}/assets/img/{{ page.two-col-img-r-2-cta-arrow }}" alt="Arrow Image">
+            </a>
+		</div>
+	</div>
+	<div class="two-col-img-r-2__right">
+		<div class="img-wrapper">
+			<img src="{{ site.url }}/assets/img/{{ page.two-col-img-r-2-img }}" alt="{{ page.two-col-img-r-2-alt }}">
+		</div>
+	</div>
+</section>
+
+{% endif %}

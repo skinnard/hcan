@@ -1,0 +1,85 @@
+faq:
+- title: What is Osteoporosis?
+  link: "what-is-osteoporosis"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=what-is-osteoporosis
+  content: '<p>Osteoporosis is a disease that affects your bones, thinning and weakening them, while also making them more likely to break or fracture. The most common types of osteoporotic breaks are those occurring in the spine, hip and wrist. Find out if you&rsquo;re at risk for osteoporosis. <a href="/en/osteoporosis-risk-assessment/">Take the Risk Assessment.</a></p>'
+
+- title: What Are The Causes Of Osteoporosis?
+  link: "what-are-the-causes-of-osteoporosis"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=what-are-the-causes-of-osteoporosis
+  content: '<p>Osteoporosis is caused as bone loss outpaces the growth of new bone. Bones become porous, brittle and prone to fracture. People reach peak bone mass in their early twenties. During the aging process, our bone cells start dissolving bone matrix (resorption), while new bone cells deposit osteoid (formation). This process is called remodelling.</p>'
+
+- title: What Are The Symptoms Of Osteoporosis?
+  link: "what-are-the-symptoms-of-osteoporosis"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=what-are-the-symptoms-of-osteoporosis
+  content: '<p>Osteoporosis is often called the "silent thief" because bone loss can occur without you even knowing it or feeling any symptoms. This bone loss does not occur overnight but over the course of several years. Sometimes the first sign that anything is wrong is a broken bone. While there are no visible symptoms, there are factors that may put you at a higher risk for osteoporosis. <a href="/en/osteoporosis-risk-assessment/">Take the Risk Assessment</a>.</p>'
+
+- title: How Do I Prevent Osteoporosis?
+  link: "how-do-i-prevent-osteoporosis"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=how-do-i-prevent-osteoporosis
+  content: '<p>Certain practices can assist in the prevention of osteoporosis. Maintaining calcium intake is an important step towards good overall bone health throughout life. Weight-bearing exercises can help build strong bones and maintain bone density, as can a diet rich in Vitamin D. <a href="/en/dangers-of-osteoporosis/osteoporosis-prevention/">Learn more about osteoporosis prevention</a>.</p>'
+
+- title: How Do You Treat Osteoporosis?
+  link: "how-do-you-treat-osteoporosis"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=how-do-you-treat-osteoporosis
+  content: '<p>There are a growing number of <a href="/en/osteoporosis-treatment/">medications</a> available for the treatment of osteoporosis. The main purpose of treatment is to increase bone mass which will help reduce the risk of fractures and help avoid an additional decrease in bone density. It is important to <a href="/en/talking-to-your-doctor/">speak to your doctor</a> about the right treatment for you.</p>'
+
+- title: Can Osteoporosis Be Reversed?
+  link: "can-osteoporosis-be-reversed"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=can-osteoporosis-be-reversed
+  content: '<p>There is no cure for osteoporosis, however, proper treatment can help to protect and strengthen your bones. <a href="/en/osteoporosis-treatment/">Learn more about the treatment options available.</a></p>'
+
+- title: How To Increase Bone Density?
+  link: "how-to-increase-bone-density"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=how-to-increase-bone-density
+  content: '<p>There are a number of ways to help increase bone density:</p><ol><li>Eat foods rich in <a href="/en/living-with-osteoporosis/nutrition/">calcium</a></li><li>Increase your intake of <a href="/en/living-with-osteoporosis/nutrition/">vitamin D</a></li><li>Perform weight-bearing, strength training, flexibility, and balance <a href="/en/living-with-osteoporosis/exercise/">exercises</a></li><li>Avoid <a href="/en/dangers-of-osteoporosis/osteoporosis-risk-factors/">smoking &amp; alcohol</a></li><li>Avoid very <a href="/en/dangers-of-osteoporosis/osteoporosis-risk-factors/">low-calorie diets</a></li></ol>'
+
+- title: How Much Calcium Per Day Should I Consume?
+  link: "how-much-calcium-per-day-should-i-consume"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=how-much-calcium-per-day-should-i-consume
+  content: '<p>Osteoporosis Canada recommends the following intake of total calcium:</p><table class="hb-table" style="width:100%"><tr><th align="left">Age</th><th align="right">Daily Calcium Requirement</th></tr><tr><td>4-8</td><td>1000mg</td></tr><tr><td>9-18</td><td>1300mg</td></tr><tr><td>19-50</td><td>1000mg</td></tr><tr><td>50 +</td><td>1200mg</td></tr><tr><td>Pregnant Or Lactating Women</td><td>1000mg</td></tr></table>'
+
+- title: Why Are Vitamin D And Calcium So Important?
+  link: "why-are-vitamin-d-and-calcium-so-important"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=why-are-vitamin-d-and-calcium-so-important
+  content: '<p>Calcium helps bones and teeth stay strong. It is also needed by almost every cell in the body to keep it working properly. Maintaining an adequate calcium intake is an important step towards good bone health throughout life. The main goal of good calcium nutrition is to maintain an adequate supply so that our body does not have to dip into the reserve of calcium in our bones.</p><p>Vitamin D helps the body absorb calcium and store calcium from the foods we eat. Our bodies can produce vitamin D when we are exposed to sunlight.</p><p>Learn more about <a href="/en/living-with-osteoporosis/nutrition/">calcium and vitamin D</a>.</p>'
+
+- title: What Is The Difference Between Osteoporosis & Osteopenia?
+  link: "what-is-the-difference-between-osteoporosis-and-osteopenia"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=what-is-the-difference-between-osteoporosis-and-osteopenia
+  content: '<p>Osteopenia (now known as "low bone mass") and osteoporosis differ in the amount of bone lost. Your doctor may have referred to your bone mineral density or BMD in terms of a "T-score", which is a relative comparison of your measured BMD to that of a normal young adult.Your bone density score is only one of the factors that determine your risk of fracture.</p><p>Osteopenia (low bone mass) is defined as a T-score between -1.0 and -2.5. Osteoporosis is defined as a T-score below -2.5.</p>'
+
+- title: What Is The Difference Between Osteoporosis & Osteoarthritis? 
+  link: "what-is-the-difference-between-osteoporosis-and-osteoarthritis"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=what-is-the-difference-between-osteoporosis-and-osteoarthritis
+  content: '<p>Osteoporosis and osteoarthritis are often confused. A simple way to remember the difference is that osteoporosis is a disease that affects the bones. Osteoarthritis is a disease affecting joints and their surrounding tissue.</p>'
+
+- title: If My Mother Had Osteoporosis, Should I Worry?
+  link: "if-my-mother-had-osteoporosis-should-i-worry"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=if-my-mother-had-osteoporosis-should-i-worry
+  content: '<p>If your mother has suffered an osteoporotic fracture, particularly if she suffered a broken hip, this is considered to be a major risk factor for osteoporosis.</p><p>Additionally, a family history of osteoporotic fracture is also one of the key risk factors for osteoporosis.</p><p>While there are no visible symptoms, there are factors that may put you at higher risk for osteoporosis. <a href="/en/osteoporosis-risk-assessment/">Take the Risk Assessment</a>.</p>'
+
+- title: What Can I Do To Prevent Falls?
+  link: "what-can-i-do-to-prevent-falls"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=what-can-i-do-to-prevent-falls
+  content: '<p>Physical activity is not only good for your bones, but it also helps improve coordination and balance which, in turn, can help reduce the risk of falling.</p><ul><li>Making sure that your home is well lit so you can see where you are going at all times</li><li>Having your eyes tested yearly by an optometrist</li><li>Minimizing potential hazards around your home</li><li>Using a walking aid if needed for balance</li><li>Consider installing handrails by stairs, baths, toilet</li><li>Choosing shoes that offer good foot support</li><li>Trying to keep furniture in its usual place, remove cords, loose wires and clutter. Ensure that rugs and mats are securely fixed and smooth</li></ul><p>For even more helpful information, be sure to visit our <a href="/en/living-with-osteoporosis/fall-prevention/">fall prevention page</a>.</p>'
+
+- title: Is Being Overweight One Of The Risk Factors For Osteoporosis?
+  link: "is-being-overweight-one-of-the-risk-factors-for-osteoporosis"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=is-being-overweight-one-of-the-risk-factors-for-osteoporosis
+  content: '<p>It is important, regardless of your weight, to work with your doctor to determine your risk factors for osteoporosis and/or osteoporotic fracture. Although women underweight or with low bone mass index (BMI) are at higher risk of osteoporotic fracture, being overweight does not necessarily mean you are protected against fractures if you have osteoporosis. <a href="/en/osteoporosis-risk-assessment/">Take the Risk Assessment</a> to determine if you are at risk for osteoporosis.</p>'
+
+- title: Should I Be Seeing A Specialist?
+  link: "should-i-be-seeing-a-specialist"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=should-i-be-seeing-a-specialist
+  content: '<p>Before attempting to see a specialist, it is important that you first discuss your bone health concerns with your <a href="/en/talking-to-your-doctor/">family doctor</a>. Your doctor will recommend that you see a specialist if he or she feels this is necessary. Considerations may be more severe osteoporosis or other conditions you may have that might cause bone loss. The types of specialists that you could be referred to might include: Endocrinologists, Internists, Rheumatologists, and Geriatricians. If you are diagnosed, you will likely be given a prescription for <a href="/en/osteoporosis-treatment/">osteoporosis medication</a>.</p>'
+
+- title: Is There A Cure For Osteoporosis?
+  link: "is-there-a-cure-for-osteoporosis"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=is-there-a-cure-for-osteoporosis
+  content: '<p>There is no cure for osteoporosis at this time. Please <a href="/en/talking-to-your-doctor/">talk to your doctor</a> to discuss an appropriate osteoporosis treatment option and possible osteoporosis medications that can help prevent fractures and other risks associated with osteoporosis. Learn more about the <a href="/en/osteoporosis-treatment/">treatment options</a> available.</p>'
+
+- title: Which Foods Provide A High Source Of Dietary Calcium Besides Milk Based Products?
+  link: "which-foods-provide-a-high-source-of-dietary-calcium-besides-milk-based-products"
+  data-url: healthandbone.ca/en/osteoporosis-faqs-content/?title=which-foods-provide-a-high-source-of-dietary-calcium-besides-milk-based-products
+  content: '<p>Many foods can provide sufficient calcium <a href="/en/living-with-osteoporosis/nutrition">without containing dairy</a>, including:</p><ul><li>Almonds</li><li>Bok Choy</li><li>Broccoli</li><li>Kale</li><li>Sardines</li></ul>'

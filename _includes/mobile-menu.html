@@ -1,0 +1,71 @@
+<nav class="mmenu-nav">
+
+    <div class="mmenu-nav__level">
+        <!-- <div class="mmenu-scroller"> -->
+
+            <ul class="mmenu-nav__list">
+
+                {% for item in site.data.menus.mob-menu.menu-items %}
+                <!-- .mmenu-nav__item -->
+                {% if item.subfolderitems %}
+                    {% if item.id %}
+                    <li class="mmenu-nav__item is-parent" id="{{ item.id }}">
+                    {% else %}
+                    <li class="mmenu-nav__item is-parent">
+                    {% endif %}
+                {% else %}
+                <li class="mmenu-nav__item">
+                {% endif %}
+                    
+                <a class="mmenu-nav__link" href="{{ en_link }}{{ item.url }}">{{ item.mobile-title }}</a>
+
+                    {% if item.subfolderitems %}
+                    
+                    <div class="mmenu-nav__sublevel">
+
+                        <!-- <div class="mmenu-scroller"> -->
+                                
+
+                            <!-- BACK button -->
+                            <div class="back-btn-wrap">
+                                <a href="#" class="mmenu-nav__close">Menu</a>
+                            </div>
+                            <!-- /BACK button -->
+
+                            <!-- .mmenu-nav__list -->
+                            <ul class="mmenu-nav__list">
+                                {% for subitem in item.subfolderitems %}
+                                <li class="mmenu-nav__item sub-list">
+                                    <a class="mmenu-nav__link" href="{{ en_link }}{{ subitem.url }}">{{ subitem.page }}</a>
+                                </li>
+                                {% endfor %}
+
+                                <div class="lang-selector">
+                                    <a class="img-wrapper" href="{{ fr_link }}/fr/">
+                                        <img src="{{ site.url }}/assets/img/french-icon.svg" alt="Language Selector Icon">
+                                    </a>
+                                </div>
+                            </ul>
+                            <!-- /.mmenu-nav__list -->
+
+                        <!-- </div> -->
+                    </div>
+                    
+                    {% endif %}
+                </li>
+                <!-- /.mmenu-nav__item -->
+                {% endfor %}
+
+            </ul>
+
+            <div class="lang-selector">
+                <a class="img-wrapper" href="{{ fr_link }}/fr/">
+                    <img src="{{ site.url }}/assets/img/french-icon.svg" alt="Language Selector Icon">
+                </a>
+            </div>
+
+        <!-- </div> -->
+    </div>
+</nav>
+
+

@@ -1,0 +1,10 @@
+{% if jekyll.environment == 'production' %}
+    {% assign fr_link = "//santedesos.ca" %}
+    {% assign en_link = "//healthandbone.ca" %}
+{% elsif jekyll.environment == 'staging' %}
+    {% assign fr_link = "//staging.santedesos.ca" %}
+    {% assign en_link = "//staging.healthandbone.ca" %}
+{% elsif jekyll.environment == 'demo' %}
+    {% assign fr_link = "//demo.rankhigher.ca" %}
+    {% assign en_link = "//demo.rankhigher.ca" %}
+{% endif %}

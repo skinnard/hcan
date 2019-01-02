@@ -1,0 +1,23 @@
+<section class="one-col-cta {{ page.page-class }}" style="background:url({{ site.url }}/assets/img/{{ page.one-col-cta-bg }}); background-size: cover; background-repeat: no-repeat; background-position: top center;">
+    <div class="container grid-md content">
+        <div class="content-wrapper">
+            {% if page.one-col-cta-logo %}
+            <img class="logo" src="{{ site.url }}/assets/img/{{ page.one-col-cta-logo }}" alt="Provital Logo">
+            {% endif %}
+
+            <h2>{{ page.one-col-cta-title }}</h2>
+            <h6>{{ page.one-col-cta-subtitle }}</h6>
+            <div class="text-wrapper">
+                {{ page.one-col-cta-text }}
+            </div>
+
+            {% if page.one-col-cta-cta %}
+            <div class="btn-wrapper-left">
+                <a href="{{ fr_link }}{{ page.one-col-cta-link }}" class="btn btn-blue">
+                    {{ page.one-col-cta-cta }}
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Globe Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Living-with-Osteoporosis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resources" transform="translate(-323.000000, -376.000000)" stroke="#EC008C">
+            <g id="Globe-Icon" transform="translate(323.000000, 376.000000)">
+                <g id="Group">
+                    <circle id="Oval" stroke-width="2" cx="16" cy="16" r="15"></circle>
+                    <circle id="Oval-2" stroke-width="2" cx="16" cy="16" r="10.4285714"></circle>
+                    <ellipse id="Oval-2-Copy" stroke-width="2" cx="16.3007519" cy="16" rx="4.11278195" ry="10.4285714"></ellipse>
+                    <path d="M6.26455026,12.6917293 L25.7354497,12.6917293" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M6.37593985,19.7593985 L25.6240602,19.7593985" id="Line-Copy" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

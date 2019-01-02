@@ -1,0 +1,117 @@
+.tou {
+    padding: 100px 0;
+    position: relative;
+    z-index: 200;
+
+    h1 {
+        @include font-size(42);
+        margin-bottom: 3rem;
+    }
+
+    .last {
+        margin-bottom: 3rem;
+    }
+
+    ul {
+        li {
+            @include font-size(20);
+            margin-bottom: 1rem;
+            color: #3b3b3b;
+        }
+    }
+
+    .title {
+        font-family: $headline-font;
+        margin-bottom: 0.5rem;
+    }
+
+    h6 {
+        padding-bottom: 1rem;
+    }
+
+    a {
+        color: #ec008c;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .directors {
+        margin-bottom: 1.5rem;
+
+        .accordion {
+            background: #f2f2f2;
+            @include default-transition;
+
+            &:hover {
+                box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.1);
+            }
+
+            .title-wrapper {
+                padding: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                cursor: pointer;
+                @include mq(xsmall, max) {
+                    align-items: flex-start;
+                }
+
+                .accordion-title {
+                    width: 75%;
+                    @include mq(xsmall, max) {
+                        width: 90%;
+                    }
+
+                    h6 {
+                        color: $font;
+                        padding: 0;
+                        margin: 0;
+                        @include mq(xsmall, max) {
+                            @include font-size(16);
+                        }
+
+                        span {
+                            display: block;
+                            @include font-size(16);
+                            @include mq(xsmall, max) {
+                                @include font-size(12);
+                            }
+                        }
+                    }
+                }
+
+                .icon-wrapper {
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 25%;
+                    @include mq(xsmall, max) {
+                        width: 10%;
+                        margin-top: -6px;
+                    }
+
+                    i {
+                        @include default-transition;
+                        @include font-size(20);
+                        @include mq(xsmall, max) {
+                            @include font-size(14);
+                        }
+                    }
+                }
+            }
+
+            .accordion-content {
+                padding: 0 30px 30px;
+                display: none;
+
+                p {
+                    @include font-size(16);
+                    @include mq(xsmall, max) {
+                        @include font-size(15);
+                    }
+                }
+            }
+        }
+    }
+}

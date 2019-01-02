@@ -1,0 +1,11 @@
+.talk-to-doc__wrapper {
+    @extend %section-padding-both-no-hero;
+    position: relative;
+    z-index: 102;
+
+    .talk-to-doc {
+        .table-footer {
+            justify-content: flex-end;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+.two-col-img-l,
+.two-col-img-l-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    @extend %section-padding;
+    position: relative;
+    z-index: 102;
+
+    @include mq(mdlg, max) {
+        padding-top: 0;
+    }
+
+    @include mq(small, max) {
+        flex-wrap: wrap;        
+    }
+
+    &__right {
+        position: relative;
+        // padding: 60px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+        @include mq(small, max) {
+            width: 100%;
+            padding: 0;
+        }
+
+        .content {
+            position: relative;
+            margin-left: auto;
+            background: #0e1a45;
+            padding: 60px;
+            right: 120px;
+            z-index: 100;
+            max-width: 90%;
+
+            @include mq(mdlg, max) {
+                width: 100%;
+                max-width: 100%;
+                right: 0;
+                height: 100%;
+            }
+
+            @include mq(small, max) {
+                position: relative;
+                padding: 30px;
+                left: 0;
+            }
+
+            h2,
+            p {
+                color: #FFFFFF;
+            }
+
+            ul {
+                li {
+                    list-style: none;
+                    @include font-size(18);
+                    color: #fff;
+
+                    &:before {
+                        content: "\2022";
+                        color: #ec008c;
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 1em;
+                        margin-left: -1em;
+                    }
+                }
+            }
+        }
+    }
+
+    &__left {
+        width: 50%;
+        height: 800px;
+        position: relative;
+        
+        @include mq(small, max) {
+            width: 100%;
+            justify-content: center;
+            margin-top: 0;
+            height: 350px;
+        }
+
+        @include mq(xsmall, max) {
+            height: 300px;
+        }
+
+        .img-wrapper {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            position: absolute;
+            right: -100px;
+
+            @include mq(custom, max, 1400) {
+                left: 0;
+            }
+
+            @include mq(small, max) {
+                position: relative;
+            }
+        }
+    }
+}

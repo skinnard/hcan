@@ -1,0 +1,24 @@
+- title: '&Acirc;ge'
+  text: 'Plus de 80 % de toutes les fractures survenant chez les personnes de plus de 50 ans sont caus&eacute;es par l&rsquo;ost&eacute;oporose. Elles peuvent &ecirc;tre dues en partie &agrave; une diminution de la densit&eacute; min&eacute;rale osseuse avec l&rsquo;&acirc;ge. Aussi bien les femmes que les hommes commencent &agrave; perdre de la masse osseuse au milieu de la trentaine, ce qui les expose &agrave; un risque plus &eacute;lev&eacute; de fractures.'
+  icon: modal-icons/age-icon.svg
+  alt: Ic&ocirc;ne d&apos;&acirc;ge
+  slide: 1
+  bg: age-slide.jpg
+- title: Sexe
+  text: 'L&rsquo;ost&eacute;oporose est plus fr&eacute;quente chez les femmes que chez les hommes. Les femmes qui approchent de l&rsquo;&acirc;ge de la m&eacute;nopause perdent de la masse osseuse &agrave; un taux sup&eacute;rieur &agrave; 2-3 % par an.'
+  icon: modal-icons/age-icon.svg
+  alt: Ic&ocirc;ne de genre
+  slide: 2
+  bg: gender-slide.jpg
+- title: Ethnicit&eacute;
+  text: 'L&rsquo;ethnicit&eacute; est un autre facteur de risque d&rsquo;ost&eacute;oporose. Certaines ethnicit&eacute;s sont plus pr&eacute;dispos&eacute;es &agrave; l&rsquo;ost&eacute;oporose que d&rsquo;autres. Par exemple, l&rsquo;ost&eacute;oporose est plus fr&eacute;quente chez les populations de race blanche ou asiatique.'
+  icon: modal-icons/ethnicity-icon.svg
+  alt: Ic&ocirc;ne d&apos;ethnicit&eacute;
+  slide: 3
+  bg: ethnicity-slide.jpg
+- title: Ant&eacute;c&eacute;dents de fracture
+  text: 'La pr&eacute;sence d&rsquo;ant&eacute;c&eacute;dents de fracture augmente de 86 % le risque de fracture ult&eacute;rieure comparativement aux personnes qui n&rsquo;ont jamais subi de fracture.'
+  icon: modal-icons/previous-fracture-icon.svg
+  alt: Ic&ocirc;ne de fracture pr&eacute;c&eacute;dente
+  slide: 4
+  bg: previous-fracture-slide.jpg

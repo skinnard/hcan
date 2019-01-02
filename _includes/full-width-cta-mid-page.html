@@ -1,0 +1,29 @@
+<section class="full-width-cta__wrapper mid-page {{ page.page-class }}">    
+    <div class="img-wrapper top">
+        <img class="top-mask {{ page.page-class }}" src="{{ site.url }}/assets/img/blue-mask-top.svg" alt="Curver green border">
+    </div>
+    <div class="blue-bg">
+        <div class="full-width-cta container grid-mdlg">
+            <div class="full-width-cta__content">    
+                <h2 class="content__headline cta-h2">{{ page.full-width-cta-headline }}</h2>
+                {% if page.full-width-cta-dl-btn-white %}
+                <div class="btn-wrapper">
+                    <a href="#" class="btn download-btn download-btn--white">{{ page.full-width-cta-dl-btn-white }}</a>
+                </div>
+                {% endif %}
+                {% if page.full-width-cta-cta %}
+                <a href="{{ page.full-width-cta-link }}" class="arrow-cta">
+                    {{ page.full-width-cta-cta }}
+                    <img src="{{ site.url }}/assets/img/{{ page.full-width-cta-arrow }}" alt="Arrow Image">
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>   
+    <div class="img-wrapper bottom">
+        <img class="bottom-mask {{ page.page-class }}" src="{{ site.url }}/assets/img/blue-mask-bottom.svg" alt="Curver green border">
+    </div>
+</section>
+
+
+

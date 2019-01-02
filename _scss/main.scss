@@ -1,0 +1,21 @@
+// Import Spectre CSS framework
+@import "node_modules/spectre.css/src/spectre";
+@import "node_modules/spectre.css/src/spectre-exp";
+@import "node_modules/spectre.css/src/spectre-icons";
+
+// Import Web Fonts
+// @import "assets/fonts/hkgrotesk/stylesheet";
+
+// Import Vendor Files
+@import "vendor/index";
+
+// Import Custom Styles
+@import "utility/index";
+@import "components/index";
+@import "modules/index";
+@import "elements/index";
+@import "pages/index";
+
+body {
+	background:#fff;
+}

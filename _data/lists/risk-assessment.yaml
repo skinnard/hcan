@@ -1,0 +1,12 @@
+- title: I am 65 years of age or older
+  name: question-1
+- title: After the age of 40, I suffered a broken bone or a spinal fracture from<br class="show-small"> a simple fall, bump or everyday activity
+  name: question-2
+- title: My mother or father fractured a hip
+  name: question-3
+- title: I have used glucocorticoids such as prednisone for more than three months in the last year
+  name: question-4
+- title: I have a tendency to fall or lose my balancerces
+  name: question-5
+- title: I&rsquo;ve lost more than 2 cm (¾ inches) in height in the last two years
+  name: question-6

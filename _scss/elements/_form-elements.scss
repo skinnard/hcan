@@ -1,0 +1,65 @@
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: "";
+    background: transparent;
+    background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    background: transparent;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    text-align-last: center;
+    cursor: pointer;
+    border-radius: 3px;
+
+    &:focus,
+    &:active,
+    &:visited {
+        outline: none;
+    }
+}
+
+input {
+    cursor: pointer;
+    width: 100%;
+    margin-right: 30px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #adadad;
+    background-color: #fff;
+    padding: 10px;
+    color: $font;
+    height: 50px;
+    text-align: left;
+    @include font-size(18);
+
+    &::placeholder {
+        color: #adadad;
+    }
+}
+
+textarea {
+    cursor: pointer;
+    width: 100%;
+    margin-right: 30px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #adadad;
+    background-color: #fff;
+    padding: 10px;
+    color: $font;
+    text-align: left;
+    @include font-size(18);
+    overflow: auto;
+    height: 100px;
+
+    &::placeholder {
+        color: #adadad;
+    }
+}

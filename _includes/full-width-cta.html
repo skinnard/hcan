@@ -1,0 +1,50 @@
+<!-- full-width-cta__wrapper -->
+{% if page.page-class == 'prac-safety-info' or page.page-class == 'prac-start' or page.page-class == 'prac-provital' %}
+<section class="full-width-cta__wrapper {{ page.page-class }}" style="background: url('{{ site.url }}/assets/img/bottom_container_blue_shadow.svg') top center no-repeat; background-size: cover;">
+{% else %}
+<section class="full-width-cta__wrapper {{ page.page-class }}">
+{% endif %}
+
+	<div class="full-width-cta container grid-mdlg">
+		<div class="full-width-cta__content">
+			{% if page.full-width-cta-img %}
+				<img class="content__img" src="{{ site.url }}/assets/img/{{ page.full-width-cta-img }}" alt="ProVital Logo">
+            {% endif %}    
+            <h2 class="content__headline cta-h2">{{ page.full-width-cta-headline }}</h2>    
+			{% if page.full-width-cta-subhead %}
+                <p class="content__subhead">{{ page.full-width-cta-subhead }}</p>
+            {% endif %}
+            {% if page.page-class == 'pat-provital' %}
+                <a href="tel:18777761002" class="content__subhead">1-877-PRO-1002 <span>(1-877-776-1002)</span></a>
+            {% endif %}  
+            {% if page.full-width-cta-cta %}
+                <a href="{{ page.full-width-cta-link }}" class="arrow-cta">
+                    {{ page.full-width-cta-cta }}
+                    <img src="{{ site.url }}/assets/img/{{ page.full-width-cta-arrow }}" alt="Arrow Image">
+                </a>
+            {% endif %}
+            {% if page.full-width-cta-dl-btn %}
+                <div class="btn-wrapper">
+					<a href="#" class="btn download-btn">{{ page.full-width-cta-dl-btn }}</a>
+                </div>
+            {% elsif page.full-width-cta-dl-btn-white %}
+                <div class="btn-wrapper">
+					<a href="#" class="btn download-btn download-btn--white">{{ page.full-width-cta-dl-btn-white }}</a>
+                </div>
+            {% endif %}
+            {% if page.full-width-cta-contact %}
+                <div class="contact-wrapper">
+                    <h5>{{ page.full-width-cta-contact }}</h5>
+                </div>    
+            {% endif %} 
+        </div>
+    </div>
+    {% if page.page-class == 'prac-faq' %}
+        <img class="bottom-mask {{ page.page-class }}" src="{{ site.url }}/assets/img/blue-mask-bottom.svg" alt="Curved green border">
+    {% endif %}
+	{% if page.page-class != 'pat-provital' and page.page-class != 'prac-home' and page.page-class != 'prac-safety-info' and page.page-class != 'prac-start' and page.page-class != 'prac-provital' and page.page-class != 'prac-faq' %}
+		<img class="bottom-mask" src="{{ site.url }}/assets/img/callout-mask-bottom.png" alt="Curved green border">
+    {% endif %}
+    
+</section>
+<!-- .full-width-cta__wrapper -->

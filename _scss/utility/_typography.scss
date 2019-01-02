@@ -1,0 +1,301 @@
+// Typography
+// Anti Aliasing
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // color: #000000;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    font-family: $headline-font;
+    color: $font;
+}
+
+h1,
+.h1 {
+    @include font-size(60);
+    line-height: 1.2;
+    
+    @include mq(small, max) {
+        @include font-size(32);
+    }
+    @include mq(xsmall, max) {
+        @include font-size(28);
+    }
+}
+
+h2,
+.h2 {
+    @include font-size(45);
+    line-height: 1.2;
+
+    @include mq(small, max) {
+        @include font-size(32);
+    }
+
+    @include mq(xsmall, max) {
+        @include font-size(28);
+    }
+}
+
+.cta-h2 {
+    @include font-size(45);
+    line-height: 1.2;
+
+    @include mq(med, max) {
+        @include font-size(40);
+    }
+
+    @include mq(small, max) {
+        @include font-size(38);
+    }
+
+    @include mq(xsmall, max) {
+        @include font-size(30);
+    }
+}
+
+h3,
+.h3 {
+    @include font-size(38);
+}
+
+h4,
+.h4 {
+    @include font-size(32);
+}
+
+h5,
+.h5 {
+    @include font-size(28);
+
+    @include mq(med, max) {
+        @include font-size(24);
+    }
+
+    @include mq(small, max) {
+        @include font-size(22);
+    }
+
+    @include mq(xsmall, max) {
+        @include font-size(20);
+    }
+}
+
+h6,
+.h6 {
+    @include font-size(22);
+    line-height: 1.6;
+    font-family: $body-font;
+    font-family: $body-font;
+
+    @include mq(xsmall, max) {
+        @include font-size(20);
+    }
+}
+
+// Paragraphs
+p {
+    margin: 0 0 $line-height;
+    font-family: $body-font;
+    @include font-size(18);
+    line-height: 1.6;
+    color: $font;
+
+    @include mq(small, max) {
+        @include font-size(18);
+    }
+
+    @include mq(xsmall, max) {
+        @include font-size(16);
+    }
+}
+
+// Text Button CTA's
+.cta {
+    font-family: $body-font;
+    @include font-size(16);
+    line-height: 1.2;
+}
+
+// Text within accordion boxes
+.accordion-text {
+    font-family: $body-font;
+    @include font-size(18);
+    line-height: 1.2;
+}
+
+// Legal Text
+.legal-large {
+    @include font-size(12);
+    font-family: $body-font;
+}
+
+.legal {
+    @include font-size(10);
+    font-family: $body-font;
+}
+
+.legal-8 {
+    @include font-size(8);
+    font-family: $body-font;
+}
+
+// Semantic text elements
+a,
+ins,
+u {
+    text-decoration-skip: ink edges;
+}
+
+abbr[title] {
+    border-bottom: $border-width dotted;
+    cursor: help;
+    text-decoration: none;
+}
+
+kbd {
+    @include label-base();
+    @include label-variant($light-color, $dark-color);
+    font-size: $font-size-sm;
+}
+
+mark {
+    @include label-variant($body-font-color, $highlight-color);
+    border-radius: $border-radius;
+    padding: 0.05rem;
+}
+
+// Blockquote
+blockquote {
+    border-left: $border-width-lg solid $border-color;
+    margin-left: 0;
+    padding: $unit-2 $unit-4;
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+// Lists
+ul,
+ol {
+    margin: $unit-4 0 $unit-4 $unit-4;
+    padding: 0;
+
+    ul,
+    ol {
+        margin: $unit-4 0 $unit-4 $unit-4;
+    }
+
+    li {
+        margin-top: $unit-2;
+    }
+}
+
+ol {
+    list-style: decimal inside;
+
+    ol {
+        list-style-type: lower-alpha;
+    }
+}
+
+ul {
+    list-style: disc inside;
+
+    ul {
+        list-style-type: circle;
+    }
+}
+
+dl {
+    dt {
+        font-weight: bold;
+    }
+
+    dd {
+        margin: $unit-2 0 $unit-4 0;
+    }
+}
+
+/* Mozilla based browsers */
+
+::-moz-selection {
+    background-color: $accent;
+    color: #fff;
+}
+
+/* Works in Safari */
+
+::selection {
+    background-color: $accent;
+    color: #fff;
+}
+
+.h1-sup {
+    vertical-align: 18px;
+    font-size: 20px;
+
+    @include mq(small, max) {
+        font-size: 12px;
+        vertical-align: 10px;
+    }
+
+    @include mq(xsmall, max) {
+        font-size: 10px;
+        vertical-align: 18px;
+    }
+}
+
+.title-sup {
+    vertical-align: 15px;
+    font-size: 17px;
+
+    @include mq(small, max) {
+        font-size: 10px;
+        vertical-align: 8px;
+    }
+
+    @include mq(xsmall, max) {
+        font-size: 8px;
+        vertical-align: 8px;
+    }
+}
+
+.h5-sup {
+    vertical-align: 8px;
+    font-size: 13px;
+}
+
+.body-sup {
+    vertical-align: 5px;
+    font-size: 10px;
+}
+
+// Links
+a {
+    color: c;
+
+    
+    &:visited,
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    &:hover {
+        color: $accent;
+    }
+}

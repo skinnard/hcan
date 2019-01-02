@@ -1,0 +1,212 @@
+// Flickity Styles
+
+.full-width-slider {
+    padding: 0;
+    min-height: 800px;
+    height: 800px;
+
+    @include mq(small, max) {
+        height: 600px;
+        min-height: 600px;
+        padding: 0;
+        left: 0;
+        top: 0;
+        transform: translate(0, 0);
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+        cursor: pointer;
+        width: 48px;
+        height: 48px;
+
+        svg {
+            width: 50px;
+
+            @include mq(small, max) {
+                width: 25px;
+            }
+
+            &:hover {
+                #outer-circle {
+                    stroke: #ec008c;
+                    @include default-transition;
+                }
+
+                #inner-x {
+                    fill: #ec008c;
+                    stroke: #ec008c;
+                    @include default-transition;
+                }
+            }
+        }
+    }
+
+    .flickity-prev-next-button {
+        border-radius: 0;
+        color: #fff;
+
+        &:hover {
+            color: #ec008c;
+        }
+
+        &.previous {
+            background-position: left !important;
+            text-align: right;
+            left: calc((100% - 800px)/2);
+            width: auto;
+
+            span {
+                padding-left: 70px;
+            }
+
+            @include mq(custom, max, '800') {
+                left: 10%;
+            }
+
+            @include mq(small, max) {
+                width: 30px;
+            }
+
+            // @include mq(xsmall, max) {
+            //     bottom: 0;
+            // }
+        }
+
+        &.next {
+            background-position: right !important;
+            text-align: left;
+            right: calc((100% - 800px)/2);
+            width: auto;
+
+            @include mq(custom, max, '800') {
+                right: 10%;
+            }
+
+            @include mq(small, max) {
+                width: 30px;
+            }
+
+            // @include mq(xsmall, max) {
+            //     bottom: 0;
+            // }
+
+            span {
+                padding-right: 70px;
+            }
+        }
+    }
+
+    .carousel-dots {
+        position: absolute;
+        bottom: 10%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel-content-wrapper {
+        width: 100%;
+        height: 100%;
+
+        .carousel-content {
+            background: #313b5f;
+            width: 100%;
+            height: 100%;
+            padding: 100px;
+            display: flex;
+            align-items: center;
+
+            @include mq(small, max) {
+                padding: 30px;
+            }
+
+            @include mq(small, max) {
+                display: block;
+            }
+
+            .carousel-content-inner-wrapper {
+                color: #fff;
+                max-width: 800px;
+                margin: 0 auto;
+                font-size: 24px;
+
+                h5 {
+                    color: #fff;
+                    @include font-size(50);
+
+                    @include mq(small, max) {
+                        @include font-size(36);
+                    }
+
+                    @include mq(xsmall, max) {
+                        @include font-size(28);
+                    }
+
+                    i {
+                        padding-left: 10px;
+                        font-size: 12px;
+
+                        @include mq(small, max) {
+                            font-size: 8px;
+                        }
+                    }
+                }
+
+                .modal-text {
+                    p {
+                        color: #fff;
+
+
+                        a {
+                            color: #fff;
+                            text-decoration: underline;
+
+                            &:hover {
+                                color: #ec008c;
+                            }
+                        }
+                    }
+
+                    ul {
+                        margin: 0;
+
+                        li {
+                            @include font-size(22);
+                            margin-bottom: 20px;
+
+                            @include mq(small, max) {
+                                @include font-size(18);
+                            }
+                            
+                            @include mq(small, max) {
+                                @include font-size(16);
+                            }
+                        }
+                    }
+                }
+
+                a {
+                    display: inline;
+                }
+
+                .btn-wrapper {
+                    justify-content: flex-start;
+                    margin-top: 1em;
+                }
+            }
+        }
+    }           
+}
+
+.fr-living .full-width-slider,
+.en-living .full-width-slider, {
+
+    @include mq(small, max) {
+        padding: 0;
+        min-height: 500px;
+        height: 500px;
+    }
+}

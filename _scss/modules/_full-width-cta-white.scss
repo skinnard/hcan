@@ -1,0 +1,41 @@
+.full-width-cta-white__wrapper {
+    background: #FFFFFF;
+    @extend %section-padding-both;
+    position: relative;
+
+    .container {
+        position: relative;
+        z-index: 102;
+    }
+
+    .full-width-cta-white__content {
+        text-align: center;
+
+        @include mq(small, max) {
+            text-align: left;
+        }
+
+        h2,
+        p,
+        a {
+            color: #000000;
+        }
+
+        .last {
+            margin-bottom: 2rem;
+        }
+
+        .img-wrapper {
+            text-align: center;
+
+            @include mq(small, max) {
+                text-align: left;
+            }
+
+            img {
+                width: 100%;
+                max-width: 1200px;
+            }
+        }
+    }
+}

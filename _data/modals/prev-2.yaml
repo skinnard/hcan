@@ -1,0 +1,18 @@
+- title: Calcium
+  text: '<a href="/en/living-with-osteoporosis/nutrition/">Calcium</a> helps bones stay strong. It is also required by almost every cell in the body to keep them functioning properly. If the body does not have access to adequate calcium supplies, it will deplete calcium reserves from our bones, reducing their density. Maintaining calcium intake is an important step towards good bone health throughout life. Studies of older adults show that adequate calcium intake can slow bone loss and lower the risk of fracture.'
+  icon: modal-icons/vitamin-c-icon.svg
+  alt: Calcium Icon
+  slide: 1
+  bg: calcium adulthood slide.jpg
+- title: Vitamin D
+  text: 'The body uses <a href="/en/living-with-osteoporosis/nutrition/">Vitamin D</a> to extract calcium from the foods that we eat. Vitamin D is also produced in the body when we are exposed to sunlight. Sun exposure is lessened in the winter months, and less Vitamin D is produced as a result. Dietary choices and the intake of certain supplements can increase levels of Vitamin D. Experts recommend that all Canadian adults take a vitamin D supplement (specifically, vitamin D3 or cholecalciferol) year-round.'
+  icon: modal-icons/vitamin-d-icon.svg
+  alt: Vitamin D Icon
+  slide: 2
+  bg: vitamin-d-adult-slide.jpg
+- title: Weight-Bearing Activities
+  text: '<a href="/en/living-with-osteoporosis/exercise/">Weight-bearing exercises</a> can help build strong bones and maintain bone density. They are done with the body remaining upright so that feet and legs support body weight. The term &ldquo;weight-bearing&rdquo; should not be confused with lifting weights (known as strength training). Weight-bearing exercises can include: low-impact aerobics, walking/hiking, elliptical training, and using a stair-step machine.'
+  icon: modal-icons/weight-bearing-icon.svg
+  alt: Weight-Bearing Activities Icon
+  slide: 3
+  bg: weight-bearing-slide.jpg

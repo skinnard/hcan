@@ -1,0 +1,24 @@
+<!-- .two-col-img-r-3 -->
+<section class="two-col-img-r-3 {{ page.page-class }}"> 
+    <div class="two-col-img-r-3__left">
+        <div class="content">
+            {% if page.two-col-img-r-3-title %}
+            <h2>{{ page.two-col-img-r-3-title }}</h2>
+            {% endif %}
+
+            {% if page.two-col-img-r-3-text %}
+            <p>{{ page.two-col-img-r-3-text }}</p>
+            {% endif %}
+
+            {% if page.two-col-img-r-3-text-2 %}
+            <p>{{ page.two-col-img-r-3-text-2 }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="two-col-img-r-3__right">
+        <div class="img-wrapper" style="background: url('{{ site.url }}/assets/img/{{ page.two-col-img-r-3-img }}') center no-repeat; background-size: cover;">
+        </div>
+    </div>
+</section>
+<!-- /.two-col-img-r-3 -->

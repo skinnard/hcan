@@ -1,0 +1,13 @@
+- title: 'Do you sometimes miss a dose or forget to take your
+osteoporosis medication?'
+  name: question-1
+- title: 'Are you experiencing any side effects with your current medication?'
+  name: question-2
+- title: 'Are you dissatisfied with your current medication?'
+  name: question-3
+- title: 'Are you on any other medications that may affect your treatment?'
+  name: question-4
+- title: 'Have you lost more than 2 cm (¾ inches) in height since starting your current treatment?'
+  name: question-5
+- title: 'Have you broken a bone since starting your current treatment?'
+  name: question-6

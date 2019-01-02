@@ -1,0 +1,70 @@
+.pink-cta__wrapper {
+    background: #ec008c;
+    padding: 100px 0;
+    margin: 0;
+    z-index: 102;
+    position: relative;
+
+    @include mq(small, max) {
+        padding: 60px 0;
+    }
+
+    .pink-cta {
+        margin: 0 auto;
+
+        h2 {
+            @include font-size(58);
+            font-family: $headline-font;
+            text-align: center;
+            color: #FFFFFF;
+            margin-bottom: 2rem;
+
+            @include mq(med, max) {
+                @include font-size(46);
+            }
+
+            @include mq(small, max) {
+                @include font-size(40);
+            }
+
+            @include mq(xsmall, max) {
+                @include font-size(28);
+                line-height: 1;
+            }
+        }
+
+        p {
+            color: #FFFFFF;
+            margin-bottom: 3rem;
+            font-family: $body-font;
+            text-align: center;
+        }
+    }
+}
+
+.pink-cta__wrapper.lang-fr {
+    .pink-cta {
+        h2 {
+            @include font-size(48);
+
+            @include mq(med, max) {
+                @include font-size(40);
+            }
+
+            @include mq(small, max) {
+                @include font-size(32);
+            }
+
+            @include mq(xsmall, max) {
+                @include font-size(26);
+                line-height: 1;
+            }
+        }
+
+        p {
+            color: #FFFFFF;
+            margin-bottom: 3rem;
+            font-family: $body-font;
+        }
+    }
+}

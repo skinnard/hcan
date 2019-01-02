@@ -1,0 +1,18 @@
+- title: Calcium
+  text: '<a href="/fr/vivre-avec-l-osteoporose/nutrition/">Le calcium</a> aide &agrave; maintenir la solidit&eacute; des os. Presque toutes les cellules de l&rsquo;organisme en ont &eacute;galement besoin pour assurer leur bon fonctionnement. Si l&rsquo;organisme ne dispose pas d&rsquo;un apport ad&eacute;quat en calcium, il &eacute;puisera les r&eacute;serves de calcium des os, ce qui r&eacute;duira leur densit&eacute;. Le maintien d&rsquo;un apport ad&eacute;quat en calcium est une &eacute;tape importante pour assurer une bonne sant&eacute; osseuse tout au long de la vie. Des &eacute;tudes men&eacute;es chez des personnes &acirc;g&eacute;es ont montr&eacute; qu&rsquo;un apport suffisant en calcium peut ralentir la perte osseuse et diminuer le risque de fracture.'
+  icon: modal-icons/vitamin-c-icon.svg
+  alt: Ic&ocirc;ne de calcium
+  slide: 1
+  bg: calcium adulthood slide.jpg
+- title: Vitamine&nbsp;D
+  text: 'L&rsquo;organisme utilise la <a href="/fr/vivre-avec-l-osteoporose/nutrition/">Vitamine&nbsp;D</a> pour extraire le calcium des aliments que nous consommons. La Vitamine&nbsp;D est &eacute;galement produite par l&rsquo;organisme lorsque nous sommes expos&eacute;s &agrave; la lumi&egrave;re du soleil. L&rsquo;exposition au soleil diminue pendant les mois d&rsquo;hiver, ce qui diminue la production de Vitamine&nbsp;D. Les choix alimentaires et la prise de certains suppl&eacute;ments peuvent augmenter les taux de Vitamine&nbsp;D. Les experts recommandent &agrave; tous les adultes canadiens de prendre un suppl&eacute;ment de Vitamine&nbsp;D (nomm&eacute;ment la Vitamine&nbsp;D3 ou chol&eacute;calcif&eacute;rol) toute l&rsquo;ann&eacute;e.'
+  icon: modal-icons/vitamin-d-icon.svg
+  alt: Ic&ocirc;ne de la Vitamine&nbsp;D
+  slide: 2
+  bg: vitamin-d-adult-slide.jpg
+- title: Exercices de port de poids
+  text: '<a href="/fr/vivre-avec-l-osteoporose/activite-physique/">Les exercices de port de poids</a> peuvent renforcer les os et maintenir la densit&eacute; osseuse. Ils sont ex&eacute;cut&eacute;s en position debout afin que les pieds et les jambes supportent le poids du corps. Il ne faut pas confondre le &laquo; port de poids &raquo; et le &laquo; soul&egrave;vement de poids &raquo; (appel&eacute; entra&icirc;nement musculaire). Les exercices de port de poids peuvent comprendre&nbsp;: danse a&eacute;robique &agrave; faible impact, marche/randonn&eacute;e, entra&icirc;nement elliptique et entra&icirc;nement sur simulateur d&rsquo;escalier.'
+  icon: modal-icons/weight-bearing-icon.svg
+  alt: Ic&ocirc;ne activit&eacute;s portantes
+  slide: 3
+  bg: weight-bearing-slide.jpg

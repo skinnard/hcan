@@ -1,0 +1,61 @@
+faq:
+- title: Inhibiteur du ligand de RANK
+  content: 
+    - td1: Prolia* (denosumab)
+      td2: Inhibe le ligand de RANK, une prot&eacute;ine qui active les cellules participant &agrave; la d&eacute;gradation osseuse (les ost&eacute;oclastes). Cet effet renforce les os en augmentant la masse osseuse et en diminuant le risque de fracture de la hanche, de la colonne vert&eacute;brale et des autres os.
+      td3: Indiqu&eacute; pour le traitement de l&rsquo;ost&eacute;oporose chez les femmes m&eacute;nopaus&eacute;es, les hommes et les femmes expos&eacute;s &agrave; un risque &eacute;lev&eacute; de fractures ou intol&eacute;rants &agrave; d&rsquo;autres m&eacute;dicaments contre l&rsquo;ost&eacute;oporose, ainsi que ceux n&rsquo;ayant pas r&eacute;pondu &agrave; d&rsquo;autres traitements
+      td4: Injection sous-cutan&eacute;e tous les six mois
+      side-effects: '<strong>Les effets secondaires des inhibiteurs du ligand de RANK peuvent comprendre&nbsp;:</strong> Douleur aux muscles, aux bras, aux jambes ou au dos (ces effets secondaires &eacute;taient &eacute;galement tr&egrave;s fr&eacute;quents chez les patients ayant re&ccedil;u un placebo); atteintes cutan&eacute;es accompagn&eacute;es de d&eacute;mangeaisons, de rougeur ou de s&eacute;cheresse (ecz&eacute;ma). Ils peuvent aussi causer une infection cutan&eacute;e se manifestant par l&rsquo;apparition d&rsquo;une zone cutan&eacute;e rouge et enfl&eacute;e, chaude et douloureuse, pouvant &ecirc;tre accompagn&eacute;e d&rsquo;une fi&egrave;vre (cellulite); ainsi qu&rsquo;une diminution du taux sanguin de calcium (hypocalc&eacute;mie).'
+
+- title: Bisphosphonates
+  content: 
+    - td1: Aclasta* (acide zolédronique)
+      td2: Ralentit la r&eacute;sorption osseuse (caus&eacute;e par les ost&eacute;oclastes), ce qui laisse aux cellules qui interviennent dans la formation des os (les ost&eacute;oblastes) le temps de reconstruire un tissu osseux normal
+      td3: Traitement de l&rsquo;ost&eacute;oporose post-m&eacute;nopausique visant &agrave; r&eacute;duire la fr&eacute;quence des fractures de la hanche, des fractures vert&eacute;brales et non vert&eacute;brales;
+      td4: Perfusion (intraveineuse) administr&eacute;e une fois par an
+      td5: Actonel* (ris&eacute;dronate)
+      td6: Aide &agrave; augmenter la densit&eacute; osseuse. Reconstruit une partie du tissu osseux perdu, ce qui contribue &agrave; r&eacute;duire le risque de fractures de la colonne vert&eacute;brale et les autres fractures.
+      td7: Traitement de l&rsquo;ost&eacute;oporose chez les femmes m&eacute;nopaus&eacute;es, les hommes et les patients sous corticoth&eacute;rapie atteints d&rsquo;ost&eacute;oporose caus&eacute;e par des glucocorticost&eacute;ro&iuml;des
+      td8: 'Un comprim&eacute; &agrave; prendre par voie orale&nbsp;: <ul><li>une fois par jour ou</li><li>une fois par semaine ou</li><li>une fois par mois (deux jours cons&eacute;cutifs)</li></ul>'
+      td9: Didrocal* (&eacute;tidronate et carbonate de calcium)
+      td10: Augmente la masse osseuse dans la colonne vert&eacute;brale
+      td11: Traitement de l&rsquo;ost&eacute;oporose chez les femmes m&eacute;nopaus&eacute;es
+      td12: Comprim&eacute;s &agrave; prendre par voie orale, une fois par jour pendant 14 jours, suivis d&rsquo;un comprim&eacute; de calcium par jour pendant 76 jours
+      td13: Fosamax* (alendronate)
+      td14: Augmente la masse osseuse et pr&eacute;vient les fractures, y compris celles de la hanche et de la colonne vert&eacute;brale
+      td15: Traitement de l&rsquo;ost&eacute;oporose chez les femmes m&eacute;nopaus&eacute;es, les hommes et les patients atteints d&rsquo;ost&eacute;oporose caus&eacute;e par des glucocorticost&eacute;ro&iuml;des
+      td16: 'Un comprim&eacute; &agrave; prendre par voie orale&nbsp;:<ul><li>une fois par jour ou</li><li>une fois par semaine ou</li><li>Une solution &agrave; prendre par voie orale une fois par semaine</li></ul>'
+      td17: Fosavance* (alendronate + chol&eacute;calcif&eacute;rol)
+      td18: L&rsquo;alendronate augmente la masse osseuse et peut pr&eacute;venir les fractures, y compris celles de la hanche et de la colonne vert&eacute;brale. Le chol&eacute;calcif&eacute;rol (Vitamine&nbsp;D3) intervient dans l&rsquo;absorption et la r&eacute;gulation du calcium.
+      td19: Traitement de l&rsquo;ost&eacute;oporose chez les femmes m&eacute;nopaus&eacute;es et les hommes
+      td20: Un comprim&eacute; &agrave; prendre par voie orale une fois par semaine
+      side-effects: '<strong>Bisphosphonates &ndash; Les effets secondaires peuvent comprendre&nbsp;:</strong> la naus&eacute;e, les douleurs abdominales et les selles molles. Certains patients prenant des bisphosphonates ont &eacute;prouv&eacute; une douleur aux os, aux articulations et/ou aux muscles; par contre, ces cas sont plus rares. Il existe un risque d&rsquo;ulc&egrave;re &oelig;sophagien avec la prise de l&rsquo;alendronate et du ris&eacute;dronate en particulier lorsque pris incorrectement. Les effets secondaires les plus fr&eacute;quents associ&eacute;s &agrave; l&rsquo;acide zol&eacute;dronique et qui se produisent durant un ou deux jours seulement sont&nbsp;: une fi&egrave;vre, de la douleur aux muscles, aux os ou aux articulations, et des maux de t&ecirc;te.'
+
+- title: Hormonoth&eacute;rapie
+  content: 
+    - td1: Climara* (estradiol h&eacute;mihydrat&eacute;)
+      td2: Le traitement peut retarder toute perte osseuse suppl&eacute;mentaire
+      td3: Traitement de l&rsquo;ost&eacute;oporose chez les femmes m&eacute;nopaus&eacute;es, ayant d&eacute;j&agrave; re&ccedil;u un diagnostic d&rsquo;ost&eacute;oporose et subi des fractures vert&eacute;brales
+      td4: Syst&egrave;me transdermique &agrave; remplacer tous les sept jours
+      td5: Estradot* (estradiol-17B)
+      td6: Le traitement peut retarder toute perte osseuse suppl&eacute;mentaire
+      td7: Traitement de l&rsquo;ost&eacute;oporose chez les femmes m&eacute;nopaus&eacute;es, ayant d&eacute;j&agrave; re&ccedil;u un diagnostic d&rsquo;ost&eacute;oporose et subi des fractures vert&eacute;brales
+      td8: Syst&egrave;me transdermique appliqu&eacute; deux fois par semaine, port&eacute; continuellement pendant 3-4 jours
+      side-effects: '<strong>Les effets secondaires de l&rsquo;hormonoth&eacute;rapie peuvent comprendre&nbsp;:</strong> d&eacute;pression, maux de t&ecirc;te, douleur mammaire, syndrome pr&eacute;menstruel, irritation cutan&eacute;e et gain pond&eacute;ral. Des saignements menstruels peuvent &eacute;galement se produire. L&rsquo;utilisation d&rsquo;&oelig;strog&egrave;ne/de progest&eacute;rone pendant plus de cinq ans accro&icirc;t le risque de cancer du sein, d&rsquo;accident vasculaire c&eacute;r&eacute;bral et de maladie cardiovasculaire chez les femmes. Par ailleurs, le risque de thromboembolie veineuse (caillots sanguins) est &eacute;galement plus &eacute;lev&eacute;, pareil &agrave; celui des femmes sous raloxif&egrave;ne. Le risque de cancer de l&rsquo;endom&egrave;tre augmente si l&rsquo;&oelig;strog&eacute;noth&eacute;rapie est utilis&eacute;e sans progest&eacute;rone; toutefois, ce risque est r&eacute;duit au minimum par l&rsquo;ajout de progest&eacute;rone chez les femmes n&rsquo;ayant pas subi d&rsquo;hyst&eacute;rectomie. La pr&eacute;sence de risques consid&eacute;rables de maladie cardiovasculaire, d&rsquo;accident vasculaire c&eacute;r&eacute;bral et de cancer du sein invasif peut entra&icirc;ner un rapport risques-bienfaits d&eacute;favorable de l&rsquo;utilisation prolong&eacute;e de l&rsquo;hormonoth&eacute;rapie si elle est administr&eacute;e uniquement pour le traitement de l&rsquo;ost&eacute;oporose postm&eacute;nopausique. Il faudrait d&rsquo;abord explorer d&rsquo;autres options th&eacute;rapeutiques'
+
+- title: Modulateurs s&eacute;lectifs des r&eacute;cepteurs &oelig;strog&eacute;niques (MSRO)
+  content: 
+    - td1: Evista* (raloxif&amp;egrave;ne)
+      td2: 'Agit comme les &oelig;strog&egrave;nes dans les os&nbsp;: favorise la synth&egrave;se de nouveau tissu osseux'
+      td3: Traitement de l&rsquo;ost&eacute;oporose chez les femmes m&eacute;nopaus&eacute;es
+      td4: Comprim&eacute; &agrave; prendre par voie orale une fois par jour
+      side-effects: '<strong>Les effets secondaires des MSRO peuvent comprendre&nbsp;:</strong> Bouff&eacute;es de chaleur et crampes aux jambes. Il existe aussi un risque accru de thromboembolie veineuse (caillots sanguins) pareil &agrave; celui d&eacute;tect&eacute; chez les femmes sous hormonoth&eacute;rapie.'
+
+- title: Parathormone (PTH)
+  content: 
+    - td1: Forteo* (t&eacute;riparatide)
+      td2: Favorise la formation de nouveau tissu osseux en stimulant les cellules qui forment le tissu osseux, ce qui augmente la densit&eacute; osseuse.
+      td3: '&ndash; Traitement de l&rsquo;ost&eacute;oporose s&eacute;v&egrave;re chez les femmes m&eacute;nopaus&eacute;es chez qui le risque de fracture est &eacute;lev&eacute; ou chez qui un autre traitement contre l&rsquo;ost&eacute;oporose a &eacute;chou&eacute; ou n&rsquo;a pas &eacute;t&eacute; tol&eacute;r&eacute;. &ndash; Augmenter la masse osseuse chez les hommes atteints d&rsquo;ost&eacute;oporose s&eacute;v&egrave;re primaire ou caus&eacute;e par un hypogonadisme chez qui un autre traitement contre l&rsquo;ost&eacute;oporose a &eacute;chou&eacute; ou n&rsquo;a pas &eacute;t&eacute; tol&eacute;r&eacute;. Les effets du m&eacute;dicament sur le risque de fracture chez les hommes n&rsquo;ont pas &eacute;t&eacute; d&eacute;montr&eacute;s.
+&ndash; Traitement de l&rsquo;ost&eacute;oporose associ&eacute;e &agrave; une th&eacute;rapie syst&eacute;mique prolong&eacute;e aux glucocortico&iuml;des chez les hommes et les femmes qui ont un risque accru de fracture.'
+      td4: Injection sous-cutan&eacute;e (sous la peau) dans la cuisse ou la paroi abdominale, une fois par jour
+      side-effects: '<strong>Les effets secondaires de la parathormone peuvent comprendre&nbsp;:</strong> &eacute;tourdissements, naus&eacute;es, douleur articulaire et crampes aux jambes.'

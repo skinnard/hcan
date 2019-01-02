@@ -1,0 +1,7 @@
+- title: Alcohol
+  bgimg: danger_hero.jpg
+  text: People who consume more than 2 units of alcohol per day have a 40% increased risk of osteoporotic fracture, compared to those who drink moderately or consume no alcohol whatsoever. High alcohol intakes can cause secondary osteoporosis due their adverse effects on bone-forming cells, the hormone responsible for regulating calcium metabolism.
+  icon: alcohol-icon-no-circle.svg
+  icon-alt: Alcohol Icon
+  next: Vitamin D Deficiency
+  prev: Smoking

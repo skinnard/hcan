@@ -1,0 +1,80 @@
+icon-section:
+  - title: Facteurs de risque <span class="underline">non modifiables</span><i class="fas fa-circle hb-pink hb-period"></i>
+    subtitle: Bien que vous ne puissiez pas modifier certains facteurs de risque, il est important de les conna&icirc;tre. Si vous d&eacute;couvrez que vous pr&eacute;sentez un risque, parlez &agrave; votre m&eacute;decin des mesures que vous pouvez prendre pour att&eacute;nuer la perte min&eacute;rale osseuse.
+    section: section-1
+    subsection:
+    - title: Facteurs de risque secondaires
+      subtitle: 'Les facteurs de risque secondaires comprennent les affections et les m&eacute;dicaments qui peuvent affaiblir les os et nuire &agrave; l&rsquo;&eacute;quilibre d&rsquo;une personne (ce qui augmente son risque de fracture). Ces facteurs de risque secondaires comprennent&nbsp;:'
+      accordion:
+      - title: Affections m&eacute;dicales
+        content: 
+          - <li>Asthme</li>
+          - <li>Troubles endocriniens</li>
+          - <li>Probl&egrave;mes gastro-intestinaux (p. ex. maladie de Crohn)</li>
+          - <li>Troubles/cancers h&eacute;matologiques</li>
+          - <li>Hyst&eacute;rectomie si elle est accompagn&eacute;e de l&rsquo;ablation des ovaires</li>
+          - <li>S&eacute;dentarit&eacute;</li>
+          - <li>Polyarthrite rhumato&iuml;de</li>
+          - <li>&Eacute;tats hypogonadiques</li>
+      - title: Traitements m&eacute;dicaux
+        content: 
+          - <li>Antiacides</li>
+          - <li>Inhibiteurs de l&rsquo;aromatase</li>
+          - <li>Certains anticonvulsivants</li>
+          - <li>Certains anti&eacute;pileptiques</li>
+          - <li>Certains antipsychotiques</li>
+          - <li>Certains immunosuppresseurs (calmoduline/inhibiteurs de la calcineurine phosphatase)
+          - <li>Certaines hormones st&eacute;ro&iuml;diennes (ac&eacute;tate de m&eacute;droxyprogest&eacute;rone, agonistes de l&rsquo;hormone de lib&eacute;ration de la lut&eacute;inostimuline)</li>
+          - <li>Glucocorticost&eacute;ro&iuml;des</li>
+          - <li>Lithium</li>
+          - <li>M&eacute;thotrexate</li>
+          - <li>Inhibiteurs de la pompe &agrave; protons</li>
+          - <li>Traitement par une hormone thyro&iuml;dienne (L-thyroxine)</li>
+    icons: 
+    - icon: age-icon.svg
+      id: rf-age
+      caption: '&Acirc;ge'
+      alt: Ic&ocirc;ne d&apos;&acirc;ge
+    - icon: gender-icon.svg
+      id: rf-gender
+      caption: Sexe
+      alt: Ic&ocirc;ne de genre
+    - icon: ethnicity-icon.svg
+      id: rf-eth
+      caption: Ethnicit&eacute;
+      alt: Ic&ocirc;ne d&apos;ethnicit&eacute;
+    - icon: previous-fracture-icon.svg
+      id: rf-frac
+      caption: Ant&eacute;c&eacute;dents de fracture
+      alt: Ic&ocirc;ne de fracture pr&eacute;c&eacute;dente
+
+  - title: Facteurs de risque <span class="underline">modifiables</span><i class="fas fa-circle hb-pink hb-period"></i>
+    section: section-2
+    subtitle: Certains facteurs de risque sont incontr&ocirc;lables. Par contre, certains changements de mode de vie peuvent aider &agrave; r&eacute;duire vos&nbsp;risques.
+    subsection:
+    - title: Autres facteurs de risque modifiables
+      points:
+      - Faible indice de masse corporelle (IMC)
+      - Troubles alimentaires (p. ex. anorexie et boulimie)
+      - D&eacute;ficit en &oelig;strog&egrave;ne
+      - Activit&eacute; physique insuffisante
+    icons: 
+    - icon: alcohol-icon.svg
+      id: rf-alcohol
+      caption: Consommation d&rsquo;alcool
+      alt: Ic&ocirc;ne de l&apos;alcool
+    - icon: smoking-icon.svg
+      id: rf-snoking
+      caption: Tabagisme
+      alt: Ic&ocirc;ne de fumer
+    - icon: vitamin-d-icon.svg
+      id: rf-vitd
+      caption: Carence en Vitamine&nbsp;D et en calcium
+      alt: Ic&ocirc;ne carence en Vitamine&nbsp;D
+    - icon: frequent-falls-icon.svg
+      id: rf-falls
+      caption: Chutes fr&eacute;quentes
+      alt: Ic&ocirc;ne de chutes fr&eacute;quentes
+
+  
+    

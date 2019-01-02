@@ -1,0 +1,47 @@
+.one-col-cta {
+    position: relative;
+    // z-index: 1;
+    @extend %section-padding;
+
+    .content {
+        // padding: 200px 0;
+
+        @include mq(small, max) {
+            padding: 80px 30px;
+        }
+
+        .content-wrapper {
+            max-width: 600px;
+        }
+    }
+}
+
+.one-col-cta.en-home,
+.one-col-cta.fr-home {
+    position: relative;
+    @extend %section-padding;
+    @extend %last-section-padding;
+    
+    @include mq(small, max) {
+        background: none !important;
+    }
+
+    .content {
+
+        @include mq(med, max) {
+            padding: 0 30px 60px;
+        }
+
+        @include mq(small, max) {
+            padding: 0 30px 0;
+        }
+
+        .content-wrapper {
+            max-width: 500px;
+
+            .text-wrapper {
+                margin-top: 1.5rem;
+            }
+        }
+    }
+}

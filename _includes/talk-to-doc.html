@@ -1,0 +1,54 @@
+<!-- Risk Assessment Section -->
+<section class="container grid-mdlg talk-to-doc__wrapper {{ page.class-page }}">
+
+	<div class="talk-to-doc__header">
+        <h1>{{ page.faq-links-title }}</h1>
+        {{ page.faq-links-subtitle }}
+	</div>
+
+	<div class="talk-to-doc">
+        <div id="PDFcontent">
+            <div class="table-header">
+                <table>
+                    <tr>
+                        <td class="title">Help Start the Conversation</td>
+                        <td class="answer">
+                            <div class="answer-wrap">
+                                <p>Yes</p>
+                                <p>No</p>
+                            </div>
+                        </td> 
+                        
+                    </tr>
+                </table>
+            </div>
+
+            <div class="table-content">
+                <table style="width:100%;">
+                    
+                    {% for item in site.data.lists.talk-to-doc %}
+                    <!-- START Table Row -->
+                    <tr>
+                        <td class="title-cell">{{ item.title }}</td>
+                        <td>
+                            <form>
+                                <input class="risk-radio" type="radio" name="{{ item.name }}"> 
+                                <input class="risk-radio" type="radio" name="{{ item.name }}">
+                            </form>
+                        </td> 
+                    </tr>
+                    <!-- END Table Row -->
+                    {% endfor %}
+
+                </table>
+            </div>
+        </div>
+
+        <div class="table-footer">
+            <div class="btn-wrapper">
+                <a id="gpdf" class="btn pink-dl-btn">DOWNLOAD RESULTS</a>
+            </div>
+        </div>   
+    </div> <!-- /.talk-to-doc -->
+    
+</section> <!-- /.talk-to-doc__wrapperr -->

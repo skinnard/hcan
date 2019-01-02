@@ -1,0 +1,352 @@
+.mobile-container {
+    top: 40%;
+    left: 0;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.mobile-logo {
+    svg {
+        max-width: 150px;
+        margin-top: 0.7rem;
+        margin-left: 1.4rem;
+
+        path {
+            fill: #ccc;
+        }
+    }
+}
+
+.mobile-menu {
+    display: none;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 300;
+    background: #0e1a45;
+    padding: 0 30px;
+
+    @include mq(med, max) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @include mq(custom, max, 400) {
+        padding: 0 20px;
+    }
+
+    .header-fixed & {
+        position: fixed;
+    }
+
+    .logo-wrapper {
+        max-width: 40px;
+    }
+
+    .risk-btn {
+        .btn-wrapper {
+            .nav-btn {
+                @include mq(custom, max, 400) {
+                    height: 30px;
+                    padding: 0 1rem;
+                }
+            }
+        }
+    }
+
+    .burger-wrapper {
+        width: 30px;
+        height: 23px;
+        position: relative;
+        cursor: pointer;
+        display: none;
+
+        @include mq(med, max) {
+            display: block;
+        }
+    }
+
+    .button_container {
+
+        @include mq(custom, max, 1000) {
+            top: 1.2rem;
+        }
+
+        &.active {
+            .top {
+                transform: translateX(-10px);
+            }
+
+            .middle {
+                transform: translateX(6px);
+            }
+
+            .bottom {
+                transform: translateX(-2px);
+            }
+        }
+
+        span {
+            background: #FFFFFF;
+            border: none;
+            height: 3px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 0.35s ease;
+            cursor: pointer;
+            border-radius: 2px;
+
+            &:nth-of-type(2) {
+                top: $mob-menu-padding;
+            }
+
+            &:nth-of-type(3) {
+                top: $mob-menu-padding * 2;
+            }
+        }
+    }
+}
+
+.lang-fr .mobile-menu {
+    @include mq(custom, max, 400) {
+        padding: 0 10px;
+    }
+}
+
+// .overlay {
+//     position: fixed;
+//     background: #FFFFFF;
+//     top: 60px;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     opacity: 1;
+//     display: flex;
+//     display: none;
+//     z-index: 999;
+
+//     &.open {
+//         opacity: 1;
+//         visibility: visible;
+//         height: 100%;
+//         display: flex;
+//     }
+// }
+
+// ***********************************************************
+
+.mmenu-nav {
+    background-color: #FFFFFF;
+    right: 0;
+    position: absolute;
+    top: 70px;
+    transition: transform 0.5s;
+    transform: translate3d(-100%, 0, 0);
+    width: 100%;
+    height: 100%;
+    z-index: 600;
+    padding: 30px;
+    overflow-x: hidden;
+
+    @include mq(xsmall, max) {
+        padding: 15px;
+    }
+
+    &.is-pushed {
+        transition: transform 0.5s;
+        transform: translate3d(0, 0, 0);
+        left: 0;
+
+        @include mq(xsmall, max) {
+            padding: 15px;
+        }
+    }
+
+    .mmenu-nav__level {
+        transition: transform 0.5s;
+
+        // .mmenu-scroller {
+
+            .mmenu-nav__list {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                text-align: left;
+                outline: none;
+
+                &:focus,
+                &:visited,
+                &:active {
+                    outline: none;
+                }
+
+                .mmenu-nav__item {
+                    border-bottom: 1px solid #F0EDEE;
+                    margin: 0;
+                    padding: 20px 0 20px 10px;
+                    background: #fff;
+                    z-index: 300;
+
+                    &:focus,
+                    &:visited,
+                    &:active {
+                        outline: none;
+                    }
+
+                    @include mq(xsmall, max) {
+                        padding: 20px 0;
+                    }
+
+                    .mmenu-nav__link {
+                        color: #0e1a45;
+                        @include font-size(20);
+                        display: block;
+
+                        &:hover {
+                            color: #ec008c;
+                        }
+
+                        @include mq(xsmall, max) {
+                            @include font-size(18);
+                        }
+                    }
+
+                    .mmenu-nav__level {
+                        transition: transform 0.5s;
+                        background: $test4;
+                    }
+
+                    &.is-parent {
+                        .mmenu-nav__link {
+                            color: #0e1a45;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+
+                            &:hover {
+                                color: #ec008c;
+                            }
+
+                            &:focus,
+                            &:visited,
+                            &:active {
+                                outline: none;
+                            }
+
+                            &::after {
+                                content: "";
+                                width: 12px;
+                                height: 15px;
+                                background: url(../assets/img/chevron-no-circle-right.svg) center no-repeat;
+                                display: inline-block;
+                                position: absolute;
+                                right: 40px;
+                                padding-top: 30px;
+
+                                @include mq(xsmall, max) {
+                                    right: 20px;
+                                }
+                            }
+
+                            .no-c-right-chevron {
+                                width: 15px;
+                                right: 0;
+                            }
+                        }
+
+                        .mmenu-nav__sublevel {
+                            background: #FFFFFF;
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            transition: transform 1s;
+                            transform: translate3d(200%, 0, 0);
+                            padding: 30px;
+                            // background: pink;
+
+                            @include mq(xsmall, max) {
+                                padding: 15px;
+                            }
+
+                            // .mmenu-scroller {
+                            .back-btn-wrap {
+                                padding: 20px 0;
+                                text-align: center;
+                                position: relative;
+                                border-bottom: 1px solid #F0EDEE;
+                                cursor: pointer;
+
+                                .mmenu-nav__close {
+                                    padding-left: 0;
+                                    color: #0e1a45;
+                                    @include font-size(20);
+                                    display: block;
+
+                                    &:hover {
+                                        color: #ec008c;
+                                    }
+
+                                    @include mq(xsmall, max) {
+                                        @include font-size(18);
+                                    }
+
+                                    &::before {
+                                        content: "";
+                                        background: url(../assets/img/chevron-no-circle-left.svg) center no-repeat;
+                                        width: 12px;
+                                        height: 15px;
+                                        position: absolute;
+                                        left: 0;
+                                        top: 30px;
+                                    }
+                                }
+                            }
+
+                            .mmenu-nav__list {
+                                list-style: none;
+                                text-align: left;
+                                margin: 0;
+                                padding: 0;
+
+                                .sub-list {
+                                    .mmenu-nav__link {
+                                        display: block;
+                                        
+                                        &::after {
+                                            content: "";
+                                            background: none;
+                                        }
+                                    }
+                                }
+                            }
+                            // }
+
+                            &.is-active {
+                                transition: transform 0.5s;
+                                transform: translate3d(0, 0, 0);
+                                padding: 30px;
+                                z-index: 1;
+                                height: calc(100% + 200px);
+
+                                @include mq(xsmall, max) {
+                                    padding: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        // }
+
+        .lang-selector {
+            width: 40px;
+            margin: 80px auto 100px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+- title: Hip Fracture
+  bg: hip-fracture-slide.jpg
+  text: <p>Osteoporosis causes 70-90% of 30,000 hip fractures annually. Individuals affected by a hip fracture often suffer a loss of independence and almost 1 in 4 require admission to long-term care. Over 1 in 4 women and 1 in 3 men who suffer a hip fracture will die within one year.</p><p>Fractures from osteoporosis are more common than heart attack, stroke and breast cancer combined.</p>
+  slide: 1
+- title: Spinal Cord Compression Fracture
+  bg: spinal-cord-compression.jpg
+  text: <p>Rather than being snapped, as occurs with a broken arm, spinal vertebrae are compressed in the same way that a paper cup would be flattened when stepped on. Spinal cord compression fractures may be accompanied by pain, but in many instances, fractures of the spine may go unnoticed. Spine fractures due to osteoporosis can lead to pain and deformity, known as kyphosis, that may get worse over time.</p>
+  slide: 2
+- title: Kyphosis
+  bg: kyphosis.jpg
+  text: <p>Kyphosis is an obvious curve in the upper spine that results in a hunchback-appearance. Kyphosis leaves patients with a stooped posture that can cause embarrassment, and self-esteem issues, leaving them dissatisfied with their physical appearance.</p>
+  slide: 3

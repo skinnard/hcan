@@ -1,0 +1,54 @@
+
+<!-- footer -->
+<footer class="footer">
+	<div class="container grid-lg">
+        
+        <div class="footer-info">
+            
+            <div class="footer-info__left">
+                <div class="footer-info__left__logo">
+                    <a href="{{ en_link }}/"><img src="{{ site.url }}/assets/img/hb-logo-full.svg" alt="Health &amp; Bone Logo"></a>
+                </div>
+                <div class="footer-info__left__text">
+                    <p class="legal hide-small">The information on this site is provided for informational and educational purposes only and does not, nor is it intended to be construed as medical, legal, or other professional advice, opinion or represent a comprehensive or complete statement of the issues addressed on this site. Use of this site is not a substitute for a call or visit to, or consultation with your physician or healthcare professional. You should not rely on this site or any other service offered by or through this site for medical diagnosis or treatment. You should never disregard or delay seeking medical advice because of something that you have seen on this site. Please consult with your doctor, or other qualified healthcare professional, to discuss any health&nbsp;concerns.</p>
+                </div>
+            </div>
+            <div class="footer-info__right">
+                <div class="footer-info__right__general">
+
+                    <div class="left">
+                        {% for item in site.data.menus.footer-menu.left-menu %}
+                            <p class="title">{{ item.title }}</p>  
+                            {% for sub in item.subitems %}
+                                <a href="{{ en_link }}{{ sub.url }}" class="text">{{ sub.page }}</a>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+
+                    <div class="right">
+                        {% for item in site.data.menus.footer-menu.right-menu %}
+                            <p class="title">{{ item.title }}</p>  
+                            {% for sub in item.subitems %}
+                            <a href="{{ en_link }}{{ sub.url }}" class="text">{{ sub.page }}</a>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="footer-info__right__text">
+                    <p class="legal show-small">The information on this site is provided for informational and educational purposes only and does not, nor is it intended to be construed as medical, legal, or other professional advice, opinion or represent a comprehensive or complete statement of the issues addressed on this site. Use of this site is not a substitute for a call or visit to, or consultation with your physician or healthcare professional. You should not rely on this site or any other service offered by or through this site for medical diagnosis or treatment. You should never disregard or delay seeking medical advice because of something that you have seen on this site. Please consult with your doctor, or other qualified healthcare professional, to discuss any health&nbsp;concerns.</p>
+                </div>
+            </div>
+
+        </div>
+        
+		<div class="footer-legal">
+
+            <p class="left white legal-large">&copy;2018 Health &amp; Bone. All rights reserved.</p>
+
+            <p class="right legal-large"><a href="{{ en_link }}/en/our-expert-council/">Expert Council</a> <span>|</span> <a href="{{ en_link }}/en/privacy-policy/">Privacy Statement</a> <span>|</span> <a href="{{ en_link }}/en/terms-of-use/">Terms of Use</a></p>
+            
+            
+		</div>
+	</div>
+</footer> <!-- .footer -->

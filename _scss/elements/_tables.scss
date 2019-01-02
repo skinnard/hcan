@@ -1,0 +1,63 @@
+table, th, td {
+    border-collapse: collapse;
+}
+
+.hb-table {
+    margin-bottom: 10px;
+    width: 100%;
+
+    @include mq(small, max) {
+        width: 700px;
+    }
+
+    tr {
+        th {
+            @include font-size(20);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #7E7E7E;
+
+            @include mq(small, max) {
+                @include font-size(15);
+            }
+
+            &:last-child {
+                text-align: right;
+            }
+        }
+    }
+
+    tr {
+        td {
+            @include font-size(16);
+            padding: 10px;
+            border-bottom: 1px solid #7E7E7E;
+
+            @include mq(small, max) {
+                @include font-size(15);
+            }
+
+            &:last-child {
+                text-align: right;
+            }
+        }
+
+    }
+}
+
+.side-effects {
+    width: 700px;
+    margin: 2rem 0;
+    
+    p {
+        @include font-size(16);
+    }
+}
+
+.en-treatments.accordion-content .hb-table {
+    tr {
+        th {
+            width: 25%;
+        }
+    }
+}

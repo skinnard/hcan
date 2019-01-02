@@ -1,0 +1,75 @@
+/* smaller, dark, rounded square */
+
+// .flickity-button {
+//     .flickity-button:hover {
+//     }
+// }
+
+.flickity-prev-next-button {
+    position: absolute;
+}
+
+/* icon color */
+
+.flickity-button-icon {
+    display: none;
+}
+
+.flickity-prev-next-button {
+    top: auto;
+    bottom: 30px;
+}
+
+.flickity-prev-next-button.previous {
+    background: url("../assets/img/chevron_left.svg") center no-repeat;
+    width: 50px;
+    height: 50px;
+    left: 10%;
+    @include default-transition;
+
+    @include mq(xsmall, max) {
+        width: 30px;
+        height: 30px;
+    }
+
+    &:hover {
+        background: url("../assets/img/chevron_left_pink.svg") center no-repeat;
+    }
+}
+
+.flickity-prev-next-button.next {
+    background: url("../assets/img/chevron_right.svg") center no-repeat;
+    width: 50px;
+    height: 50px;
+    right: 10%;
+    @include default-transition;
+
+    @include mq(xsmall, max) {
+        width: 30px;
+        height: 30px;
+    }
+
+    &:hover {
+        background: url("../assets/img/chevron_right_pink.svg") center no-repeat;
+    }
+}
+
+.flickity-page-dots {
+    bottom: 25px;
+
+    .dot {
+        background: transparent;
+        border: 2px solid #fff;
+        width: 13px;
+        height: 13px;
+        opacity: 1;
+        @include default-transition;
+
+        &.is-selected {
+            background: #ec008c;
+            border: 2px solid #ec008c;
+            width: 13px;
+            height: 13px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+- title: Prescription Medication
+  bg: prescription-medication-slide.jpg
+  text: <p>There are a number of osteoporosis medications available. The goal of these osteoporosis treatments is to prevent or slow the loss of bone density, reducing the risk of fracture. It’s important to <a href="/en/talking-to-your-doctor/">speak to your doctor</a> about the best osteoporosis treatment for you. <a href="/en/osteoporosis-treatment/">Learn more</a></p>
+  slide: 1
+- title: Nutrition
+  bg: nutrition-slide.jpg
+  text: <p>Nutrition and bone health are closely related. Calcium and vitamin D are critical for the development and maintenance of healthy bones.  If you’re not getting the right nutrients, you could be putting yourself at higher risk of bone loss. <a href="/en/living-with-osteoporosis/nutrition/">Learn more</a></p>
+  slide: 2
+- title: Exercise
+  bg: exercise-slide.jpg
+  text: <p>At any point in life, exercise has the important function of strengthening and maintaining bones. Exercise is recommended for all individuals who have been diagnosed with osteoporosis, including those who have experienced a fracture. <a href="/en/living-with-osteoporosis/exercise/">Learn more</a></p>
+  slide: 3

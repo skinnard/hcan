@@ -1,0 +1,81 @@
+icon-section:
+
+  - title: Risk Factors You <span class="underline">Can&rsquo;t Control</span><i class="fas fa-circle hb-pink hb-period"></i>
+    subtitle: Although you cannot change certain risk factors, it is important to be aware of them. If you discover you are at risk, speak to your doctor about steps you can take to reduce bone mineral loss.
+    section: section-1
+    subsection:
+    - title: Secondary Risk Factors
+      subtitle: 'Secondary risk factors are conditions and medications that can weaken bones and affect balance (increasing fracture risk). These secondary risk factors include:'
+      accordion:
+      - title: Medical Conditions
+        content: 
+          - <li>Asthma</li>
+          - <li>Endocrine disorders</li>
+          - <li>Gastrointestinal Issues (e.g. Crohn&rsquo;s)</li>
+          - <li>Haematological disorders/malignancy</li>
+          - <li>Hysterectomy if accompanied by removal of the ovaries</li>
+          - <li>Immobility</li>
+          - <li>Rheumatoid arthritis</li>
+          - <li>Hypogonadal states</li>
+      - title: Medical Treatments
+        content: 
+          - <li>Antacids</li>
+          - <li>Aromatase inhibitors</li>
+          - <li>Certain anticonvulsants</li>
+          - <li>Certain antiepileptic drugs</li>
+          - <li>Certain antipsychotics</li>
+          - <li>Certain immunosuppressant (calmodulin/calcineurine phosphatase </li>inhibitors)
+          - <li>Certain steroid hormones (medroxyprogesterone acetate, leutenising </li>hormone - <li>releasing hormone agonists)</li>
+          - <li>Glucocorticosteroids</li>
+          - <li>Lithium</li>
+          - <li>Methotrexate</li>
+          - <li>Proton pump inhibitors</li>
+          - <li>Thyroid hormone treatment (L-Thyroxine)</li>
+    icons: 
+    - icon: age-icon.svg
+      id: rf-age
+      caption: Age
+      alt: Age Icon
+    - icon: gender-icon.svg
+      id: rf-gender
+      caption: Gender
+      alt: Gender Icon
+    - icon: ethnicity-icon.svg
+      id: rf-eth
+      caption: Ethnicity
+      alt: Ethnicity Icon
+    - icon: previous-fracture-icon.svg
+      id: rf-frac
+      caption: Previous Fracture
+      alt: Previous Fracture Icon
+
+  - title: Risk Factors You <span class="underline">Can Control</span><i class="fas fa-circle hb-pink hb-period"></i>
+    section: section-2
+    subtitle: While some risk factors are uncontrollable, certain risks can be reduced through various lifestyle changes.
+    subsection:
+    - title: Other Modifiable Risk Factors
+      points:
+      - Low body mass index (BMI)
+      - Eating disorders (e.g. anorexia nervosa and bulimia)
+      - Oestrogen deficiency
+      - Lack of exercise
+    icons: 
+    - icon: alcohol-icon.svg
+      id: rf-alcohol
+      caption: Alcohol
+      alt: Alcohol Icon
+    - icon: smoking-icon.svg
+      id: rf-snoking
+      caption: Smoking
+      alt: Smoking Icon
+    - icon: vitamin-d-icon.svg
+      id: rf-vitd
+      caption: Vitamin D Deficiency
+      alt: Vitamin D Deficiency Icon
+    - icon: frequent-falls-icon.svg
+      id: rf-falls
+      caption: Frequent Falls
+      alt: Frequent Falls Icon
+
+  
+    

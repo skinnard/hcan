@@ -1,0 +1,53 @@
+<!-- Risk Assessment Section -->
+<section class="container grid-mdlg risk-assessment__wrapper {{ page.class-page }}">
+
+	<div class="risk-assessment__header">
+        <h1>{{ page.faq-links-title }}</h1>
+        {{ page.faq-links-subtitle }}
+	</div>
+
+	<div class="risk-assessment">
+        <div id="PDFcontentRisk">
+            <div class="table-header">
+                <table>
+                    <tr>
+                        <td class="title">Assess you fracture risk</td>
+                        <td class="answer">
+                            <div class="answer-wrap">
+                                <p>Yes</p>
+                                <p>No</p>
+                            </div>
+                        </td> 
+                    </tr>
+                </table>
+            </div>
+
+            <div class="table-content">
+                <table style="width:100%;">
+                    
+                    {% for item in site.data.lists.risk-assessment %}
+                    <!-- START Table Row -->
+                    <tr>
+                        <td class="title-cell">{{ item.title }}</td>
+                        <td>
+                            <form>
+                                <input class="risk-radio" type="radio" name="{{ item.name }}"> 
+                                <input class="risk-radio" type="radio" name="{{ item.name }}">
+                            </form>
+                        </td> 
+                    </tr>
+                    <!-- END Table Row -->
+                    {% endfor %}
+
+                </table>
+            </div>
+        </div>
+
+        <div class="table-footer">
+            <p><em>* This is a selected list of risk factors. Ask your doctor about other risk factors for osteoporosis and fracture.</em></p>
+            <div class="btn-wrapper">
+                <a id="gpdf-risk" class="btn pink-dl-btn">DOWNLOAD<br class="show-small"> RESULTS</a>
+            </div>
+        </div>   
+    </div> <!-- /.risk-assessment -->
+</section> <!-- /.risk-assessment__wrapperr -->

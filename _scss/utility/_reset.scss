@@ -1,0 +1,148 @@
+/**************************************************/
+/*
+/* Common
+/*
+/**************************************************/
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "hk_groteskregular", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+/**************************************************
+/*
+/* Home
+/*
+/**************************************************/
+
+.posts {
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+.posts li {
+    line-height: 1.75em;
+}
+
+.posts span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+}
+
+/*****************************************/
+/*
+/* Site
+/*
+/*****************************************/
+
+.site {
+    font-size: 115%;
+    // background: lightgrey;
+}
+
+/*****************************************/
+/*
+/* Posts
+*
+/*****************************************/
+
+/* standard */
+.post pre {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 0.4em;
+}
+
+.post ul,
+.post ol {
+    margin-left: 1.35em;
+}
+
+.post code {
+    border: 1px solid #ddd;
+    background-color: #eef;
+    padding: 0 0.2em;
+}
+
+.post pre code {
+    border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+    border: 1px solid #000;
+    background-color: #333;
+    color: #fff;
+}
+
+.post pre.terminal code {
+    background-color: #333;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.container.grid-xl {
+    max-width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container.grid-lg {
+    max-width: 1200px;
+}
+
+.container.grid-mdlg { 
+    max-width: 1056px;
+
+    @media screen and (max-width: 1116px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.container.grid-md {
+    max-width: 856px;
+
+    @media screen and (max-width: 856px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.container.grid-sm {
+    max-width: 600px;
+}
+
+.container.grid-xs {
+    max-width: 500px;
+}
+
+.content-wrap {
+    margin-top: 150px;
+}

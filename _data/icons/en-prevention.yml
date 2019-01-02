@@ -1,0 +1,35 @@
+icon-section:
+  - title: Osteoporosis Prevention in <span class="no-wrap">Childhood<i class="fas fa-circle hb-pink hb-period"></i></span>
+    subtitle: 'The skeleton is consistently growing from birth to around the mid-20s when peak bone mass is reached. During this time, certain health practices can lower one&rsquo;s chances of developing osteoporosis.'
+    section-number: 'section-1'
+    icons: 
+    - icon: calcium-icon.svg
+      id: prev-calcium
+      caption: Calcium
+      alt: Calcium Icon
+    - icon: vitamin-d-icon.svg
+      id: prev-d
+      caption: Vitamin D
+      alt: Vitamin D Icon
+    - icon: physical-activity-icon.svg
+      id: rf-activity
+      caption: Physical Activity
+      alt: Physical Activity Icon
+
+  - title: Prevention in <span class="no-wrap">Adulthood<i class="fas fa-circle hb-pink hb-period"></i></span>
+    subtitle: 'The prevention of osteoporosis is important at any age. Proper nutrition and exercise can play a significant role in reducing bone loss during adulthood.'
+    section-number: 'section-2'
+    icons: 
+    - icon: calcium-icon.svg
+      id: prev-calcium
+      caption: Calcium
+      alt: Calcium Icon
+    - icon: vitamin-d-icon.svg
+      id: prev-d
+      caption: Vitamin D
+      alt: Vitamin D Icon
+    - icon: weight-bearing-icon.svg
+      id: prev-weight
+      caption: Weight-Bearing Activities
+      alt: Weight-Bearing Activities Icon
+    

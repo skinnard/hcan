@@ -1,0 +1,12 @@
+- title: Fracture de la hanche  
+  bg: hip-fracture-slide.jpg
+  text: <p>L&rsquo;ost&eacute;oporose cause de 70 &agrave; 90 % des 30 000 fractures de la hanche qui se produisent chaque ann&eacute;e. Plus d&rsquo;une femme sur quatre et un homme sur trois ayant subi une fracture de la hanche d&eacute;c&eacute;deront en l&rsquo;espace d&rsquo;une ann&eacute;e.</p><p>Les fractures li&eacute;es &agrave; l&rsquo;ost&eacute;oporose sont plus fr&eacute;quentes que les crises cardiaques, les accidents vasculaires c&eacute;r&eacute;braux et les cancers du sein combin&eacute;s.</p>
+  slide: 1
+- title: Fracture par tassement de la colonne vert&eacute;brale
+  bg: spinal-cord-compression.jpg
+  text: <p>Plut&ocirc;t que de se casser, comme le feraient les os du bras, les vert&egrave;bres sont comprim&eacute;es de la m&ecirc;me fa&ccedil;on que s&rsquo;aplatit un gobelet en papier sur lequel on a march&eacute;. Les fractures par tassement de la colonne vert&eacute;brale peuvent s&rsquo;accompagner de douleurs, mais dans de nombreux cas, les fractures de ce type passent inaper&ccedil;ues. Les fractures de la colonne vert&eacute;brale attribuables &agrave; l&rsquo;ost&eacute;oporose peuvent provoquer de la douleur et une d&eacute;formation, appel&eacute;e cyphose, qui peut s&rsquo;aggraver avec le temps.</p>
+  slide: 2
+- title: Cyphose
+  bg: kyphosis.jpg
+  text: <p>La cyphose est une courbure &eacute;vidente de la partie sup&eacute;rieure de la colonne vert&eacute;brale donnant un aspect bossu. Les patients atteints de cyphose pr&eacute;sentent une posture courb&eacute;e pouvant occasionner de la douleur et des probl&egrave;mes de mobilit&eacute;.</p>
+  slide: 3

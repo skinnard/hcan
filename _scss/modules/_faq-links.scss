@@ -1,0 +1,43 @@
+.faq-links__wrapper {
+    @extend %section-padding-both-no-hero;
+
+	.faq-links-header {
+		text-align: left;
+		margin-bottom: 50px;
+	}
+
+	.faq-links {
+        &__content {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+
+            .img-wrapper {
+                width: 35px;
+                height: 35px;
+                margin-right: 20px;
+                min-width: 35px;
+
+                img {
+                    margin-top: 2px;
+                }
+            }
+
+            p {
+                @include font-size(24);
+                font-family: $body-font;
+                margin: 0;
+                padding: 0;
+
+                @include mq(small, max) {
+                    @include font-size(18);
+                }
+            }
+
+            &:hover {
+                text-decoration: underline;
+                color: #3b3b3b;
+            }
+        }
+	}
+}

@@ -1,0 +1,49 @@
+.full-width-cta__wrapper,
+.full-width-cta-img-bg__wrapper {
+    @extend %cta-section-padding;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #004864;
+    background: url('../assets/img/bottom_container_blue_shadow.svg') top center no-repeat;
+    background-size: cover;
+
+    .full-width-cta,
+    .full-width-cta-img-bg {
+        text-align: center;
+        margin: 120px auto 150px;
+        @include mq(small, max) {
+            margin: 60px auto 80px;
+        }
+
+        &__content {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 30px;
+
+            img {
+                width: 100%;
+                max-width: 270px;
+                @include mq(small, max) {
+                    max-width: 200px;
+                }
+            }
+
+            h2 {
+                margin: 50px 0;
+            }
+
+            h2,
+            p,
+            a {
+                color: #FFFFFF;
+            }
+
+            .arrow-cta {
+                img {
+                    width: 30px;
+                }
+            }
+        }
+    }
+}

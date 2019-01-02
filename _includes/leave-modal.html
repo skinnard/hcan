@@ -1,0 +1,29 @@
+{% if page.lang == "en" %}
+<div id="site-leave-modal" class="hide">
+    <div class="content">
+        <div id="slm-close-btn" class="close-btn">
+            <i class="far fa-times-circle"></i>
+        </div>
+        <p class="title">YOU ARE NOW LEAVING THE HEALTHANDBONE.CA WEB&nbsp;SITE.</p>
+        <p class="text">Links to other sites are provided as a convenience to the viewer. Amgen Canada accepts no responsibility for the content of linked sites.</p>
+        <div class="btn-wrapper">
+            <a href="#" id="slm-proceed">PROCEED</a>
+            <a href="#" id="slm-cancel">CANCEL</a>
+        </div>
+    </div>
+</div>
+{% else %}
+<div id="site-leave-modal" class="hide">
+    <div class="content">
+        <div id="slm-close-btn" class="close-btn">
+            <i class="far fa-times-circle"></i>
+        </div>
+        <p class="title">VOUS ETES EN TRAIN DE QUITTER LE SITE WEB WWW.SANETDESOS.CA</p>
+        <p class="text">Les liens vers d&apos;autres sites sont offerts aux utilisateurs &agrave; titre de service uniquement. Amgen Canada n&apos;assume aucune responsabilit&eacute; quant au contenu de ces sites.</p>
+        <div class="btn-wrapper">
+            <a href="#" id="slm-proceed">AVANCER</a>
+            <a href="#" id="slm-cancel">ANNULER</a>
+        </div>
+    </div>
+</div>
+{% endif %}

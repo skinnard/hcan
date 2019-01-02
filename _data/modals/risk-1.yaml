@@ -1,0 +1,24 @@
+- title: Age
+  text: 'Over 80% of all fractures in people 50+ are caused by osteoporosis. This can be attributed in part to reduced bone mineral density as we age. Both women and men begin losing bone in their mid-30s, placing them at higher risk for fracture.'
+  icon: modal-icons/age-icon.svg
+  alt: Age Icon
+  slide: 1
+  bg: age-slide.jpg
+- title: Gender
+  text: 'Osteoporosis is more common in women than in men. As women approach menopause they begin to lose bone at a greater rate of 2-3 per cent per year.'
+  icon: modal-icons/gender-icon.svg
+  alt: Gender Icon
+  slide: 2
+  bg: gender-slide.jpg
+- title: Ethnicity
+  text: 'Ethnicity is another one of the risk factors for osteoporosis. Some ethnicities are more prone to osteoporosis than others. For example, osteoporosis is more common in Caucasian and Asian populations.'
+  icon: modal-icons/ethnicity-icon.svg
+  alt: Ethnicity Icon
+  slide: 3
+  bg: ethnicity-slide.jpg
+- title: Previous Fracture
+  text: 'A previous fracture raises the risk of a future fracture by 86%, compared to people who have not had a prior fracture.'
+  icon: modal-icons/previous-fracture-icon.svg
+  alt: Previous Fractures Icon
+  slide: 4
+  bg: previous-fracture-slide.jpg

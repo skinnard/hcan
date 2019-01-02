@@ -1,0 +1,313 @@
+.full-width-cta-w-icons__wrapper {
+    position: relative;
+    @extend %section-padding;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 102;
+
+    .full-width-cta-w-icons__content {
+        text-align: center;
+        @include mq(small, max) {
+            text-align: left;
+        }
+
+        h2 {
+            span {
+                white-space: nowrap;
+            }
+
+            i {
+                @include font-size(10);
+                padding-left: 10px;
+            }
+        }
+
+        .text-wrapper {
+            margin-top: 2rem;
+        }
+
+        .icons-wrapper {
+            margin-top: 3rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            @include mq(small, max) {
+                flex-wrap: wrap;
+            }
+
+            .icons {
+                width: 20%;
+                text-align: center;
+                cursor: pointer;
+                @include mq(small, max) {
+                    width: 50%;
+                }
+
+                .img-wrapper {
+                    text-align: center;
+                    max-width: 138px;
+                    margin: 0 auto;
+
+                    @include mq(small, max) {
+                        max-width: 100%;
+                    }
+
+                    img {
+                        width: 100%;
+
+                        @include mq(small, max) {
+                            max-width: 130px;
+                            width: 90%;
+                        }
+
+                        @include mq(xsmall, max) {
+                            max-width: 100px;
+                        }
+                    }
+                }
+            }
+
+            .caption {
+                margin-top: 0.7rem;
+                color: #3b3b3b;
+            }
+        }
+
+        p:last-of-type {
+            margin-bottom: 0;
+            @include mq(med, max) {
+                margin-bottom: 2rem;
+            }
+            @include mq(med, max) {
+                margin-bottom: 1rem;
+            }
+        }
+
+        .subsection-wrapper {
+            margin-top: 1rem;
+
+            .primary {
+                p {
+                    margin-bottom: 0;
+                    @include font-size(16);
+                }
+            }
+
+            .secondary {
+                margin-top: 2rem;
+                display: flex;
+                margin-bottom: 150px;
+                flex-wrap: wrap;
+                
+                @include mq(med, max) {
+                    margin-bottom: 100px;
+                }
+
+                @include mq(small, max) {
+                    margin-bottom: 60px;
+                }
+
+                .accordion-wrapper {
+                    width: 100%;
+                    background: #f0edee;
+                    display: flex;
+                    flex-wrap: wrap;
+                    border-radius: 25px;
+                    padding: 5px;
+                    margin-bottom: 1.5rem;
+                    align-items: center;
+                    cursor: pointer;
+                    @include default-transition;
+
+                    &:hover {
+                        box-shadow: 0 5px 20px 0 rgba(74, 74, 74, 0.3);
+                    }
+
+                    .accordion-title {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        p {
+                            font-family: $body-font;
+                            margin: 0;
+                        }
+
+                        .img-wrapper {
+                            width: 40px;
+                            height: 40px;
+                            margin-right: 20px;
+                            display: flex;
+                            align-items: center;
+                            min-width: 40px;
+                            @include default-transition;
+
+                            svg {
+                                width: 100%;
+                                max-width: 40px;
+
+                                #expand-button {
+                                    #outer-circle {
+                                        stroke: #ec008c;
+                                    }
+
+                                    #cross {
+                                        fill: #ec008c;
+                                    }
+                                }
+                            }
+                        }
+
+                        .alt-icon {
+                            svg {
+                                #expand-button {
+                                    #outer-circle {
+                                        stroke: #ffffff;
+                                    }
+
+                                    #cross {
+                                        fill: #ffffff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .open {
+                    background: #ec008c;
+                    box-shadow: 0 5px 20px 0 rgba(74, 74, 74, 0.5);
+
+                    .accordion-title p {
+                        color: #ffffff;
+                    }
+                }
+
+                .accordion-content {
+                    display: none;
+                    width: 100%;
+                    margin-bottom: 2rem;
+                    text-align: left;
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.full-width-cta-w-icons__wrapper.en-home,
+.full-width-cta-w-icons__wrapper.fr-home {
+    .full-width-cta-w-icons {
+        &__content {
+            .icons-wrapper {
+
+                .icons {
+                   width: 25%;
+                   cursor: auto;
+
+                    @include mq(small, max) {
+                        width: 50%;
+                    }
+
+                    .img-wrapper {
+                        margin: 0 auto;
+                    }
+
+                    &:last-child {
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.full-width-cta-w-icons__wrapper.en-prevention,
+.full-width-cta-w-icons__wrapper.fr-prevention {
+    .full-width-cta-w-icons {
+        &__content {
+            .icons-wrapper {
+                max-width: 600px;
+                margin: 3rem auto 0;
+
+                .icons {
+                    width: 33.33333%;
+
+                    @include mq(custom, max, 500) {
+                        width: 50%;
+                    }
+
+                    .img-wrapper {
+                        margin: 0 auto;
+                    }
+
+                    &:last-child {
+                        @include mq(custom, max, 500) {
+                            width: 100%;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+.full-width-cta-w-icons__wrapper.en-prevention.section-2,
+.full-width-cta-w-icons__wrapper.en-risk.section-2,
+.full-width-cta-w-icons__wrapper.fr-prevention.section-2,
+.full-width-cta-w-icons__wrapper.fr-risk.section-2 {
+    @extend %section-padding-both;
+}
+
+.full-width-cta-w-icons__wrapper.en-risk.section-2,
+.full-width-cta-w-icons__wrapper.fr-risk.section-2 {
+    padding-top: 0;
+}
+
+.full-width-cta-w-icons__wrapper.en-exercise,
+.full-width-cta-w-icons__wrapper.fr-exercise {
+    @extend %section-padding-both;
+
+    .full-width-cta-w-icons {
+        &__content {
+            .icons-wrapper {
+                margin: 3rem auto 0;
+                flex-wrap: wrap;
+
+                .icons {
+                    width: 20%;
+
+                    @include mq(med, max) {
+                        width: 33.3333333%;
+                    }
+
+                    @include mq(custom, max, 600) {
+                        width: 50%;
+                    }
+
+                    &:nth-child(4) {
+                        @include mq(med, max) {
+                            width: 50%;
+                        }   
+                    }
+
+                    &:last-child {
+                        @include mq(med, max) {
+                            width: 50%;
+                        }
+
+                        @include mq(custom, max, 600) {
+                            width: 100%;
+                        }
+                    }
+
+                    .img-wrapper {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

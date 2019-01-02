@@ -1,0 +1,13 @@
+<section class="hero-faq__wrapper {{ page.page-class }}">
+	<div class="content-wrapper container grid-mdlg">
+		<div class="faq-header">
+            <h2 class="text-center">{{ page.pat-faq-title }}</h2>     
+            {% if page.pat-faq-subhead %}
+                <h2 class="text-center">{{ page.pat-faq-subhead }}</h2>
+            {% endif %}
+		</div>
+		{% for item in site.data.faq.pat-faq.faq %}
+			{% include faq.html %}
+		{% endfor %}
+	</div>
+</section>

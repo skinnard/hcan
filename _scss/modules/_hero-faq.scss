@@ -1,0 +1,30 @@
+.hero-faq__wrapper {
+    margin-top: 0;
+
+	.background-img {
+		width: 100%;
+		height: calc(100vh + 15px);
+		position: absolute;
+		z-index: -1;
+	}
+
+	.content-wrapper {
+		position: relative;
+		padding-top: 100px;
+        height: 100%;
+        z-index: 200;
+
+		@include mq(med, max) {
+			padding-top: 40px;
+		}
+
+		.bottom-mask {
+			bottom: 0;
+			width: 100%;
+		}
+	}
+}
+
+.hero-faq__wrapper.prac-faq {
+    // height: calc(100vh - 120px);
+}

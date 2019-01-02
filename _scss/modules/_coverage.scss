@@ -1,0 +1,49 @@
+.page-content.prac-coverage {
+	background-color: grey;
+	background: url(../assets/img/about_body_bg.svg);
+	background-repeat: no-repeat;
+    background-size: cover;
+
+    .coverage {
+        padding-top: 150px;
+
+        @include mq(med, max) {
+            padding-top: 100px;
+        }
+
+        @include mq(small, max) {
+            padding-top: 60px;
+        }
+
+        h2 {
+            margin-bottom: 3rem;
+        }
+
+        &__content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+
+            @include mq(med, max) {
+                flex-wrap: wrap;
+            }
+
+            &__left,
+            &__right {
+                width: 44%;
+
+                @include mq(med, max) {
+                    width: 100%;
+
+                    &:first-child {
+                        margin-bottom: 3rem;
+                    }
+                }
+
+                .btn-wrapper {
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+}

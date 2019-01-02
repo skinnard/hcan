@@ -1,0 +1,124 @@
+.two-col {
+    @extend %section-padding;
+    position: relative;
+    z-index: 102;
+    &__content {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+
+        @include mq(small, max) {
+            flex-wrap: wrap;
+        }
+
+        &__left,
+        &__right {
+            width: 50%;
+
+            @include mq(small, max) {
+                width: 100%;
+            }
+
+            .content {
+                .img-wrapper {
+                    text-align: center;
+                    margin-bottom: 20px;
+
+                    img {
+                        @include mq(small, max) {
+                            max-width: 60%;
+                        }
+
+                        @include mq(small, max) {
+                            max-width: 40%;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__left {
+            text-align: right;
+            padding-right: 60px;
+            justify-content: flex-end;
+
+            @include mq(small, max) {
+                padding: 0;
+                text-align: center;
+            }
+
+            .content {
+
+                h2 {
+                    font-family: $headline-font;
+                    @include font-size(54);
+
+                    @include mq(large, max) {
+                        @include font-size(44);
+                    }
+
+                    @include mq(small, max) {
+                        text-align: left;
+                        @include font-size(38);
+                    }
+
+                    @include mq(xsmall, max) {
+                        @include font-size(32);
+                    }
+                }
+            }
+        }
+
+        &__right {
+            border-left: 2px solid #0e1a45;
+            text-align: left;
+
+            @include mq(small, max) {
+                border-left: none;
+                margin-top: 1rem;
+            }
+
+            .content {
+                padding-left: 60px;
+
+                @include mq(small, max) {
+                    padding: 0;
+                }
+
+                .title {
+                    text-align: left;
+
+                    @include mq(xsmall, max) {
+                        @include font-size(30);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.two-col.en-dangers,
+.two-col.fr-dangers {
+    &:last-child {
+        @extend  %section-padding-both;
+    }
+}
+
+.two-col.fr-dangers {
+    .two-col__content__left .content h2 {
+        @include font-size(42);
+
+        @include mq(large, max) {
+            @include font-size(38);
+        }
+
+        @include mq(small, max) {
+            text-align: left;
+            @include font-size(32);
+        }
+
+        @include mq(xsmall, max) {
+            @include font-size(28);
+        }
+    }
+}

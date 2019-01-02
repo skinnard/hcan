@@ -1,0 +1,211 @@
+// Flickity Styles
+
+.hb-carousel {  
+    position: fixed;
+    opacity: 1;
+    z-index: 9999;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 500px;
+    height: 500px;
+    padding: 0;
+
+    @include mq(small, max) {
+        padding: 0;
+        left: 0;
+        top: 70px;
+        transform: translate(0, 0);
+        height: calc(100% - 70px);
+        width: 100%;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+        cursor: pointer;
+        width: 48px;
+        height: 48px;
+
+        @include mq(custom, max, 1116) {
+            right: 50px;
+        }
+
+        @include mq(small, max) {
+            right: 20px;
+        } 
+
+        svg {
+            width: 50px;
+
+            @include mq(small, max) {
+                width: 25px;
+            }
+
+            &:hover {
+                #outer-circle {
+                    stroke: #ec008c;
+                    @include default-transition;
+                }
+
+                #inner-x {
+                    fill: #ec008c;
+                    stroke: #ec008c;
+                    @include default-transition;
+                }
+            }
+        }
+    }
+
+    .flickity-prev-next-button {
+        border-radius: 0;
+        color: #fff;
+
+        &:hover {
+            color: #ec008c;
+        }
+
+        &.previous {
+            background-position: left !important;
+            text-align: right;
+            width: auto;
+
+            @include mq(xsmall, max) {
+                margin-bottom: 20px;
+                max-width: 130px;
+                width: inherit;
+            }
+
+            span {
+                padding-left: 70px;
+            }
+        }
+
+        &.next {
+            background-position: right !important;
+            text-align: left;
+            width: auto;
+
+            @include mq(xsmall, max) {
+                margin-bottom: 20px;
+                max-width: 130px;
+                width: inherit;
+            }
+
+            span {
+                padding-right: 70px;
+            }
+
+            .next {
+                @include mq(xsmall, max) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .nav-text {
+        position: absolute;
+        z-index: 9999;
+        width: 100%;
+        // background: pink;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 200px;
+        bottom: 60px;
+
+        p {
+            color: #fff;
+            margin: 0;
+            @include font-size;
+        }
+
+        .left {
+            bottom: 0;
+        }
+    }
+
+    .carousel-content-wrapper {
+        width: 100%;
+        height: 100%;
+
+        .carousel-content {
+            background: #313b5f;
+            width: 100%;
+            height: 100%;
+            padding: 100px;
+            display: flex;
+            align-items: center;
+
+            @include mq(custom, max, 500) {
+                padding: 30px;
+            }
+
+            @include mq(xsmall, max) {
+                display: block;
+                padding-top: 60px;
+            }
+
+            .left {
+                width: 25%;
+
+                @include mq(small, max) {
+                    display: none;
+                }
+
+                .img-wrapper {
+                    width: 100%;
+                    text-align: center;
+
+                    img {
+                        max-width: 100px;
+                    }
+                }
+            }
+
+            .right {
+                width: 75%;
+
+                @include mq(small, max) {
+                    width: 100%;
+                }
+
+                h5 {
+                    color: #fff;
+
+                    i {
+                        padding-left: 10px;
+                        font-size: 12px;
+                    }
+                }
+
+                p {
+                    color: #fff;
+
+                    a {
+                        color: #fff;
+                        text-decoration: underline;
+
+                        &:hover {
+                            color: #ec008c;
+                        }
+                    }
+
+                    @include mq(xsmall, max) {
+                        @include font-size(15);
+                        line-height: 1.4;
+                    }
+                }
+            }
+        }
+    }           
+}
+
+.hb-carousel.grid-mdlg {
+    @include mq(small, max) {
+        padding: 0;
+    }
+}

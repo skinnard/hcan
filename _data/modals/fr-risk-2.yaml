@@ -1,0 +1,24 @@
+- title: Consommation d&rsquo;alcool
+  text: 'Les personnes consommant plus de deux unit&eacute;s d&rsquo;alcool par jour sont expos&eacute;es &agrave; un risque d&rsquo;environ 40 % plus &eacute;lev&eacute; de fracture ost&eacute;oporotique comparativement &agrave; celles qui consomment moins d&rsquo;alcool ou qui n&rsquo;en consomment pas du tout. '
+  icon: modal-icons/alcohol-icon.svg
+  alt: Ic&ocirc;ne de l&apos;alcool
+  slide: 1
+  bg: alcohol-slide.jpg
+- title: Tabagisme
+  text: 'Les personnes qui fument sont expos&eacute;es &agrave; un risque plus &eacute;lev&eacute; de fracture de tout type comparativement aux non-fumeurs.'
+  icon: modal-icons/smoking-icon.svg
+  alt: Ic&ocirc;ne de fumer
+  slide: 2
+  bg: smoking-slide.jpg
+- title: Carence en Vitamine&nbsp;D et en calcium
+  text: 'La Vitamine&nbsp;D, seule ou en association avec du calcium, diminue le risque de chute chez les femmes et les hommes &acirc;g&eacute;s. Des &eacute;tudes ont montr&eacute; que la prise de suppl&eacute;ments de Vitamine&nbsp;D par des femmes &acirc;g&eacute;es en bonne sant&eacute; r&eacute;duisait la perte osseuse sur une p&eacute;riode de un &agrave; deux ans.'
+  icon: modal-icons/vitamin-d-icon.svg
+  alt: Ic&ocirc;ne carence en Vitamine&nbsp;D
+  slide: 3
+  bg: vitamin-d-deficiency-slide.jpg
+- title: Chutes fr&eacute;quentes
+  text: 'En tout, 90 % des fractures de la hanche sont caus&eacute;es par des chutes. Le risque de chute est significativement accru par des facteurs comme les atteintes visuelles, la maladie d&rsquo;Alzheimer, les maladies articulaires, une mauvaise posture, etc.'
+  icon: modal-icons/vitamin-d-deficiency-icon.svg
+  alt: Ic&ocirc;ne de chutes fr&eacute;quentes
+  slide: 4
+  bg: frequent-falls-slide.jpg

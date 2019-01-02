@@ -1,0 +1,245 @@
+.risk-assessment__wrapper,
+.talk-to-doc__wrapper {
+    @extend %section-padding-both-no-hero;
+    position: relative;
+    z-index: 200;
+
+    .risk-assessment__header,
+    .talk-to-doc__header {
+		text-align: left;
+		margin-bottom: 50px;
+	}
+
+    .risk-assessment,
+    .talk-to-doc {
+        margin-top: 5rem;
+
+        @include mq(small, max) {
+            margin-top: 2rem;
+        }
+
+        table,
+        tr,
+        td {
+            border: none;
+            border-collapse: collapse;
+        }
+
+        .table-header {
+            background: #ec008c;
+            border-radius: 50px;
+            padding: 10px 30px;
+
+            @include mq(custom, max, 400) {
+                background: #FFFFFF;
+                border-radius: 0;
+                padding: 0;
+            }
+
+            table {
+                width: 100%;
+
+                tr {
+                    @include mq(xsmall, max) {
+                        border-bottom: 1px solid #ec008c;
+                    }
+
+                    .title {
+                        color: #FFFFFF;
+                        @include font-size(24);
+                        width: 80%;
+                        padding-right: 20px;
+
+                        @include mq(small, max) {
+                            @include font-size(18);
+                            width: 60%;
+                        }
+
+                        @include mq(xsmall, max) {
+                            color: #000000;
+                            width: 40%;
+                            padding: 0;
+                            padding-bottom: 20px;
+                        }
+                    }
+
+                    .answer {
+                        width: 30%;
+
+                        @include mq(small, max) {
+                            width: 20%;
+                            padding: 0;
+                            padding-bottom: 20px;
+                        }
+
+                        .answer-wrap {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            width: 100%;
+
+                            p {
+                                margin: 0;
+                                padding: 0;
+                                color: #FFFFFF;
+                                font-family: $body-font;
+                                @include font-size(24);
+
+                                @include mq(small, max) {
+                                    @include font-size(18);
+                                }
+
+                                @include mq(custom, max, 400) {
+                                    color: #000000;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .table-content {
+            padding: 0 30px;
+
+            @include mq(small, max) {
+                padding: 0 10px;
+            }
+
+            @include mq(custom, max, 400) {
+                padding: 0;
+            }
+
+            table {
+                width: 100%;
+                padding: 30px;
+
+                @include mq(small, max) {
+                    padding: 30px;
+                }
+
+                tr {
+                    border-bottom: 1px solid #ec008c;
+
+                    td {
+                        padding: 20px 0 20px 0;
+                        color: #4A4A4A;
+                        @include font-size(24);
+
+                        @include mq(small, max) {
+                            @include font-size(18);
+                        }
+
+                        @include mq(xsmall, max) {
+                            @include font-size(16);
+                            padding: 20px 0;
+                        }
+
+                        form {
+                            position: relative;
+                            display: flex;
+                            justify-content: space-around;
+
+                            .risk-radio {
+                                -webkit-appearance: none;
+                                -moz-appearance: none;
+                                appearance: none;
+                                display: inline-block;
+                                position: relative;
+                                background-color: transparent;
+                                color: #4A4A4A;
+                                top: 0;
+                                height: 40px;
+                                width: 40px;
+                                border: 2px solid #4A4A4A;
+                                border-radius: 50px;
+                                cursor: pointer;     
+                                margin-right: 7px;
+                                outline: none;
+
+                                @include mq(small, max) {
+                                    border: 1px solid #4A4A4A;
+                                    height: 25px;
+                                    width: 25px;
+                                }
+                            }
+
+                            .risk-radio:checked::before {
+                                position: absolute;
+                                left: 8px;
+                                top: 7px;
+                                content: url('../assets/img/check-solid.svg');
+                                // transform: rotate(40deg);
+                                width: 20px;
+                                height: auto;
+
+                                @include mq(small, max) {
+                                    left: 6px;
+                                    top: -4px;
+                                    width: 11px;
+                                }
+                            }
+
+                            .risk-radio:hover {
+                                background-color: transparent;
+                            }
+
+                            .risk-radio:checked {
+                                background-color: transparent;
+                            }
+                        }
+
+                        &:first-child {
+                            width: 80%;
+                            padding-right: 20px;    
+
+                            @include mq(small, max) {
+                                width: 60%;
+                            }
+
+                            @include mq(custom, max, 400) {
+                                width: 40%;
+                            }                            
+                        }
+
+                        &:last-child {
+                            width: 18%;
+
+                            @include mq(small, max) {
+                                width: 24%;
+                            }
+
+                            @include mq(custom, max, 400) {
+                                width: 10%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .table-footer {
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            @include mq(small, max) {
+                flex-wrap: wrap;
+                flex-direction: column-reverse;
+                align-items: flex-start;
+                padding: 2rem 0 0;
+            }
+
+            p {                
+                @include font-size(16);
+                margin: 0;
+                max-width: 500px;
+
+                @include mq(small, max) {
+                    margin-top: 1rem;
+                }
+            }
+        }
+	}
+}

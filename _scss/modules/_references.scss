@@ -1,0 +1,32 @@
+.references-module {
+	background: #ec008c;
+	padding: 60px 0;
+
+	.container {
+
+		h6 {
+			@include font-size(12);
+			font-family: $headline-font;
+			color: #000000;
+		}
+
+		table {
+
+			tr {
+
+				td {
+					vertical-align: top;
+					color: #000000;
+				}
+
+				.text {
+					padding-right: 10px;
+				}
+
+				.body {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

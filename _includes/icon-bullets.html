@@ -1,0 +1,37 @@
+{% if page.page-class == 'pat-provital' %}
+	{% for item in site.data.lists.pat-provital.points %}
+	<section class="icon-bullets">
+		<div class="img-wrapper">
+			<img src="{{ site.url }}/assets/img/{{ item.icon }}" alt="{{ site.url }}/assets/img/{{ item.alt }}">
+		</div>
+		<p>{{ item.text }}</p>
+	</section>
+    {% endfor %}
+{% elsif page.page-class == 'prac-provital' %}    
+    {% for item in site.data.lists.prac-provital.points %}
+    <section class="icon-bullets">
+        <div class="img-wrapper">
+            <img src="{{ site.url }}/assets/img/{{ item.icon }}" alt="{{ site.url }}/assets/img/{{ item.alt }}">
+        </div>
+        <p>{{ item.text }}</p>
+    </section>
+    {% endfor %}
+{% elsif page.page-class == 'prac-scientific' %}    
+    {% for item in site.data.lists.prac-scientific.points %}
+    <section class="icon-bullets">
+        <div class="img-wrapper">
+            <img src="{{ site.url }}/assets/img/{{ item.icon }}" alt="{{ site.url }}/assets/img/{{ item.alt }}">
+        </div>
+        <p>{{ item.text }}</p>
+    </section>
+    {% endfor %}
+{% else %}
+	{% for item in site.data.lists.prac-efficacy.points %}
+	<section class="icon-bullets efficacy">
+		<div class="img-wrapper">
+			<img src="{{ site.url }}/assets/img/{{ item.icon }}" alt="{{ site.url }}/assets/img/{{ item.alt }}">
+		</div>
+		<p>{{ item.text }}</p>
+	</section>
+	{% endfor %}
+{% endif %}

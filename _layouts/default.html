@@ -1,0 +1,30 @@
+{% include head.html %}
+
+    {% include env-vars.html %}
+
+    <body id="top" class="title-h1h2 header-dark header-transparent header-fixed header-animated sticky-footer {{ page.page-class }}">
+            
+        <div class="loader"></div>
+
+            {% include header.html %}
+
+        <div id="site-wrapper" class="mmenu-pusher lang-{{ page.lang }}">
+
+            <main class="page-content {{ page.page-class }} animsition">
+                  
+                <!-- Start Content -->
+                {{ content }}
+                <!-- End Content -->
+
+            </main>
+
+                {% include footer.html %}
+            
+        </div><!-- END site wrapper -->
+
+            {% include mobile-menu.html %}
+        
+        {% include scripts.html %}
+
+    </body>
+</html>
