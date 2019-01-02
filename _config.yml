@@ -1,6 +1,6 @@
 name: HCAN Sourcing
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 logo: /assets/img/hb-logo.svg
 author: Glen Hodges
