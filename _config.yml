@@ -2,7 +2,7 @@ name: HCAN Sourcing
 markdown: redcarpet
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-logo: /assets/img/hb-logo.svg
+logo: /assets/img/hcan-logo-black.svg
 author: Glen Hodges
 #url: http://demo.rankhigher.ca/
 permalinks: pretty
