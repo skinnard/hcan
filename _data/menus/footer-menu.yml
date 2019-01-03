@@ -1,22 +1,11 @@
-# left-menu:
-#   - title: The Dangers of Osteoporosis
-#     subitems:
-#       - page: Risk Factors
-#         url: /en/dangers-of-osteoporosis/osteoporosis-risk-factors/
-#       - page: Consequences (Impact)
-#         url: /en/dangers-of-osteoporosis/consequences/
-#       - page: Prevention
-#         url: /en/dangers-of-osteoporosis/osteoporosis-prevention/
-# right-menu:
-#   - title: Living With Osteoporosis
-#     subitems:
-#       - page: Fall Prevention
-#         url: /en/living-with-osteoporosis/fall-prevention/
-#       - page: Nutrition
-#         url: /en/living-with-osteoporosis/nutrition/
-#       - page: Exercise
-#         url: /en/living-with-osteoporosis/exercise/
-#       - page: Support Network
-#         url: /en/living-with-osteoporosis/support-network/
-#       - page: Resources
-#         url: /en/living-with-osteoporosis/resources/
+menu-items:
+  - title: About
+    url: '#about'
+  - title: Services
+    url: '#services'
+  - title: FAQ
+    url: '#faq'
+  - title: Who We Are
+    url: '#who'
+  - title: Contact 
+    url: '#contact'

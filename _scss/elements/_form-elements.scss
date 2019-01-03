@@ -31,13 +31,13 @@ input {
     margin-right: 30px;
     border-radius: 3px;
     outline: none;
-    border: 1px solid #adadad;
+    border: 1px solid #d4d4d4;
     background-color: #fff;
     padding: 10px;
     color: $font;
     height: 50px;
     text-align: left;
-    @include font-size(18);
+    @include font-size(15);
 
     &::placeholder {
         color: #adadad;
@@ -50,12 +50,12 @@ textarea {
     margin-right: 30px;
     border-radius: 3px;
     outline: none;
-    border: 1px solid #adadad;
+    border: 1px solid #d4d4d4;
     background-color: #fff;
     padding: 10px;
     color: $font;
     text-align: left;
-    @include font-size(18);
+    @include font-size(15);
     overflow: auto;
     height: 100px;
 

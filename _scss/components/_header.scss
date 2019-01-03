@@ -6,12 +6,9 @@
     background: #fff;
     color: $dark-grey;
 
-    // @include mq(custom, max, 1200) {
-    //     height: 130px;
-    // }
-    // @include mq(med, max) {
-    //     height: 70px;
-    // }
+    @include mq(med, max) {
+        height: 70px;
+    }
 
     .navbar {
         flex-wrap: nowrap;
@@ -266,10 +263,6 @@ body.header-fixed.header-animated {
     }
 }
 
-#header.scrolled .navbar-section.logo .navbar-brand img {
-    // width: 50px;
-}
-
 .blue-bg {
     background: #0e1a45 !important;
 }
@@ -305,6 +298,7 @@ body.header-fixed.header-animated {
         height: 70px;
         @include default-transition;
         box-shadow: 0 10px 30px 0 rgba(74, 74, 74, 0.2);
+        
         // @include mq(custom, max, 1200) {
         //     height: 130px;
         //     @include default-transition;

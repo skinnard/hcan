@@ -358,14 +358,9 @@ $breakpoint-xlarge: 1400px;
     padding-top: 100px;
     padding-bottom: 100px;
 
-	@include mq(med, max) {
-		padding-top: 100px;
-        padding-bottom: 100px;
-	}
-
-	@include mq(small, max) {
-        padding-top: 60px;
-        padding-bottom: 60px;
+	@include mq(xsmall, max) {
+        padding-top: 80px;
+        padding-bottom: 80px;
 	}
 }
 

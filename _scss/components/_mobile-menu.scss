@@ -24,7 +24,7 @@
     width: 100%;
     height: 70px;
     z-index: 300;
-    background: #0e1a45;
+    background: #fff;
     padding: 0 30px;
 
     @include mq(med, max) {
@@ -42,7 +42,8 @@
     }
 
     .logo-wrapper {
-        max-width: 40px;
+        max-width: 100px;
+        height: 30px;
     }
 
     .risk-btn {
@@ -89,7 +90,7 @@
         }
 
         span {
-            background: #FFFFFF;
+            background: #000000;
             border: none;
             height: 3px;
             width: 100%;
@@ -152,18 +153,10 @@
     padding: 30px;
     overflow-x: hidden;
 
-    @include mq(xsmall, max) {
-        padding: 15px;
-    }
-
     &.is-pushed {
         transition: transform 0.5s;
         transform: translate3d(0, 0, 0);
         left: 0;
-
-        @include mq(xsmall, max) {
-            padding: 15px;
-        }
     }
 
     .mmenu-nav__level {
@@ -202,16 +195,13 @@
                     }
 
                     .mmenu-nav__link {
-                        color: #0e1a45;
+                        color: $font;
                         @include font-size(20);
+                        font-family: $body-font;
                         display: block;
 
                         &:hover {
                             color: #ec008c;
-                        }
-
-                        @include mq(xsmall, max) {
-                            @include font-size(18);
                         }
                     }
 

@@ -29,6 +29,26 @@
                 max-width: 100%;
                 font-weight: 400;
                 @include font-size(60);
+
+                @include mq(med, max) {
+                    @include font-size(48);
+                }
+
+                @include mq(small, max) {
+                    @include font-size(40);
+                }
+
+                @include mq(xsmall, max) {
+                    @include font-size(32);
+                }
+
+                span {
+                    white-space: nowrap;
+
+                    @include mq(small, max) {
+                        white-space: normal;
+                    }
+                }
             }
 
             .img-wrapper {

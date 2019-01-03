@@ -42,7 +42,6 @@
     @include mq(xsmall, max) {
         @include font-size(13);
     }
-
     &:hover {
         background: #ec008c;
         color: #ffffff;
@@ -56,7 +55,6 @@
         color: #0e1a45;
         padding: 0.7rem 1rem;
         @include font-size(13);
-
         &:hover {
             background: #ec008c;
             color: #ffffff;
@@ -68,7 +66,6 @@
     background: $accent;
     border: 3px solid $accent;
     color: #ffffff !important;
-
     &:hover {
         background: transparent;
         color: #fff !important;
@@ -80,7 +77,6 @@
     background: $accent;
     border: 3px solid $accent;
     color: #ffffff !important;
-
     &:hover {
         background: transparent;
         color: $accent !important;
@@ -92,7 +88,6 @@
     background: #0e1a45;
     border: 3px solid #0e1a45;
     color: #ffffff !important;
-
     &:hover {
         background: transparent;
         color: #0e1a45 !important;
@@ -103,8 +98,18 @@
 .btn-white {
     background: #ffffff;
     border: 3px solid #ffffff;
-    color: #ec008c !important;
+    color: $accent !important;
+    &:hover {
+        background: transparent;
+        color: #ffffff !important;
+        border: 3px solid #ffffff;
+    }
+}
 
+.btn-footer {
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    color: $footer !important;
     &:hover {
         background: transparent;
         color: #ffffff !important;
@@ -116,7 +121,6 @@
     background: #ffffff;
     border: 3px solid #ffffff;
     color: #ec008c !important;
-
     &::before {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
@@ -124,7 +128,6 @@
         font-size: 20px;
         padding-right: 20px;
     }
-
     &:hover {
         background: transparent;
         color: #ffffff !important;
@@ -136,7 +139,6 @@
     background: #ec008c;
     border: 3px solid #ec008c;
     color: #ffffff !important;
-
     &::before {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
@@ -144,7 +146,6 @@
         font-size: 20px;
         padding-right: 20px;
     }
-
     &:hover {
         background: transparent;
         color: #ec008c !important;
@@ -171,14 +172,12 @@
 .faq-social-share {
     display: flex;
     align-items: center;
-
     p {
         color: #9b9b9b;
         @include font-size(16);
         font-family: $body-font;
         margin: 0;
     }
-
     .st-custom-button {
         width: 45px;
         height: 45px;
@@ -186,31 +185,22 @@
         @include default-transition;
         cursor: pointer;
     }
-
     .st-custom-button.email {
         background: url("../assets/img/email-icon.svg") center no-repeat;
-
         &:hover {
-            background: url("../assets/img/email-icon-hover.svg") center
-                no-repeat;
+            background: url("../assets/img/email-icon-hover.svg") center no-repeat;
         }
     }
-
     .st-custom-button.facebook {
         background: url("../assets/img/facebook-icon.svg") center no-repeat;
-
         &:hover {
-            background: url("../assets/img/facebook-icon-hover.svg") center
-                no-repeat;
+            background: url("../assets/img/facebook-icon-hover.svg") center no-repeat;
         }
     }
-
     .st-custom-button.twitter {
         background: url("../assets/img/twitter-icon.svg") center no-repeat;
-
         &:hover {
-            background: url("../assets/img/twitter-icon-hover.svg") center
-                no-repeat;
+            background: url("../assets/img/twitter-icon-hover.svg") center no-repeat;
         }
     }
 }

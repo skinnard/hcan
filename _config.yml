@@ -9,3 +9,5 @@ permalinks: pretty
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+  #JEKYLL_ENV=demojekyll build

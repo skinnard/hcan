@@ -1,5 +1,5 @@
 .home-page-sec-6__wrapper {
-    background: url("../assets/img/amazon-bg.jpg") center no-repeat;
+    background: #434c55;
     background-size: cover;
     @extend %section-padding-both;
     position: relative;
@@ -22,19 +22,26 @@
                 color: #fff;
             }
 
+            .first {
+                margin: 0 0 1rem;
+            }
+
             .last {
-                margin-bottom: 2rem;
+                margin: 2rem 0 0;
             }
 
             .img-wrapper {
+                max-width: 400px;
+                margin: 0 auto;
                 text-align: center;
-                @include mq(small, max) {
-                    text-align: left;
-                }
+                display: flex;
+                justify-content: space-around;
 
                 img {
-                    width: 100%;
-                    max-width: 1200px;
+                    border: 3px solid white;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50px;
                 }
             }
 

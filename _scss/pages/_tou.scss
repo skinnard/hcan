@@ -1,5 +1,5 @@
 .tou {
-    padding: 100px 0;
+    @extend %section-padding-both;
     position: relative;
     z-index: 200;
 

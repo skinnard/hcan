@@ -1,45 +1,11 @@
-# menu-items:
-#   - title: <span class="menu-small">The Dangers of</span> Osteoporosis
-#     mobile-title: The Dangers of Osteoporosis
-#     url: /en/dangers-of-osteoporosis
-#     id: first-item
-#     subfolderitems:
-#       - page: The Dangers of Osteoporosis
-#         url: /en/dangers-of-osteoporosis
-#       - page: Risk Factors
-#         url: /en/dangers-of-osteoporosis/osteoporosis-risk-factors
-#       - page: Consequences
-#         url: /en/dangers-of-osteoporosis/consequences
-#       - page: Prevention
-#         url: /en/dangers-of-osteoporosis/osteoporosis-prevention
-#   - title: Symptoms
-#     mobile-title: Symptoms
-#     url: /en/symptoms-of-osteoporosis/
-#   - title: Diagnosis
-#     mobile-title: Diagnosis
-#     url: /en/diagnosing-osteporosis/
-#   - title: Treatments
-#     mobile-title: Treatments
-#     url: /en/osteoporosis-treatment/
-#   - title: <span class="menu-small">Living with</span> Osteoporosis
-#     mobile-title: Living with Osteoporosis
-#     url: /en/living-with-osteoporosis
-#     subfolderitems:
-#       - page: Living with Osteoporosis
-#         url: /en/living-with-osteoporosis
-#       - page: Fall Prevention
-#         url: /en/living-with-osteoporosis/fall-prevention
-#       - page: Nutrition
-#         url: /en/living-with-osteoporosis/nutrition
-#       - page: Exercise
-#         url: /en/living-with-osteoporosis/exercise
-#       - page: Support Network
-#         url: /en/living-with-osteoporosis/support-network
-#       - page: Resources
-#         url: /en/living-with-osteoporosis/resources
-#   - title: <span class="menu-small">Osteoporosis</span> FAQ<span>s</span>
-#     mobile-title: Osteoporosis FAQs
-#     url: /en/osteoporosis-faqs
-#   - title: <span class="menu-small">Talking to</span> Your Doctor
-#     mobile-title: Talking to Your Doctor
-#     url: /en/talking-to-your-doctor
+menu-items:
+  - title: About
+    url: '#about'
+  - title: Services
+    url: '#services'
+  - title: FAQ
+    url: '#faq'
+  - title: Who We Are
+    url: '#who'
+  - title: Contact 
+    url: '#contact'

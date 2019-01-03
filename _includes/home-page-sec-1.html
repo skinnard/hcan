@@ -1,7 +1,7 @@
 <!-- .page-hero -->
 <section class="page-hero {{ page.page-class }}" style="background:url({{ site.url }}/assets/img/{{ page.page-hero-bg }}); background-size: cover; background-repeat: no-repeat; background-position:center;">
 
-    <div class="container grid-mdlg text-center page-hero__content">
+    <div class="container grid-md text-center page-hero__content">
 
         {% if page.page-hero-img %}
             <div class="img-wrapper tm-3">
@@ -26,12 +26,12 @@
 
         {% if page.page-hero-cta %}
             <div class="btn-wrapper">
-                <a href="{{ page.page-hero-cta-link }}" class="btn btn-pink">{{ page.page-hero-cta }}</a>
+                <a href="#about" class="btn btn-pink page-scroll">{{ page.page-hero-cta }}</a>
             </div>
         {% endif %}
 
         <div class="icon-down-wrapper">
-            <a href="#link-target"><img src="{{ site.url }}/assets/img/chevron_down.svg" alt="Chevron Down Icon"></a>
+            <a href="#about" class="page-scroll"><img src="{{ site.url }}/assets/img/chevron_down.svg" alt="Chevron Down Icon"></a>
         </div>
     </div>
 </section>

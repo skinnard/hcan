@@ -1,4 +1,4 @@
-.home-page-sec-3__wrapper {
+.home-page-sec-4__wrapper {
     background: url("../assets/img/amazon-bg.jpg") center no-repeat;
     background-size: cover;
     @extend %section-padding-both;
@@ -9,7 +9,7 @@
         z-index: 102;
     }
 
-    .home-page-sec-3 {
+    .home-page-sec-4 {
         &__content {
             text-align: center;
             @include mq(small, max) {
@@ -60,6 +60,10 @@
                     margin: 0;
                     list-style: none;
 
+                    @include mq(small, max) {
+                        width: 100%;
+                    }
+
                     li {
                         &::before {
                             @include fa-icon("\f00c", white, 25px);
@@ -67,6 +71,10 @@
                         }
                     }
                 }
+            }
+
+            .btn-wrapper {
+                margin-top: 3rem;
             }
         }
     }

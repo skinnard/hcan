@@ -1,15 +1,9 @@
 <!-- full-width-cta-white__wrapper-2 -->
-
-<div id="link-target" class="   __wrapper {{ page.page-class }}">
-
+<div id="who" class="home-page-sec-6__wrapper {{ page.page-class }}">
     <div class="home-page-sec-6 container grid-md">
         <div class="home-page-sec-6__content">
 
-            {% if page.home-page-sec-6-img %}
-            <img src="{{ site.url }}/assets/img/{{ page.home-page-sec-6-img }}" alt="ProVital Logo">
-            {% endif %}
-
-            <h4 class="bm-2">{{ page.home-page-sec-6-headline }}</h4>
+            <h4 class="bm-2">Who we are</h4>
 
             {% if page.home-page-sec-6-subhead %}
             <h6 class="hide-small">{{ page.home-page-sec-6-subhead }}</h6>
@@ -17,13 +11,18 @@
 
             {{ page.home-page-sec-6-text }}
 
-            {% if page.home-page-sec-6-btn-text %}
-            
-            <div class="btn-wrapper-left">
-                <a href="{{ page.home-page-sec-6-btn-link }}" class="btn btn-blue">{{ page.home-page-sec-6-btn-text }}</a>
-            </div>
+            <p class="first"><em>We are Jeff McCann and Glen&nbsp;Hodges.</em></p>
+            <p class="bm-2">Two longtime friends with a passion for all things&nbsp;Amazon.</p>
 
-            {% endif %}
+            <div class="img-wrapper">
+                <img src="{{ site.url }}/assets/img/jeff.jpg" alt="Image of Jeff McCann">
+                <img src="{{ site.url }}/assets/img/glen.jpg" alt="Image of Glen Hodges">
+            </div>
+            
+            <p class="last">With over 8 years experience in the industry, together Jeff and Glen bring a diverse, well rounded skill set perfectly
+            suited to dealing with our clients needs and providing the technical knowledge to help their brand stand out in the
+            crowded Amazon&nbsp;marketplace.</p>
+
         </div>
     </div>
 </div>

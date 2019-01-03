@@ -20,7 +20,7 @@ footer {
         }
 
         &__left {
-            width: 48%;
+            width: 50%;
 
             @include mq(small, max) {
                 width: 100%;
@@ -30,7 +30,7 @@ footer {
                 margin-bottom: 30px;
 
                 img {
-                    max-width: 350px;
+                    max-width: 200px;
                     width: 100%;
                     height: auto;
                 }
@@ -56,14 +56,19 @@ footer {
 
             &__general {
                 display: flex;
+                justify-content: flex-end;
+
+                @include mq(med, max) {
+                    justify-content: center;
+                    margin: 1rem 0 2rem;
+                }
 
                 @include mq(xsmall, max) {
                     flex-wrap: wrap;
                 }
 
-                .left,
-                .right {
-                    width: 48%;
+                .menu-wrapper {
+                    width: 100%;
 
                     .title {
                         color: #FFFFFF;
@@ -79,7 +84,7 @@ footer {
                         margin-bottom: 0.3rem;
 
                         &:hover {
-                            color: #ec008c;
+                            color: $accent;
                         }
                     }
                 }
@@ -131,30 +136,29 @@ footer {
     }
 
     .footer-legal {
-        margin-top: 2rem;
+        // margin-top: 2rem;
         border-top: 1px solid #979797;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
 
-        @include mq(small, max) {
+        @include mq(med, max) {
             margin: 0.5rem;
         }
 
-        @include mq(custom, max, 420) {
+        @include mq(med, max) {
             margin-top: 0.5rem;
             flex-direction: column-reverse;
         }
 
         .left {
             margin-top: 2rem;
-            width: 50%;
+            width: 30%;
 
-            @include mq(small, max) {
+            @include mq(med, max) {
                 width: 100%;
                 text-align: center;
-                margin-bottom: 0.5rem;
-                margin-top: 2rem;
+                margin: 1rem 0 0.5rem;
             }
 
             @include mq(custom, max, 420) {
@@ -164,17 +168,33 @@ footer {
 
         .right {
             margin-top: 2rem;
-            width: 50%;
+            width: 70%;
             text-align: right;
 
-            @include mq(small, max) {
+            @include mq(med, max) {
                 width: 100%;
                 text-align: center;
-                margin: 0;
+                margin: 2rem 0 0;
             }
 
             @include mq(custom, max, 420) {
                 margin: 1.5rem 0 0.5rem;
+            }
+
+            a {
+                margin: 0 20px;
+
+                @include mq(small, max) {
+                    margin-bottom: 10px;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+
+                    @include mq(small, max) {
+                        margin-right: 20px;
+                    }
+                }
             }
         }
 
@@ -192,13 +212,13 @@ footer {
             a {
                 color: #FFFFFF;
 
-                @include mq(custom, max, 420) {
+                @include mq(small, max) {
                     display: block;
-                    margin-bottom: 10px;
+                    margin-bottom: 20px;
                 }
 
                 &:hover {
-                    color: #ec008c;
+                    color: $accent;
                 }
             }
         }

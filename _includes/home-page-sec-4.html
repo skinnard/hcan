@@ -1,0 +1,27 @@
+<!-- full-width-cta-white__wrapper-2 -->
+
+<div id="services" class="home-page-sec-4__wrapper {{ page.page-class }}">
+
+    <div class="home-page-sec-4 container grid-md">
+        <div class="home-page-sec-4__content">
+
+            {% if page.home-page-sec-4-img %}
+            <img src="{{ site.url }}/assets/img/{{ page.home-page-sec-4-img }}" alt="ProVital Logo">
+            {% endif %}
+
+            <h4 class="bm-2">{{ page.home-page-sec-4-headline }}</h4>
+
+            {% if page.home-page-sec-4-subhead %}
+            <h6 class="hide-small">{{ page.home-page-sec-4-subhead }}</h6>
+            {% endif %}
+
+            {{ page.home-page-sec-4-text }}
+            
+            <div class="btn-wrapper">
+                <a href="#contact" class="btn btn-white page-scroll">GET IN TOUCH</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- .full-width-cta-white__wrapper-2 -->

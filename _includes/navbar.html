@@ -1,0 +1,27 @@
+<nav class="navbar container grid-lg">
+
+        <section class="logo">
+            <a href="/" class="navbar-brand mr-10">
+                <img src="{{ site.url }}/assets/img/hcan-logo-black.svg" alt="HCAN Sourcing">
+            </a>
+        </section>
+
+        <section class="nav-menu">
+            <nav class="pat-dropmenu animated">
+                <ul class="navigation">
+
+                    {% for item in site.data.menus.main-menu.menu-items %}
+                    <li class="nav-item">
+
+                       
+                        <a class="nav-item__link page-scroll" href="{{ en_link }}{{ item.url }}">{{ item.title }}</a>
+                       
+                        
+                    </li>
+                    {% endfor %}
+
+                    
+                </ul>
+            </nav>
+        </section>
+    </nav>
