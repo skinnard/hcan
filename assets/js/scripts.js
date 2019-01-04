@@ -323,7 +323,7 @@ jQuery(document).ready(function($) {
 
         //send to formspree
         $.ajax({
-            url: "//formspree.io/glen@hcansourcing.ca",
+            url: "//formspree.io/glen@hcansourcing.com",
             method: "POST",
             data: {
                 name: name,

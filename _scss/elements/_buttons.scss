@@ -55,6 +55,7 @@
         color: #0e1a45;
         padding: 0.7rem 1rem;
         @include font-size(13);
+
         &:hover {
             background: #ec008c;
             color: #ffffff;
@@ -66,6 +67,7 @@
     background: $accent;
     border: 3px solid $accent;
     color: #ffffff !important;
+
     &:hover {
         background: transparent;
         color: #fff !important;
@@ -73,10 +75,23 @@
     }
 }
 
+.btn-submit {
+    background: $accent;
+    border: 3px solid $accent;
+    color: #ffffff !important;
+
+    &:hover {
+        background: transparent;
+        color: $accent !important;
+        border: 3px solid $accent;
+    }
+}
+
 .btn-pink-white {
     background: $accent;
     border: 3px solid $accent;
     color: #ffffff !important;
+
     &:hover {
         background: transparent;
         color: $accent !important;
