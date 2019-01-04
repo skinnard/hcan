@@ -330,7 +330,7 @@ jQuery(document).ready(function($) {
                 _replyto: email,
                 email: email,
                 comments: comments,
-                _subject: "My Form Submission"
+                _subject: "Form submission from hcansourcing.com"
             },
             dataType: "json",
             success: function () {
