@@ -1,6 +1,6 @@
 .full-width-cta-white__wrapper {
     background: #FFFFFF;
-    @extend %section-padding-both;
+    
     position: relative;
 
     .container {
@@ -10,6 +10,7 @@
 
     .full-width-cta-white__content {
         text-align: center;
+        @extend %section-padding-both;
 
         @include mq(small, max) {
             text-align: left;

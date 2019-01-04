@@ -60,7 +60,7 @@
                     margin: 0;
                     list-style: none;
 
-                    @include mq(small, max) {
+                    @include mq(custom, max, 550) {
                         width: 100%;
                     }
 

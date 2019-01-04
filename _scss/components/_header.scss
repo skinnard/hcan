@@ -157,6 +157,10 @@ body.header-fixed.header-animated {
                     font-size: 13px;
                     display: block;
                 }
+
+                &.active {
+                    color: $accent;
+                }
             }
 
             #desktop-nav-icon {

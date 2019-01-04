@@ -28,11 +28,10 @@
 
             <p class="right footer-menu">
                 {% for item in site.data.menus.footer-menu.menu-items %}
-                <a href="{{ en_link }}{{ item.url }}">{{ item.title }}</a> 
+                <a class="page-scroll" href="{{ en_link }}{{ item.url }}">{{ item.title }}</a> 
                 <!-- <span>|</span>  -->
                 {% endfor %}
             </p>
-            
             
 		</div>
 	</div>

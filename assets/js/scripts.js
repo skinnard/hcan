@@ -10,7 +10,6 @@ function scrollHeader() {
 	var zvalue = $(document).scrollTop();
 	if (zvalue > 30) $("#header, .mobile-container").addClass("scrolled");
     else $("#header, .mobile-container").removeClass("scrolled");
-    console.log("Z value is " + zvalue);
 }
 
 function parallaxBackground() {
@@ -39,22 +38,27 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 jQuery(document).ready(function($) {
 
+    $('.nav-item__link').click(function (e) {
+        $(this).addClass('active');
+        $('.nav-item__link').not(this).removeClass('active');
+    });
+
 	// ***********************************************
 	//
 	// Mobile Menu
 	//
     // ***********************************************
     
-    //jQuery for page scrolling feature - requires jQuery Easing plugin
-    $(function () {
-        $('a.page-scroll').bind('click', function (event) {
-            var $anchor = $(this);
-            $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top
-            }, 1500, 'easeInOutExpo');
-            event.preventDefault();
-        });
-    });
+    // //jQuery for page scrolling feature - requires jQuery Easing plugin
+    // $(function () {
+    //     $('a.page-scroll').bind('click', function (event) {
+    //         var $anchor = $(this);
+    //         $('html, body').stop().animate({
+    //             scrollTop: $($anchor.attr('href')).offset().top
+    //         }, 1500, 'easeInOutExpo');
+    //         event.preventDefault();
+    //     });
+    // });
 
 	$(".mmenu-toggle").click(function(e) {
 		$(".mmenu-nav").toggleClass("is-pushed");
@@ -260,6 +264,43 @@ jQuery(document).ready(function($) {
 	// $('#faq-top').localScroll({
 	//     duration: 1000,
 	//     easing: 'easeInOutQuad'
-	// });
+    // });
+
+    //******************************************************************
+	//
+	// Scroll-to functions
+	//
+	//******************************************************************
+    
+
+    // Bind click handler to menu items
+    // so we can get a fancy scroll animation
+    $(function () {
+        $('a.page-scroll').bind('click', function (event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        });
+    });
+
+    $(document).on("scroll", onScroll);
+
+    function onScroll(event) {
+        var scrollPos = $(document).scrollTop();
+        $('.navigation a').each(function () {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href"));
+            if (refElement.position().top <= scrollPos + 100 && refElement.position().top + refElement.height() > scrollPos) {
+                $('.navigation ul li a').removeClass("active");
+                currLink.addClass("active");
+            }
+            else {
+                currLink.removeClass("active");
+            }
+        });
+    }
+
     
 }); // END READY
