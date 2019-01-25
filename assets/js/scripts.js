@@ -91,7 +91,12 @@ jQuery(document).ready(function($) {
 	var rightSideContent = $(".faq-content__right > .text");
 
 	// First hide content on left
-	$(".faq-content__left > .content").addClass("hide");
+    $(".faq-content__left > .content").addClass("hide");
+    
+    // Burger animation (adds active class to burger when clicked)
+    $('.burger-wrapper ').click(function(){
+        $(this).find('.button_container').toggleClass('active');
+    });
 
 	// Show correct content on left side when you reach FAQ content page from the FAQ landing page
 	leftSideContent.each(function(index) {

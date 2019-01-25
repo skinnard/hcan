@@ -76,18 +76,22 @@
         }
 
         &.active {
-            .top {
-                transform: translateX(-10px);
-            }
+			// position: fixed;
 
-            .middle {
-                transform: translateX(6px);
-            }
+			.top {
+				transform: translateY($mob-menu-padding) translateX(0) rotate(45deg);
+				background: black;
+			}
+			.middle {
+				opacity: 0;
+                background: black;
+			}
 
-            .bottom {
-                transform: translateX(-2px);
-            }
-        }
+			.bottom {
+				transform: translateY(-($mob-menu-padding)) translateX(0) rotate(-45deg);
+				background: black;
+			}
+		}
 
         span {
             background: #000000;
