@@ -14,10 +14,10 @@
     "gulp-autoprefixer": "1.0.0",
     "gulp-delete-unused-images": "0.0.4",
     "gulp-imagemin": "^4.1.0",
-    "gulp-plumber": "^1.2.0",
+    "gulp-plumber": "^1.2.1",
     "gulp-sass": "^2.3.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "stylelint-config-standard": "^18.2.0"
+    "gulp-sourcemaps": "^2.6.5",
+    "stylelint-config-standard": "^18.3.0"
   },
   "repository": {
     "type": "git",
@@ -34,8 +34,9 @@
   },
   "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.3.1",
-    "lottie-web": "^5.4.1",
-    "spectre.css": "^0.5.3"
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "fstream": "^1.0.12",
+    "lottie-web": "^5.5.4",
+    "spectre.css": "^0.5.8"
   }
 }
