@@ -1,47 +1,16 @@
+# Jekyll Bootstrap 4
+Jekyll + Gulp 4 + Browser-sync + Bootstrap 4 + Font-Awesome + Magnific popup
 
-jekyll-gulp-sass-browser-sync
-=============================
+## Requirements
+### https://jekyllrb.com/docs/installation/
+- Ruby (refer to jekyll documentation)
+- RubyGems (refer to jekyll documentation)
+- NodeJS (sudo apt-get install nodejs)
+- NPM (sudo apt-get install npm)
+- Gulp (sudo npm install gulp -g)
 
-A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
-
-## System Preparation
-
-To use this starter project, you'll need the following things installed on your machine.
-
-1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
-2. [NodeJS](http://nodejs.org) - use the installer.
-3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
-
-## Local Installation
-
-1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `npm install`.
-
-## Usage
-
-**development mode**
-
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
-
-```shell
-$ gulp
-```
-
-**jekyll**
-
-As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/)
-
-## Deploy with Gulp
-
-You can easily deploy your site build to a gh-pages branch. First, follow the instructions at [gulp-gh-pages](https://github.com/rowoot/gulp-gh-pages) to get your branch prepared for the deployment and to install the module. Then, in `gulpfile.js` you'll want to include something like the code below. `gulp.src()` needs to be the path to your final site folder, which by default will be `_site`. If you change the `destination` in your `_config.yml` file, be sure to reflect that in your gulpfile.
-
-
-
-```javascript
-var deploy = require("gulp-gh-pages");
-
-gulp.task("deploy", ["jekyll-build"], function () {
-    return gulp.src("./_site/**/*")
-        .pipe(deploy());
-});
-```
+## Installation
+1. Clone or download this respository.
+2. Run 'npm install' via cmd line to get all of the node dependancies, this will also install Gulp for compiling scss and js.
+3. Run "gulp" via the cmd line to compile uncompressed sass and js as well as build the website in _site. It will also start Browsersync to watch for changes.
+4. Copy _site contents to your live server.
