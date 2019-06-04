@@ -1,6 +1,0 @@
-#!/bin/bash
-
-docker build -t healthandbone-ca .
-
-docker-compose down
-docker-compose up

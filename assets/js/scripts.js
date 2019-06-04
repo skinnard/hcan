@@ -5,13 +5,6 @@ $(window).load(function() {
 
 var isTouch = window.DocumentTouch && document instanceof DocumentTouch;
 
-var doc = new jsPDF();
-var specialElementHandlers = {
-    '#ignoreContent': function (element, renderer) {
-        return true;
-    }
-};
-
 function scrollHeader() {
 	// Has scrolled class on header
 	var zvalue = $(document).scrollTop();
@@ -200,60 +193,6 @@ jQuery(document).ready(function($) {
 
         });
     });
-    
-    // ***********************************************
-    //
-    // Diagnosis page animation and scroll point code
-    //
-    // ***********************************************
-    
-    var startanim;
-    var elem = document.getElementById('bm');
-    var animation = {
-        container: elem,
-        renderer: 'svg',
-        loop: false,
-        autoplay: false,
-        setDirection: -1,
-        path: '../../assets/js/vendor/data.json'
-    };
-    startanim = bodymovin.loadAnimation(animation);
-
-    var wrapper = document.getElementById('animation-wrapper');
-    if ( $('#animation-wrapper').length  ) {
-        var waypoint = new Waypoint({
-            element: wrapper,
-            handler: function(direction) {
-                startanim.play();
-            },
-            offset: 400
-        })
-    }
-
-    var FRstartanim;
-    var FRelem = document.getElementById('fr-bm');
-    var FRanimation = {
-        container: FRelem,
-        renderer: 'svg',
-        loop: false,
-        autoplay: false,
-        setDirection: -1,
-        path: '../../assets/js/vendor/fr-data.json'
-    };
-    FRstartanim = bodymovin.loadAnimation(FRanimation);
-
-    var FRwrapper = document.getElementById('animation-wrapper');
-    if ( $('#animation-wrapper').length  ) {
-        var waypoint = new Waypoint({
-            element: FRwrapper,
-            handler: function(direction) {
-                FRstartanim.play();
-            },
-            offset: 400
-        })
-    }
-
-
 
     scrollHeader();
 
@@ -461,21 +400,21 @@ jQuery(document).ready(function($) {
     //
     //******************************************************************
 
-    $('#gpdf').click(function () {   
-        downloadPDF();
-    });
+    // $('#gpdf').click(function () {   
+    //     downloadPDF();
+    // });
 
-    $('#gpdf-risk').click(function () {   
-        downloadPDFRisk();
-    });
+    // $('#gpdf-risk').click(function () {   
+    //     downloadPDFRisk();
+    // });
 
-    $('#fr-gpdf').click(function () {   
-        downloadPDFFR();
-    });
+    // $('#fr-gpdf').click(function () {   
+    //     downloadPDFFR();
+    // });
 
-    $('#fr-gpdf-risk').click(function () {   
-        downloadPDFRiskFR();
-    });
+    // $('#fr-gpdf-risk').click(function () {   
+    //     downloadPDFRiskFR();
+    // });
 
 
     //******************************************************************
