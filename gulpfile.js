@@ -87,4 +87,5 @@ function watch() {
   gulp.series(jekyllBuild, browserSyncReload));
 }
 
+
 gulp.task('default', gulp.parallel(jekyllBuild, browserSyncServe, watch))
